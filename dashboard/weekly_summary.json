@@ -1,101 +1,83 @@
 {
-  "week_ending": "2026-04-26",
-  "week_start": "2026-04-21",
-  "week_end": "2026-04-25",
-  "iso_week": "2026-W17",
+  "week_ending": "2026-05-03",
+  "week_start": "2026-04-28",
+  "week_end": "2026-05-02",
+  "iso_week": "2026-W18",
   "tickers": {
-    "AMZN": {
-      "price_start": 255.08999633789062,
-      "price_end": 263.989990234375,
-      "price_change_pct": 3.49,
-      "iv_avg": 53.5,
-      "iv_min": 53.0,
-      "iv_max": 54.2,
-      "iv_trend": "stable",
+    "TSLA": {
+      "price_start": 374.67999267578125,
+      "price_end": 390.82000732421875,
+      "price_change_pct": 4.31,
+      "iv_avg": null,
+      "iv_min": null,
+      "iv_max": null,
+      "iv_trend": "unknown",
       "pc_ratio_avg": null,
-      "recommendations_count": 63,
-      "sell_put_count": 31,
-      "sell_call_count": 32,
-      "best_trade": {
-        "strategy": "Sell Put",
-        "strike": 230.0,
-        "cp_score": 55.4,
-        "annualized": "35.5%",
-        "expiry": "2026-05-01"
-      },
+      "recommendations_count": 0,
+      "sell_put_count": 0,
+      "sell_call_count": 0,
+      "best_trade": null,
       "accuracy": {
-        "total": 63,
-        "profitable": 63,
-        "score": 100.0
-      },
-      "next_week_outlook": {
-        "direction": "bullish",
-        "confidence": 6.5,
-        "reasoning": "偏多（信心 6.5/10）：本週上漲 3.5%，動能偏多"
-      }
-    },
-    "NVDA": {
-      "price_start": 202.1300048828125,
-      "price_end": 208.27000427246094,
-      "price_change_pct": 3.04,
-      "iv_avg": 36.4,
-      "iv_min": 35.2,
-      "iv_max": 37.1,
-      "iv_trend": "rising",
-      "pc_ratio_avg": null,
-      "recommendations_count": 27,
-      "sell_put_count": 15,
-      "sell_call_count": 12,
-      "best_trade": {
-        "strategy": "Sell Put",
-        "strike": 182.5,
-        "cp_score": 51.2,
-        "annualized": "13.3%",
-        "expiry": "2026-05-08"
-      },
-      "accuracy": {
-        "total": 27,
-        "profitable": 27,
-        "score": 100.0
+        "total": 0,
+        "profitable": 0,
+        "score": null
       },
       "next_week_outlook": {
         "direction": "neutral",
-        "confidence": 6.0,
-        "reasoning": "中性（信心 6.0/10）：本週上漲 3.0%，動能偏多；IV 上升，市場不安情緒升溫"
+        "confidence": 6.2,
+        "reasoning": "中性（信心 6.2/10）：本週上漲 4.3%，動能偏多；本週 Sell Call 建議為主，分析師偏空"
       }
     },
-    "TSLA": {
-      "price_start": 393.0,
-      "price_end": 376.29998779296875,
-      "price_change_pct": -4.25,
-      "iv_avg": 54.4,
-      "iv_min": 54.0,
-      "iv_max": 54.9,
-      "iv_trend": "stable",
+    "AMZN": {
+      "price_start": 258.3900146484375,
+      "price_end": 268.260009765625,
+      "price_change_pct": 3.82,
+      "iv_avg": null,
+      "iv_min": null,
+      "iv_max": null,
+      "iv_trend": "unknown",
       "pc_ratio_avg": null,
-      "recommendations_count": 89,
-      "sell_put_count": 47,
-      "sell_call_count": 42,
-      "best_trade": {
-        "strategy": "Sell Call",
-        "strike": 430.0,
-        "cp_score": 57.9,
-        "annualized": "41.1%",
-        "expiry": "2026-04-27"
-      },
+      "recommendations_count": 0,
+      "sell_put_count": 0,
+      "sell_call_count": 0,
+      "best_trade": null,
       "accuracy": {
-        "total": 89,
-        "profitable": 89,
-        "score": 100.0
+        "total": 0,
+        "profitable": 0,
+        "score": null
+      },
+      "next_week_outlook": {
+        "direction": "neutral",
+        "confidence": 6.2,
+        "reasoning": "中性（信心 6.2/10）：本週上漲 3.8%，動能偏多；本週 Sell Call 建議為主，分析師偏空"
+      }
+    },
+    "NVDA": {
+      "price_start": 209.49000549316406,
+      "price_end": 198.4499969482422,
+      "price_change_pct": -5.27,
+      "iv_avg": null,
+      "iv_min": null,
+      "iv_max": null,
+      "iv_trend": "unknown",
+      "pc_ratio_avg": null,
+      "recommendations_count": 0,
+      "sell_put_count": 0,
+      "sell_call_count": 0,
+      "best_trade": null,
+      "accuracy": {
+        "total": 0,
+        "profitable": 0,
+        "score": null
       },
       "next_week_outlook": {
         "direction": "bearish",
-        "confidence": 3.5,
-        "reasoning": "偏空（信心 3.5/10）：本週下跌 -4.2%，動能偏空"
+        "confidence": 3.2,
+        "reasoning": "偏空（信心 3.2/10）：本週下跌 -5.3%，動能偏空；本週 Sell Call 建議為主，分析師偏空"
       }
     }
   },
-  "overall_score": 53.3,
-  "overall_accuracy": 100.0,
-  "generated_at": "2026-04-26T18:37:36.456660Z"
+  "overall_score": 52.0,
+  "overall_accuracy": null,
+  "generated_at": "2026-05-03T18:43:46.718627Z"
 }
