@@ -64,7 +64,7 @@
               "properties": {
                 "total":      { "type": "integer", "minimum": 0 },
                 "profitable": { "type": "integer", "minimum": 0 },
-                "score":      { "type": "number", "minimum": 0, "maximum": 100 }
+                "score":      { "type": ["number", "null"], "minimum": 0, "maximum": 100 }
               }
             },
 
