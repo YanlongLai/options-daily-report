@@ -2,8 +2,8 @@
 
 **Read in:** [English](README.md) · [繁體中文](README.zh-TW.md)
 
-[![Schema Check](https://github.com/laiyanlong/options-daily-report/actions/workflows/schema-check.yml/badge.svg)](https://github.com/laiyanlong/options-daily-report/actions/workflows/schema-check.yml)
-[![Guard — no Python](https://github.com/laiyanlong/options-daily-report/actions/workflows/guard-no-python.yml/badge.svg)](https://github.com/laiyanlong/options-daily-report/actions/workflows/guard-no-python.yml)
+[![Schema Check](https://github.com/YanlongLai/options-daily-report/actions/workflows/schema-check.yml/badge.svg)](https://github.com/YanlongLai/options-daily-report/actions/workflows/schema-check.yml)
+[![Guard — no Python](https://github.com/YanlongLai/options-daily-report/actions/workflows/guard-no-python.yml/badge.svg)](https://github.com/YanlongLai/options-daily-report/actions/workflows/guard-no-python.yml)
 [![Licence: CC BY-NC 4.0](https://img.shields.io/badge/Licence-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Published output data for the **Options** mobile app.
@@ -37,7 +37,7 @@ dashboard/
 ### Data & reports — **CC BY-NC 4.0**
 
 You may view, share, and reference the published reports for **personal,
-non-commercial** use with attribution to `options.laiyanlong.dev`.
+non-commercial** use with attribution to `options.YanlongLai.dev`.
 Commercial redistribution, resale, or use for training AI/ML models
 requires a separate written licence.
 
@@ -63,7 +63,7 @@ App Store soon.
 
 ## Family
 
-Sibling product: **DappGo TW Stocks** ([tw-stocks-core](https://github.com/laiyanlong/tw-stocks-core) · [tw-stocks-daily-report](https://github.com/laiyanlong/tw-stocks-daily-report) · [dappgo-tw-stocks-app](https://github.com/laiyanlong/dappgo-tw-stocks-app)) — same three-repo architecture (engine → public data → mobile app), different domain.
+Sibling product: **DappGo TW Stocks** ([tw-stocks-core](https://github.com/YanlongLai/tw-stocks-core) · [tw-stocks-daily-report](https://github.com/YanlongLai/tw-stocks-daily-report) · [dappgo-tw-stocks-app](https://github.com/YanlongLai/dappgo-tw-stocks-app)) — same three-repo architecture (engine → public data → mobile app), different domain.
 
 ---
 

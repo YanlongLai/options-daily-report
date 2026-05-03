@@ -6,7 +6,7 @@ name: Contract Test (app ↔ schema)
 # docs/COMPAT.md promises between schema change and app release.
 #
 # Requires repo secret APP_REPO_PAT: a fine-grained PAT with read access
-# to laiyanlong/dappgo-options-app (the app is a private repo). If the
+# to YanlongLai/dappgo-options-app (the app is a private repo). If the
 # secret is missing, the job skips gracefully — do NOT fail CI over a
 # one-time setup gap.
 
@@ -28,7 +28,7 @@ jobs:
           if [ -z "${APP_REPO_PAT}" ]; then
             echo "APP_REPO_PAT is not configured — skipping contract test."
             echo "To enable: create a fine-grained PAT with read access to"
-            echo "  laiyanlong/dappgo-options-app and add it as repo secret APP_REPO_PAT."
+            echo "  YanlongLai/dappgo-options-app and add it as repo secret APP_REPO_PAT."
             echo "has_pat=false" >> "$GITHUB_OUTPUT"
           else
             echo "has_pat=true" >> "$GITHUB_OUTPUT"
@@ -44,7 +44,7 @@ jobs:
         if: steps.check_pat.outputs.has_pat == 'true'
         uses: actions/checkout@v4
         with:
-          repository: laiyanlong/dappgo-options-app
+          repository: YanlongLai/dappgo-options-app
           token: ${{ secrets.APP_REPO_PAT }}
           path: app-repo
 

@@ -47,7 +47,7 @@ proprietary and not open-source.
 3. For README changes touching both languages, update both files so the
    language switcher stays symmetrical
 4. For `index.html` changes, verify manually against
-   `https://laiyanlong.github.io/options-daily-report/dashboard/` first
+   `https://YanlongLai.github.io/options-daily-report/dashboard/` first
 5. CI runs:
    - `guard-no-python.yml` — rejects any Python file
    - `schema-check.yml` — validates `schemas/*.schema.json`

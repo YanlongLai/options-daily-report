@@ -5,7 +5,7 @@ code contributors can freely improve.
 
 ## What it does
 
-Served via GitHub Pages at https://laiyanlong.github.io/options-daily-report/.
+Served via GitHub Pages at https://YanlongLai.github.io/options-daily-report/.
 Loads `dashboard/data.json` client-side and renders a simple viewer for
 users who don't use the mobile app.
 

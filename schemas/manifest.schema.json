@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/laiyanlong/options-daily-report/main/schemas/manifest.schema.json",
+  "$id": "https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/schemas/manifest.schema.json",
   "$schemaVersion": "1.0.0",
   "title": "Options Daily Report — Manifest",
   "description": "Single-call index for mobile/web clients. Lists all available reports/weekly summaries/AI commentary dates without needing to enumerate directories via the GitHub Contents API. Version bump policy: schemas/VERSIONING.md.",

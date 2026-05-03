@@ -2,8 +2,8 @@
 
 **閱讀語言：** [English](README.md) · [繁體中文](README.zh-TW.md)
 
-[![Schema Check](https://github.com/laiyanlong/options-daily-report/actions/workflows/schema-check.yml/badge.svg)](https://github.com/laiyanlong/options-daily-report/actions/workflows/schema-check.yml)
-[![Guard — no Python](https://github.com/laiyanlong/options-daily-report/actions/workflows/guard-no-python.yml/badge.svg)](https://github.com/laiyanlong/options-daily-report/actions/workflows/guard-no-python.yml)
+[![Schema Check](https://github.com/YanlongLai/options-daily-report/actions/workflows/schema-check.yml/badge.svg)](https://github.com/YanlongLai/options-daily-report/actions/workflows/schema-check.yml)
+[![Guard — no Python](https://github.com/YanlongLai/options-daily-report/actions/workflows/guard-no-python.yml/badge.svg)](https://github.com/YanlongLai/options-daily-report/actions/workflows/guard-no-python.yml)
 [![Licence: CC BY-NC 4.0](https://img.shields.io/badge/Licence-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 **Options** 行動應用程式的公開資料儲存庫。
@@ -41,7 +41,7 @@ schemas/
 ### 資料與報告 — **CC BY-NC 4.0**
 
 您可以在**個人、非商業**用途下檢視、分享、引用已發布的報告，前提是附上
-來源標示（連結至 `options.laiyanlong.dev`）。商業散佈、轉售，或用於訓練
+來源標示（連結至 `options.YanlongLai.dev`）。商業散佈、轉售，或用於訓練
 AI/ML 模型需另外取得書面授權。
 
 ### 分析原始碼 — **專有（版權所有）**

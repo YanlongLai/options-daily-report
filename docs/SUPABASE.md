@@ -90,4 +90,4 @@ Free tier limits:
 - MAU: 50K (Phase 0 has zero authenticated users)
 
 At 100× current scale you're still under the storage limit. See
-[`SECRETS.md`](https://github.com/laiyanlong/options-core/blob/main/docs/SECRETS.md) (private repo) for key rotation steps when ready.
+[`SECRETS.md`](https://github.com/YanlongLai/options-core/blob/main/docs/SECRETS.md) (private repo) for key rotation steps when ready.

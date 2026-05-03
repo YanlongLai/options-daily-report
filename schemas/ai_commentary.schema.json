@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/laiyanlong/options-daily-report/main/schemas/ai_commentary.schema.json",
+  "$id": "https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/schemas/ai_commentary.schema.json",
   "$schemaVersion": "1.0.0",
   "title": "Options AI Commentary — Daily Bilingual Snapshot",
   "description": "Bilingual (zh + en) AI market commentary for a single trading day. Written after each daily-report run. Version bump policy: schemas/VERSIONING.md.",

@@ -5,8 +5,8 @@ versions, and which `options-core` commits produced the schema.
 
 Three repos are involved:
 
-- `laiyanlong/dappgo-options-app` — the React Native mobile client
-- `laiyanlong/options-daily-report` — this repo; holds the schemas and
+- `YanlongLai/dappgo-options-app` — the React Native mobile client
+- `YanlongLai/options-daily-report` — this repo; holds the schemas and
   generated JSON artifacts
 - `options-core` — the private analysis engine that writes the artifacts
 
