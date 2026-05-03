@@ -14,8 +14,8 @@
     "week_end":    { "type": "string", "format": "date" },
     "iso_week":    { "type": "string", "pattern": "^\\d{4}-W\\d{2}$", "examples": ["2026-W16"] },
 
-    "overall_score":    { "type": "number", "minimum": 0, "maximum": 100 },
-    "overall_accuracy": { "type": "number", "minimum": 0, "maximum": 100 },
+    "overall_score":    { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "overall_accuracy": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
 
     "tickers": {
       "type": "object",
