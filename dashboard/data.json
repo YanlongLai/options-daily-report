@@ -350,7 +350,7 @@
       "change_pct": 4.02,
       "high": 431.2,
       "low": 416.39,
-      "volume": 63479076,
+      "volume": 63489555,
       "market_state": "POST",
       "intraday_prices": [
         428.5,
@@ -20728,13 +20728,13 @@
   "timing": {
     "TSLA": {
       "symbol": "TSLA",
-      "timestamp": "2026-05-08 22:30:49",
+      "timestamp": "2026-05-08 22:33:34",
       "overall_recommendation": "Conditions are favorable to sell TSLA options now (score: 65/100). Next event: CPI Release in 5 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
         "worst_time": "15:30-16:00 ET",
         "best_buy_time": "15:30-16:00 ET",
-        "reason": "Sell options near 13:30-14:00 ET when intraday volatility peaks (avg range 2.05%). Buy options near 15:30-16:00 ET when volatility is lowest (avg range 0.83%).",
+        "reason": "Sell options near 13:30-14:00 ET when intraday volatility peaks (avg range 2.06%). Buy options near 15:30-16:00 ET when volatility is lowest (avg range 0.83%).",
         "confidence": 0.3
       },
       "weekly": {
@@ -20801,13 +20801,13 @@
     },
     "AMZN": {
       "symbol": "AMZN",
-      "timestamp": "2026-05-08 22:30:50",
+      "timestamp": "2026-05-08 22:33:35",
       "overall_recommendation": "Conditions are favorable to sell AMZN options now (score: 65/100). Next event: CPI Release in 5 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
         "worst_time": "15:30-16:00 ET",
         "best_buy_time": "15:30-16:00 ET",
-        "reason": "Sell options near 13:30-14:00 ET when intraday volatility peaks (avg range 1.61%). Buy options near 15:30-16:00 ET when volatility is lowest (avg range 0.55%).",
+        "reason": "Sell options near 13:30-14:00 ET when intraday volatility peaks (avg range 1.66%). Buy options near 15:30-16:00 ET when volatility is lowest (avg range 0.55%).",
         "confidence": 0.3
       },
       "weekly": {
@@ -20874,13 +20874,13 @@
     },
     "NVDA": {
       "symbol": "NVDA",
-      "timestamp": "2026-05-08 22:30:50",
+      "timestamp": "2026-05-08 22:33:35",
       "overall_recommendation": "Conditions are favorable to sell NVDA options now (score: 77/100). Next event: CPI Release in 5 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
         "worst_time": "15:30-16:00 ET",
         "best_buy_time": "15:30-16:00 ET",
-        "reason": "Sell options near 13:30-14:00 ET when intraday volatility peaks (avg range 1.56%). Buy options near 15:30-16:00 ET when volatility is lowest (avg range 0.58%).",
+        "reason": "Sell options near 13:30-14:00 ET when intraday volatility peaks (avg range 1.57%). Buy options near 15:30-16:00 ET when volatility is lowest (avg range 0.58%).",
         "confidence": 0.3
       },
       "weekly": {
@@ -20951,7 +20951,7 @@
       "symbol": "TSLA",
       "price": 428.35,
       "expiries_analyzed": 3,
-      "total_call_oi": 487216,
+      "total_call_oi": 487217,
       "total_put_oi": 378656,
       "pc_oi_ratio": 0.78,
       "put_concentration": [
@@ -21091,9 +21091,9 @@
         },
         {
           "strike": 55.0,
-          "call_oi": 0,
+          "call_oi": 1,
           "put_oi": 0,
-          "net_oi": 0
+          "net_oi": 1
         },
         {
           "strike": 60.0,
