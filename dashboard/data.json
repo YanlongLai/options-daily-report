@@ -20728,7 +20728,7 @@
   "timing": {
     "TSLA": {
       "symbol": "TSLA",
-      "timestamp": "2026-05-09 19:36:31",
+      "timestamp": "2026-05-09 20:13:10",
       "overall_recommendation": "Conditions are favorable to sell TSLA options now (score: 65/100). Next event: CPI Release in 4 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -20801,7 +20801,7 @@
     },
     "AMZN": {
       "symbol": "AMZN",
-      "timestamp": "2026-05-09 19:36:31",
+      "timestamp": "2026-05-09 20:13:10",
       "overall_recommendation": "Conditions are favorable to sell AMZN options now (score: 65/100). Next event: CPI Release in 4 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -20874,7 +20874,7 @@
     },
     "NVDA": {
       "symbol": "NVDA",
-      "timestamp": "2026-05-09 19:36:32",
+      "timestamp": "2026-05-09 20:13:11",
       "overall_recommendation": "Conditions are favorable to sell NVDA options now (score: 65/100). Next event: CPI Release in 4 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
