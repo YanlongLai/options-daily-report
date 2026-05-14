@@ -14254,7 +14254,7 @@
   "timing": {
     "TSLA": {
       "symbol": "TSLA",
-      "timestamp": "2026-05-14 05:15:09",
+      "timestamp": "2026-05-14 06:16:33",
       "overall_recommendation": "Consider waiting for better timing (score: 40/100). Suggested window: Monday. Next event: Non-Farm Payrolls in 22 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -14327,7 +14327,7 @@
     },
     "AMZN": {
       "symbol": "AMZN",
-      "timestamp": "2026-05-14 05:15:10",
+      "timestamp": "2026-05-14 06:16:35",
       "overall_recommendation": "Conditions are favorable to sell AMZN options now (score: 62/100). Next event: Non-Farm Payrolls in 22 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -14400,7 +14400,7 @@
     },
     "NVDA": {
       "symbol": "NVDA",
-      "timestamp": "2026-05-14 05:15:11",
+      "timestamp": "2026-05-14 06:16:36",
       "overall_recommendation": "Neutral conditions for NVDA options (score: 50/100). Next event: Non-Farm Payrolls in 22 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
