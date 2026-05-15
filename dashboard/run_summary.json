@@ -1,0 +1,26 @@
+{
+  "run_id": "9184d479-6097-4729-a2f4-83f88915ec22",
+  "started_at": "2026-05-15T13:53:42.398989+00:00",
+  "finished_at": "2026-05-15T13:56:47.503248+00:00",
+  "tickers_attempted": [
+    "TSLA",
+    "AMZN",
+    "NVDA",
+    "GOOG"
+  ],
+  "tickers_succeeded": [
+    "TSLA",
+    "AMZN",
+    "NVDA",
+    "GOOG"
+  ],
+  "tickers_failed": [],
+  "ai_commentary_count": 2,
+  "sources_status": {
+    "yfinance": "ok",
+    "gemini": "ok",
+    "finnhub": "not_used",
+    "finmind": "not_used"
+  },
+  "data_repo_committed": false
+}
