@@ -1,0 +1,70 @@
+name: Liveness Monitor
+
+# Independent watchdog that reads dashboard/latest.json from this repo's CDN
+# and alerts via Telegram if generated_at_utc is older than 26h. Runs every
+# 6h on its own schedule so a stalled engine cron doesn't go unnoticed.
+#
+# Best-effort: failures here never affect publish; the engine's own
+# monitor job in the *-core repo is the primary canary. This repo's job is
+# a secondary canary in case the engine repo's scheduling is itself broken.
+
+on:
+  schedule:
+    - cron: '20 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check latest.json freshness
+        id: check
+        env:
+          LATEST_URL: https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/dashboard/latest.json
+        run: |
+          python - << 'PYEOF'
+          import json, os, sys, urllib.request
+          from datetime import datetime, timezone, timedelta
+          url = os.environ["LATEST_URL"]
+          try:
+              with urllib.request.urlopen(url, timeout=30) as r:
+                  pointer = json.load(r)
+          except Exception as e:
+              print(f"::warning::Could not fetch {url}: {e}")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as gh:
+                  gh.write("stale=unknown\n")
+                  gh.write(f"reason=fetch_failed: {e}\n")
+              sys.exit(0)
+          gen = pointer.get("generated_at_utc")
+          if not gen:
+              print("::warning::latest.json missing generated_at_utc")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as gh:
+                  gh.write("stale=true\n")
+                  gh.write("reason=missing_generated_at_utc\n")
+              sys.exit(0)
+          gen_dt = datetime.fromisoformat(gen.replace("Z", "+00:00"))
+          age = datetime.now(timezone.utc) - gen_dt
+          stale = age > timedelta(hours=26)
+          print(f"latest.json generated_at_utc={gen}, age={age}, stale={stale}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as gh:
+              gh.write(f"stale={'true' if stale else 'false'}\n")
+              gh.write(f"age_hours={age.total_seconds() / 3600:.1f}\n")
+              gh.write(f"generated_at_utc={gen}\n")
+          PYEOF
+
+      - name: Alert via Telegram (stale pipeline)
+        if: steps.check.outputs.stale == 'true' && env.TELEGRAM_BOT_TOKEN != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          format: markdown
+          message: |
+            ⚠️ *Options data-repo watchdog — STALE*
+
+            `latest.json` generated_at_utc: `${{ steps.check.outputs.generated_at_utc }}`
+            Age: ${{ steps.check.outputs.age_hours }}h (threshold 26h)
+
+            Engine: ${{ github.server_url }}/YanlongLai/options-core/actions
