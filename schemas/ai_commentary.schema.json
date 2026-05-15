@@ -37,6 +37,11 @@
     "model": {
       "type": "string",
       "description": "Optional — which Gemini model produced this run (for observability)."
+    },
+    "_grounding": {
+      "type": "object",
+      "description": "Optional debug field — per-language numeric-grounding check results from the AI generator (assertion that every numeric token in the commentary appears within ε of a token in the truncated quant_report sent to Gemini). Surfaced to the mobile app only in developer mode.",
+      "additionalProperties": true
     }
   }
 }
