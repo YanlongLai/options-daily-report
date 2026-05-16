@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at_utc": "2026-05-16T04:01:31Z",
-  "data_hash": "08c64b445fb139bc2919391d8eda944fad7ef8a7cbabeefaff5572a2b26e2270",
+  "generated_at_utc": "2026-05-16T04:13:21Z",
+  "data_hash": "ed17ae8eb94032df9f271580e515d12c4925c30ded4e4530bed4bc7e6077b6f5",
   "last_updated": "2026-05-16",
   "data_source": "db",
   "summary": {
@@ -64470,7 +64470,7 @@
   "timing": {
     "TSLA": {
       "symbol": "TSLA",
-      "timestamp": "2026-05-16 04:02:02",
+      "timestamp": "2026-05-16 04:13:48",
       "overall_recommendation": "Neutral conditions for TSLA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64543,7 +64543,7 @@
     },
     "NVDA": {
       "symbol": "NVDA",
-      "timestamp": "2026-05-16 04:02:02",
+      "timestamp": "2026-05-16 04:13:49",
       "overall_recommendation": "Neutral conditions for NVDA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64616,7 +64616,7 @@
     },
     "AAPL": {
       "symbol": "AAPL",
-      "timestamp": "2026-05-16 04:02:03",
+      "timestamp": "2026-05-16 04:13:50",
       "overall_recommendation": "Neutral conditions for AAPL options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64689,7 +64689,7 @@
     },
     "AMZN": {
       "symbol": "AMZN",
-      "timestamp": "2026-05-16 04:02:04",
+      "timestamp": "2026-05-16 04:13:51",
       "overall_recommendation": "Neutral conditions for AMZN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64762,7 +64762,7 @@
     },
     "AMD": {
       "symbol": "AMD",
-      "timestamp": "2026-05-16 04:02:04",
+      "timestamp": "2026-05-16 04:13:51",
       "overall_recommendation": "Neutral conditions for AMD options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64835,7 +64835,7 @@
     },
     "META": {
       "symbol": "META",
-      "timestamp": "2026-05-16 04:02:05",
+      "timestamp": "2026-05-16 04:13:52",
       "overall_recommendation": "Neutral conditions for META options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64908,7 +64908,7 @@
     },
     "MSFT": {
       "symbol": "MSFT",
-      "timestamp": "2026-05-16 04:02:06",
+      "timestamp": "2026-05-16 04:13:53",
       "overall_recommendation": "Neutral conditions for MSFT options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64981,7 +64981,7 @@
     },
     "GOOG": {
       "symbol": "GOOG",
-      "timestamp": "2026-05-16 04:02:07",
+      "timestamp": "2026-05-16 04:13:53",
       "overall_recommendation": "Neutral conditions for GOOG options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65054,7 +65054,7 @@
     },
     "AMC": {
       "symbol": "AMC",
-      "timestamp": "2026-05-16 04:02:08",
+      "timestamp": "2026-05-16 04:13:54",
       "overall_recommendation": "Neutral conditions for AMC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65127,7 +65127,7 @@
     },
     "PLTR": {
       "symbol": "PLTR",
-      "timestamp": "2026-05-16 04:02:08",
+      "timestamp": "2026-05-16 04:13:56",
       "overall_recommendation": "Neutral conditions for PLTR options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65200,7 +65200,7 @@
     },
     "COIN": {
       "symbol": "COIN",
-      "timestamp": "2026-05-16 04:02:09",
+      "timestamp": "2026-05-16 04:13:58",
       "overall_recommendation": "Neutral conditions for COIN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65273,7 +65273,7 @@
     },
     "NFLX": {
       "symbol": "NFLX",
-      "timestamp": "2026-05-16 04:02:10",
+      "timestamp": "2026-05-16 04:13:58",
       "overall_recommendation": "Neutral conditions for NFLX options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65346,7 +65346,7 @@
     },
     "BABA": {
       "symbol": "BABA",
-      "timestamp": "2026-05-16 04:02:10",
+      "timestamp": "2026-05-16 04:14:00",
       "overall_recommendation": "Neutral conditions for BABA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65419,7 +65419,7 @@
     },
     "BAC": {
       "symbol": "BAC",
-      "timestamp": "2026-05-16 04:02:11",
+      "timestamp": "2026-05-16 04:14:01",
       "overall_recommendation": "Neutral conditions for BAC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65492,7 +65492,7 @@
     },
     "F": {
       "symbol": "F",
-      "timestamp": "2026-05-16 04:02:12",
+      "timestamp": "2026-05-16 04:14:02",
       "overall_recommendation": "Neutral conditions for F options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65565,7 +65565,7 @@
     },
     "BA": {
       "symbol": "BA",
-      "timestamp": "2026-05-16 04:02:13",
+      "timestamp": "2026-05-16 04:14:02",
       "overall_recommendation": "Neutral conditions for BA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65638,7 +65638,7 @@
     },
     "INTC": {
       "symbol": "INTC",
-      "timestamp": "2026-05-16 04:02:13",
+      "timestamp": "2026-05-16 04:14:03",
       "overall_recommendation": "Neutral conditions for INTC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65711,7 +65711,7 @@
     },
     "GME": {
       "symbol": "GME",
-      "timestamp": "2026-05-16 04:02:14",
+      "timestamp": "2026-05-16 04:14:04",
       "overall_recommendation": "Neutral conditions for GME options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65784,7 +65784,7 @@
     },
     "DIS": {
       "symbol": "DIS",
-      "timestamp": "2026-05-16 04:02:15",
+      "timestamp": "2026-05-16 04:14:05",
       "overall_recommendation": "Neutral conditions for DIS options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65857,7 +65857,7 @@
     },
     "JPM": {
       "symbol": "JPM",
-      "timestamp": "2026-05-16 04:02:16",
+      "timestamp": "2026-05-16 04:14:05",
       "overall_recommendation": "Neutral conditions for JPM options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
