@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T16:07:28",
+  "tickers": [
+    "TSLA",
+    "NVDA",
+    "AAPL",
+    "AMZN",
+    "AMD",
+    "META",
+    "MSFT",
+    "GOOG",
+    "AMC",
+    "PLTR",
+    "COIN",
+    "NFLX",
+    "BABA",
+    "BAC",
+    "F",
+    "BA",
+    "INTC",
+    "GME",
+    "DIS",
+    "JPM"
+  ],
+  "zh": {
+    "summary": "今日市場情緒呈現 [[neg:顯著波動]]，多數科技股面臨回調。部分標的如AMD和INTC的 [[warn:隱含波動率]] 異常高企，為賣方策略提供了 [[pos:豐厚權利金]] 機會。建議聚焦AMD (Sell Call @ [[key:$467.50]]) 或INTC (Sell Put @ [[key:$98.00]]) 以賺取高波動溢價。對於追求 [[pos:穩健收益]] 的投資者，可考慮在MSFT (Sell Put @ [[key:$392.50]]) 和JPM (Sell Call @ [[key:$320.00]]) 等低波動標的進行布局。整體市場預計仍將在短期區間內震盪。",
+    "TSLA": "TSLA 現價 [[key:$422.24]]，Max Pain [[key:$435.00]]。 主要支撐位 [[key:$255.00]]；建議於 [[key:$380.00]] 區間 Sell Put；或於 [[key:$465.00]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "NVDA": "NVDA平均隱含波動率達60.0%，股價今日下跌。建議在 [[key:$202.50]] 賣出看跌，或在 [[key:$247.50]] 賣出看漲。上方 [[key:$250.00]] 存在顯著阻力，下方 [[warn:跌破115]] 則需警惕。",
+    "AAPL": "AAPL 現價 [[key:$300.23]]，Max Pain [[key:$295.00]]。 主要支撐位 [[key:$200.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "AMZN": "AMZN平均IV為29.1%，股價小幅下跌。建議賣出 [[key:$250.00]] 看跌期權，或賣出 [[key:$280.00]] 看漲期權，該價位亦是Call阻力。潛在風險為短期突破 [[warn:260支撐]]。",
+    "AMD": "AMD 現價 [[key:$424.10]]，Max Pain [[key:$410.00]]。 主要支撐位 [[key:$250.00]]；建議於 [[key:$382.50]] 區間 Sell Put；或於 [[key:$467.50]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "META": "META平均IV為35.4%，股價微幅下跌。建議賣出 [[key:$560.00]] 看跌，或賣出 [[key:$675.00]] 看漲。主要風險來自於突破 [[key:$650.00]] 的 [[warn:上行阻力]]。",
+    "MSFT": "MSFT平均IV為31.4%，今日錄得顯著漲幅。建議在 [[key:$392.50]] 賣出看跌，或在 [[key:$460.00]] 賣出看漲。下方 [[key:$375.00]] 具有強勁Put支撐，為 [[pos:穩健]] 賣方策略提供緩衝。",
+    "GOOG": "GOOG平均IV為34.0%，股價小幅回落。建議賣出 [[key:$355.00]] 看跌，或在 [[key:$435.00]] 賣出看漲。上方 [[key:$390.00]] 為主要Call阻力，下方 [[warn:跌破370]] 則需注意。",
+    "AMC": "AMC 現價 [[key:$1.28]]，Max Pain [[key:$1.50]]。 主要支撐位 [[key:$1.50]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "PLTR": "PLTR 現價 [[key:$133.99]]，Max Pain [[key:$133.00]]。 主要支撐位 [[key:$80.00]]；建議於 [[key:$121.00]] 區間 Sell Put；或於 [[key:$147.00]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "COIN": "COIN平均IV高達68.0%，今日 [[neg:大跌]] 近8%。建議在 [[key:$175.00]] 賣出看跌，或在 [[key:$215.00]] 賣出看漲。其 [[warn:極高波動率]] 伴隨高權利金，但風險亦高。",
+    "NFLX": "NFLX平均IV為31.9%，股價基本持平。建議在 [[key:$83.00]] 賣出看跌，或在 [[key:$93.00]] 賣出看漲。上方 [[key:$100.00]] 為顯著Call阻力，需留意市場對此價位的態度。",
+    "BABA": "BABA平均IV為43.0%，今日 [[neg:大幅回落]]。建議在 [[key:$119.00]] 賣出看跌，或在 [[key:$146.00]] 賣出看漲。Max Pain在 [[key:$136.00]]。上方 [[warn:160為阻力]]，需謹慎。",
+    "BAC": "BAC股價今日持平，Max Pain在 [[key:$51.00]]。預期範圍 $48.36 - $51.18。Put支撐在 [[key:$48.50]]，Call阻力在 [[key:$52.00]]。市場對其價格波動的預期較為 [[pos:溫和]]。",
+    "F": "F 現價 [[key:$13.40]]，Max Pain [[key:$13.00]]。 主要支撐位 [[key:$11.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "BA": "BA平均IV為35.3%，今日下跌。建議在 [[key:$200.00]] 賣出看跌，或在 [[key:$245.00]] 賣出看漲。下方 [[key:$195.00]] 存在顯著Put支撐，提供一定 [[pos:保護]]。",
+    "INTC": "INTC平均IV高達80.8%，今日 [[neg:重挫]] 超6%。建議在 [[key:$98.00]] 賣出看跌，或在 [[key:$120.00]] 賣出看漲。其 [[warn:極高波動性]] 是主要風險來源，也帶來高權利金。",
+    "GME": "GME 現價 [[key:$21.59]]，Max Pain [[key:$23.00]]。 主要支撐位 [[key:$23.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "DIS": "DIS今日小幅下跌，Max Pain在 [[key:$104.00]]。預期範圍 $100.12 - $105.32。Put支撐在 [[key:$101.00]]，Call阻力在 [[key:$109.00]]。波動性相對 [[pos:穩定]]。",
+    "JPM": "JPM平均IV為26.1%，股價小幅下跌。建議在 [[key:$275.00]] 賣出看跌，或在 [[key:$320.00]] 賣出看漲。上方 [[key:$340.00]] 存在顯著Call阻力，整體交易機會較為 [[pos:平衡]]。"
+  },
+  "en": {
+    "summary": "The market presents a [[neg:mixed sentiment]] with several major tech stocks experiencing pullbacks today, reflected in varying IV levels. Implied volatility remains [[key:elevated]] for some key players like AMD at 71.4% and INTC at 80.8%, suggesting potential for premium selling. Top setups include selling out-of-the-money puts on NVDA ($202.50) to capitalize on its high IV, or selling calls on TSLA ($465.00) to target a rally's upside resistance. Investors should remain mindful of [[warn:broader market movements]] and [[warn:earnings-related volatility]].",
+    "TSLA": "TSLA trades at [[key:$422.24]], Max Pain [[key:$435.00]]. Key support at [[key:$255.00]]; Sell Put around [[key:$380.00]]; or Sell Call near [[key:$465.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "NVDA": "NVDA trades at [[key:$225.32]], Max Pain [[key:$220.00]]. Key support at [[key:$115.00]]; Sell Put around [[key:$202.50]]; or Sell Call near [[key:$247.50]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "AAPL": "AAPL trades at [[key:$300.23]], Max Pain [[key:$295.00]]. Key support at [[key:$200.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "AMZN": "AMZN trades at [[key:$264.14]], Max Pain [[key:$265.00]]. Key support at [[key:$260.00]]; Sell Put around [[key:$250.00]]; or Sell Call near [[key:$280.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "AMD": "AMD trades at [[key:$424.10]], Max Pain [[key:$410.00]]. Key support at [[key:$250.00]]; Sell Put around [[key:$382.50]]; or Sell Call near [[key:$467.50]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "META": "META trades at [[key:$614.23]], Max Pain [[key:$610.00]]. Key support at [[key:$600.00]]; Sell Put around [[key:$560.00]]; or Sell Call near [[key:$675.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "MSFT": "MSFT trades at [[key:$421.92]], Max Pain [[key:$407.50]]. Key support at [[key:$375.00]]; Sell Put around [[key:$392.50]]; or Sell Call near [[key:$460.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "GOOG": "GOOG trades at [[key:$393.32]], Max Pain [[key:$375.00]]. Key support at [[key:$370.00]]; Sell Put around [[key:$355.00]]; or Sell Call near [[key:$435.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "AMC": "AMC trades at [[key:$1.28]], Max Pain [[key:$1.50]]. Key support at [[key:$1.50]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "PLTR": "PLTR trades at [[key:$133.99]], Max Pain [[key:$133.00]]. Key support at [[key:$80.00]]; Sell Put around [[key:$121.00]]; or Sell Call near [[key:$147.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "COIN": "COIN trades at [[key:$195.43]], Max Pain [[key:$202.50]]. Key support at [[key:$110.00]]; Sell Put around [[key:$175.00]]; or Sell Call near [[key:$215.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "NFLX": "NFLX trades at [[key:$87.02]], Max Pain [[key:$90.00]]. Key support at [[key:$88.00]]; Sell Put around [[key:$83.00]]; or Sell Call near [[key:$93.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "BABA": "BABA trades at [[key:$132.59]], Max Pain [[key:$136.00]]. Key support at [[key:$140.00]]; Sell Put around [[key:$119.00]]; or Sell Call near [[key:$146.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "BAC": "BAC is at [[key:$49.77]], with an [[key:expected range]] of $48.36 - $51.18. Call resistance is at [[key:$52.00]], and put support is at [[key:$48.50]]. Selling premium outside this range could be considered, but [[warn:bank sector news]] must be monitored.",
+    "F": "F trades at [[key:$13.40]], Max Pain [[key:$13.00]]. Key support at [[key:$11.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "BA": "BA trades at [[key:$220.49]], Max Pain [[key:$230.00]]. Key support at [[key:$195.00]]; Sell Put around [[key:$200.00]]; or Sell Call near [[key:$245.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "INTC": "INTC trades at [[key:$108.77]], Max Pain [[key:$110.00]]. Key support at [[key:$90.00]]; Sell Put around [[key:$98.00]]; or Sell Call near [[key:$120.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "GME": "GME trades at [[key:$21.59]], Max Pain [[key:$23.00]]. Key support at [[key:$23.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "DIS": "DIS is at [[key:$102.72]], with an [[key:expected range]] of $100.12 - $105.32. Call resistance is at [[key:$109.00]], and put support is at [[key:$101.00]]. Consider strangles/iron condors targeting stability within its range, but be aware of [[warn:streaming subscriber trends]].",
+    "JPM": "JPM trades at [[key:$297.81]], Max Pain [[key:$302.50]]. Key support at [[key:$285.00]]; Sell Put around [[key:$275.00]]; or Sell Call near [[key:$320.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data."
+  },
+  "_grounding": {
+    "zh": {
+      "checked": 4,
+      "failed_tokens": [
+        "467.50"
+      ],
+      "ok": false
+    },
+    "en": {
+      "checked": 4,
+      "failed_tokens": [
+        "71.4%",
+        "80.8%"
+      ],
+      "ok": false
+    }
+  }
+}

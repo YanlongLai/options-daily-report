@@ -1,349 +1,427 @@
 {
   "schema_version": "1.0.0",
-  "generated_at_utc": "2026-05-16T16:33:48Z",
-  "data_hash": "b1b3b279995829a8cccc66220d896d251d14cc964968af9e06879f750f1413e3",
+  "generated_at_utc": "2026-05-16T14:52:29Z",
+  "data_hash": "765b293e7befd0160e20df2192cd85039f13ec5d826039aed8ac9c9a69cb71fb",
   "last_updated": "2026-05-16",
-  "data_source": "db",
+  "data_source": "synthetic",
   "summary": {
-    "total_trades": 2149,
-    "wins": 1799,
-    "losses": 350,
-    "win_rate": 83.7,
-    "avg_return": -0.75,
-    "profit_factor": 0.69,
-    "max_drawdown": 3497.03,
-    "sharpe_ratio": -0.43,
-    "sortino_ratio": -0.29,
-    "total_pnl": -1618.17,
-    "avg_win": 2.04,
-    "avg_loss": -15.09
+    "total_trades": 49,
+    "wins": 39,
+    "losses": 10,
+    "win_rate": 79.6,
+    "avg_return": 0.89,
+    "profit_factor": 1.84,
+    "max_drawdown": 21.47,
+    "sharpe_ratio": 1.04,
+    "sortino_ratio": 1.17,
+    "total_pnl": 43.82,
+    "avg_win": 2.46,
+    "avg_loss": -5.2
   },
   "cumulative_pnl": {
     "dates": [
+      "2026-03-17",
+      "2026-03-19",
+      "2026-03-22",
+      "2026-03-24",
+      "2026-03-25",
       "2026-03-26",
       "2026-03-27",
+      "2026-03-29",
       "2026-03-30",
-      "2026-03-31",
-      "2026-04-01",
-      "2026-04-02",
       "2026-04-03",
+      "2026-04-05",
       "2026-04-06",
-      "2026-04-07",
       "2026-04-08",
       "2026-04-09",
       "2026-04-10",
+      "2026-04-12",
       "2026-04-13",
-      "2026-04-14",
       "2026-04-15",
-      "2026-04-16",
       "2026-04-17",
+      "2026-04-19",
       "2026-04-20",
       "2026-04-21",
-      "2026-04-22"
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26",
+      "2026-04-27",
+      "2026-05-05",
+      "2026-05-08"
+    ],
+    "iron_condor": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -4.29,
+      -4.29,
+      -4.29,
+      -4.29,
+      -2.34,
+      -2.34,
+      -2.34,
+      -2.34,
+      -2.34,
+      -2.34,
+      -2.34,
+      -3.81,
+      -3.81,
+      -7.38,
+      -7.38,
+      -13.93,
+      -13.93,
+      -17.22,
+      -15.04,
+      -15.04,
+      -15.04,
+      -15.04,
+      -15.04,
+      -15.04,
+      -15.04,
+      -15.04
     ],
     "sell_call": [
-      47.16,
-      -710.13,
-      -1039.55,
-      -1262.05,
-      -1523.25,
-      -1734.7,
-      -2286.54,
-      -2548.33,
-      -3114.48,
-      -3565.44,
-      -3951.15,
-      -4254.01,
-      -4481.78,
-      -4512.64,
-      -4474.39,
-      -4448.61,
-      -4342.29,
-      -4289.07,
-      -4153.98,
-      -3916.69
+      3.89,
+      4.86,
+      6.02,
+      6.02,
+      8.98,
+      12.27,
+      16.25,
+      16.25,
+      21.57,
+      21.57,
+      14.98,
+      17.35,
+      21.6,
+      21.6,
+      21.6,
+      22.43,
+      23.31,
+      23.31,
+      23.31,
+      23.31,
+      25.98,
+      27.95,
+      27.95,
+      17.57,
+      17.57,
+      23.11,
+      27.33,
+      27.33,
+      28.62,
+      29.58
     ],
     "sell_put": [
-      -12.18,
-      173.52,
-      291.65,
-      387.25,
-      433.88,
-      555.8,
-      688.12,
-      784.4,
-      853.47,
-      929.2,
-      1012.97,
-      1125.92,
-      1227.49,
-      1337.9,
-      1465.87,
-      1587.71,
-      1731.39,
-      1861.62,
-      1981.05,
-      2298.52
+      3.62,
+      1.94,
+      1.94,
+      5.46,
+      4.92,
+      11.98,
+      11.98,
+      13.87,
+      13.87,
+      17.85,
+      18.95,
+      18.95,
+      18.95,
+      13.35,
+      13.45,
+      13.45,
+      13.45,
+      13.45,
+      17.15,
+      17.15,
+      17.15,
+      17.15,
+      17.15,
+      17.15,
+      19.51,
+      19.51,
+      25.89,
+      29.28,
+      29.28,
+      29.28
     ]
   },
   "monthly_returns": {
     "months": [
       "2026-03",
-      "2026-04"
+      "2026-04",
+      "2026-05"
+    ],
+    "iron_condor": [
+      -2.34,
+      -12.7,
+      0.0
     ],
     "sell_call": [
-      -1262.05,
-      -2654.64
+      21.57,
+      5.76,
+      2.25
     ],
     "sell_put": [
-      387.25,
-      1911.27
+      13.87,
+      15.41,
+      0.0
     ]
   },
   "ticker_stats": {
     "AMZN": {
-      "trades": 667,
-      "wins": 545,
-      "losses": 122,
-      "win_rate": 81.7,
-      "total_pnl": -1314.21,
-      "avg_return": -1.97
+      "trades": 16,
+      "wins": 11,
+      "losses": 5,
+      "win_rate": 68.8,
+      "total_pnl": -1.45,
+      "avg_return": -0.09
     },
     "NVDA": {
-      "trades": 548,
-      "wins": 461,
-      "losses": 87,
-      "win_rate": 84.1,
-      "total_pnl": -626.81,
-      "avg_return": -1.14
+      "trades": 21,
+      "wins": 16,
+      "losses": 5,
+      "win_rate": 76.2,
+      "total_pnl": 12.76,
+      "avg_return": 0.61
     },
     "TSLA": {
-      "trades": 934,
-      "wins": 793,
-      "losses": 141,
-      "win_rate": 84.9,
-      "total_pnl": 322.85,
-      "avg_return": 0.35
+      "trades": 12,
+      "wins": 12,
+      "losses": 0,
+      "win_rate": 100.0,
+      "total_pnl": 32.51,
+      "avg_return": 2.71
     }
   },
   "strategy_stats": {
+    "iron_condor": {
+      "trades": 7,
+      "wins": 2,
+      "losses": 5,
+      "win_rate": 28.6,
+      "total_pnl": -15.04,
+      "avg_return": -2.15
+    },
     "sell_call": {
-      "trades": 993,
-      "wins": 682,
-      "losses": 311,
-      "win_rate": 68.7,
-      "total_pnl": -3916.69,
-      "avg_return": -3.94
+      "trades": 23,
+      "wins": 21,
+      "losses": 2,
+      "win_rate": 91.3,
+      "total_pnl": 29.58,
+      "avg_return": 1.29
     },
     "sell_put": {
-      "trades": 1156,
-      "wins": 1117,
-      "losses": 39,
-      "win_rate": 96.6,
-      "total_pnl": 2298.52,
-      "avg_return": 1.99
+      "trades": 19,
+      "wins": 16,
+      "losses": 3,
+      "win_rate": 84.2,
+      "total_pnl": 29.28,
+      "avg_return": 1.54
     }
   },
   "recent_trades": [
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 370.0,
-      "premium": 4.4,
-      "expiry": "2026-04-29",
+      "date": "2026-05-08",
+      "symbol": "NVDA",
+      "strategy": "sell_call",
+      "strike": 142.28,
+      "premium": 0.96,
+      "expiry": "2026-05-15",
       "result": "win",
-      "pnl": 4.4
+      "pnl": 0.96
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 367.5,
-      "premium": 3.8,
-      "expiry": "2026-04-29",
+      "date": "2026-05-05",
+      "symbol": "NVDA",
+      "strategy": "sell_call",
+      "strike": 138.01,
+      "premium": 1.29,
+      "expiry": "2026-05-12",
       "result": "win",
-      "pnl": 3.8
+      "pnl": 1.29
     },
     {
-      "date": "2026-04-22",
+      "date": "2026-04-27",
       "symbol": "TSLA",
       "strategy": "sell_put",
-      "strike": 362.5,
-      "premium": 2.95,
-      "expiry": "2026-04-29",
+      "strike": 235.84,
+      "premium": 3.39,
+      "expiry": "2026-05-04",
       "result": "win",
-      "pnl": 2.95
+      "pnl": 3.39
     },
     {
-      "date": "2026-04-22",
+      "date": "2026-04-26",
       "symbol": "TSLA",
       "strategy": "sell_put",
-      "strike": 360.0,
-      "premium": 2.57,
-      "expiry": "2026-04-29",
+      "strike": 227.31,
+      "premium": 3.54,
+      "expiry": "2026-05-10",
       "result": "win",
-      "pnl": 2.57
+      "pnl": 3.54
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 355.0,
-      "premium": 1.94,
-      "expiry": "2026-04-29",
-      "result": "win",
-      "pnl": 1.94
-    },
-    {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 352.5,
-      "premium": 1.69,
-      "expiry": "2026-04-29",
-      "result": "win",
-      "pnl": 1.69
-    },
-    {
-      "date": "2026-04-22",
+      "date": "2026-04-26",
       "symbol": "TSLA",
       "strategy": "sell_call",
-      "strike": 410.0,
-      "premium": 6.55,
-      "expiry": "2026-04-29",
+      "strike": 259.3,
+      "premium": 4.22,
+      "expiry": "2026-05-10",
       "result": "win",
-      "pnl": 6.55
+      "pnl": 4.22
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
+      "date": "2026-04-26",
+      "symbol": "NVDA",
+      "strategy": "sell_put",
+      "strike": 119.4,
+      "premium": 2.84,
+      "expiry": "2026-05-03",
+      "result": "win",
+      "pnl": 2.84
+    },
+    {
+      "date": "2026-04-25",
+      "symbol": "NVDA",
       "strategy": "sell_call",
-      "strike": 415.0,
-      "premium": 5.35,
-      "expiry": "2026-04-29",
+      "strike": 139.63,
+      "premium": 1.78,
+      "expiry": "2026-05-09",
       "result": "win",
-      "pnl": 5.35
+      "pnl": 1.78
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
+      "date": "2026-04-25",
+      "symbol": "NVDA",
       "strategy": "sell_call",
-      "strike": 417.5,
-      "premium": 4.75,
-      "expiry": "2026-04-29",
+      "strike": 147.38,
+      "premium": 1.38,
+      "expiry": "2026-05-02",
       "result": "win",
-      "pnl": 4.75
+      "pnl": 1.38
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
+      "date": "2026-04-25",
+      "symbol": "NVDA",
       "strategy": "sell_call",
-      "strike": 422.5,
-      "premium": 3.85,
-      "expiry": "2026-04-29",
+      "strike": 142.79,
+      "premium": 2.38,
+      "expiry": "2026-05-09",
       "result": "win",
-      "pnl": 3.85
+      "pnl": 2.38
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_call",
-      "strike": 425.0,
-      "premium": 3.4,
-      "expiry": "2026-04-29",
-      "result": "win",
-      "pnl": 3.4
-    },
-    {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_call",
-      "strike": 430.0,
-      "premium": 2.76,
-      "expiry": "2026-04-29",
-      "result": "win",
-      "pnl": 2.76
-    },
-    {
-      "date": "2026-04-22",
+      "date": "2026-04-24",
       "symbol": "TSLA",
       "strategy": "sell_put",
-      "strike": 370.0,
-      "premium": 5.25,
+      "strike": 250.46,
+      "premium": 2.36,
       "expiry": "2026-05-01",
       "result": "win",
-      "pnl": 5.25
+      "pnl": 2.36
+    },
+    {
+      "date": "2026-04-23",
+      "symbol": "NVDA",
+      "strategy": "sell_call",
+      "strike": 136.07,
+      "premium": 1.92,
+      "expiry": "2026-05-07",
+      "result": "loss",
+      "pnl": -10.38
     },
     {
       "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 367.5,
-      "premium": 4.7,
-      "expiry": "2026-05-01",
+      "symbol": "NVDA",
+      "strategy": "iron_condor",
+      "strike": 115.14,
+      "premium": 2.18,
+      "expiry": "2026-05-06",
       "result": "win",
-      "pnl": 4.7
+      "pnl": 2.18
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 362.5,
-      "premium": 3.65,
-      "expiry": "2026-05-01",
-      "result": "win",
-      "pnl": 3.65
-    },
-    {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 360.0,
-      "premium": 3.25,
-      "expiry": "2026-05-01",
-      "result": "win",
-      "pnl": 3.25
-    },
-    {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 355.0,
-      "premium": 2.52,
-      "expiry": "2026-05-01",
-      "result": "win",
-      "pnl": 2.52
-    },
-    {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
-      "strategy": "sell_put",
-      "strike": 352.5,
-      "premium": 2.23,
-      "expiry": "2026-05-01",
-      "result": "win",
-      "pnl": 2.23
-    },
-    {
-      "date": "2026-04-22",
+      "date": "2026-04-21",
       "symbol": "TSLA",
       "strategy": "sell_call",
-      "strike": 415.0,
-      "premium": 6.2,
-      "expiry": "2026-05-01",
+      "strike": 246.72,
+      "premium": 1.97,
+      "expiry": "2026-04-28",
       "result": "win",
-      "pnl": 6.2
+      "pnl": 1.97
     },
     {
-      "date": "2026-04-22",
-      "symbol": "TSLA",
+      "date": "2026-04-21",
+      "symbol": "AMZN",
+      "strategy": "iron_condor",
+      "strike": 180.24,
+      "premium": 4.34,
+      "expiry": "2026-05-05",
+      "result": "loss",
+      "pnl": -3.29
+    },
+    {
+      "date": "2026-04-20",
+      "symbol": "NVDA",
       "strategy": "sell_call",
-      "strike": 417.5,
-      "premium": 5.7,
-      "expiry": "2026-05-01",
+      "strike": 143.63,
+      "premium": 2.67,
+      "expiry": "2026-05-04",
       "result": "win",
-      "pnl": 5.7
+      "pnl": 2.67
+    },
+    {
+      "date": "2026-04-19",
+      "symbol": "NVDA",
+      "strategy": "iron_condor",
+      "strike": 122.61,
+      "premium": 2.9,
+      "expiry": "2026-05-10",
+      "result": "loss",
+      "pnl": -6.55
+    },
+    {
+      "date": "2026-04-17",
+      "symbol": "NVDA",
+      "strategy": "sell_put",
+      "strike": 134.03,
+      "premium": 3.7,
+      "expiry": "2026-04-24",
+      "result": "win",
+      "pnl": 3.7
+    },
+    {
+      "date": "2026-04-15",
+      "symbol": "AMZN",
+      "strategy": "iron_condor",
+      "strike": 177.25,
+      "premium": 4.52,
+      "expiry": "2026-05-06",
+      "result": "loss",
+      "pnl": -3.57
+    },
+    {
+      "date": "2026-04-13",
+      "symbol": "AMZN",
+      "strategy": "sell_call",
+      "strike": 183.43,
+      "premium": 0.88,
+      "expiry": "2026-04-20",
+      "result": "win",
+      "pnl": 0.88
+    },
+    {
+      "date": "2026-04-12",
+      "symbol": "NVDA",
+      "strategy": "sell_call",
+      "strike": 149.59,
+      "premium": 0.83,
+      "expiry": "2026-05-03",
+      "result": "win",
+      "pnl": 0.83
     }
   ],
   "live_prices": [
@@ -64470,7 +64548,7 @@
   "timing": {
     "TSLA": {
       "symbol": "TSLA",
-      "timestamp": "2026-05-16 16:34:17",
+      "timestamp": "2026-05-16 07:53:34",
       "overall_recommendation": "Neutral conditions for TSLA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64543,7 +64621,7 @@
     },
     "NVDA": {
       "symbol": "NVDA",
-      "timestamp": "2026-05-16 16:34:18",
+      "timestamp": "2026-05-16 07:53:36",
       "overall_recommendation": "Neutral conditions for NVDA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64616,7 +64694,7 @@
     },
     "AAPL": {
       "symbol": "AAPL",
-      "timestamp": "2026-05-16 16:34:19",
+      "timestamp": "2026-05-16 07:53:37",
       "overall_recommendation": "Neutral conditions for AAPL options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64689,7 +64767,7 @@
     },
     "AMZN": {
       "symbol": "AMZN",
-      "timestamp": "2026-05-16 16:34:19",
+      "timestamp": "2026-05-16 07:53:39",
       "overall_recommendation": "Neutral conditions for AMZN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64762,7 +64840,7 @@
     },
     "AMD": {
       "symbol": "AMD",
-      "timestamp": "2026-05-16 16:34:20",
+      "timestamp": "2026-05-16 07:53:41",
       "overall_recommendation": "Neutral conditions for AMD options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64835,7 +64913,7 @@
     },
     "META": {
       "symbol": "META",
-      "timestamp": "2026-05-16 16:34:21",
+      "timestamp": "2026-05-16 07:53:43",
       "overall_recommendation": "Neutral conditions for META options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64908,7 +64986,7 @@
     },
     "MSFT": {
       "symbol": "MSFT",
-      "timestamp": "2026-05-16 16:34:21",
+      "timestamp": "2026-05-16 07:53:45",
       "overall_recommendation": "Neutral conditions for MSFT options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64981,7 +65059,7 @@
     },
     "GOOG": {
       "symbol": "GOOG",
-      "timestamp": "2026-05-16 16:34:22",
+      "timestamp": "2026-05-16 07:53:47",
       "overall_recommendation": "Neutral conditions for GOOG options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65054,7 +65132,7 @@
     },
     "AMC": {
       "symbol": "AMC",
-      "timestamp": "2026-05-16 16:34:23",
+      "timestamp": "2026-05-16 07:53:49",
       "overall_recommendation": "Neutral conditions for AMC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65127,7 +65205,7 @@
     },
     "PLTR": {
       "symbol": "PLTR",
-      "timestamp": "2026-05-16 16:34:23",
+      "timestamp": "2026-05-16 07:53:51",
       "overall_recommendation": "Neutral conditions for PLTR options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65200,7 +65278,7 @@
     },
     "COIN": {
       "symbol": "COIN",
-      "timestamp": "2026-05-16 16:34:24",
+      "timestamp": "2026-05-16 07:53:52",
       "overall_recommendation": "Neutral conditions for COIN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65273,7 +65351,7 @@
     },
     "NFLX": {
       "symbol": "NFLX",
-      "timestamp": "2026-05-16 16:34:25",
+      "timestamp": "2026-05-16 07:53:54",
       "overall_recommendation": "Neutral conditions for NFLX options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65346,7 +65424,7 @@
     },
     "BABA": {
       "symbol": "BABA",
-      "timestamp": "2026-05-16 16:34:25",
+      "timestamp": "2026-05-16 07:53:56",
       "overall_recommendation": "Neutral conditions for BABA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65419,7 +65497,7 @@
     },
     "BAC": {
       "symbol": "BAC",
-      "timestamp": "2026-05-16 16:34:26",
+      "timestamp": "2026-05-16 07:53:59",
       "overall_recommendation": "Neutral conditions for BAC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65492,7 +65570,7 @@
     },
     "F": {
       "symbol": "F",
-      "timestamp": "2026-05-16 16:34:27",
+      "timestamp": "2026-05-16 07:54:00",
       "overall_recommendation": "Neutral conditions for F options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65565,7 +65643,7 @@
     },
     "BA": {
       "symbol": "BA",
-      "timestamp": "2026-05-16 16:34:28",
+      "timestamp": "2026-05-16 07:54:03",
       "overall_recommendation": "Neutral conditions for BA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65638,7 +65716,7 @@
     },
     "INTC": {
       "symbol": "INTC",
-      "timestamp": "2026-05-16 16:34:28",
+      "timestamp": "2026-05-16 07:54:04",
       "overall_recommendation": "Neutral conditions for INTC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65711,7 +65789,7 @@
     },
     "GME": {
       "symbol": "GME",
-      "timestamp": "2026-05-16 16:34:29",
+      "timestamp": "2026-05-16 07:54:06",
       "overall_recommendation": "Neutral conditions for GME options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65784,7 +65862,7 @@
     },
     "DIS": {
       "symbol": "DIS",
-      "timestamp": "2026-05-16 16:34:30",
+      "timestamp": "2026-05-16 07:54:08",
       "overall_recommendation": "Neutral conditions for DIS options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65857,7 +65935,7 @@
     },
     "JPM": {
       "symbol": "JPM",
-      "timestamp": "2026-05-16 16:34:31",
+      "timestamp": "2026-05-16 07:54:10",
       "overall_recommendation": "Neutral conditions for JPM options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -80002,27 +80080,9 @@
     "JPM"
   ],
   "ai_commentary": {
-    "summary": "2026\u5e745\u670816\u65e5\uff0c\u5168\u7403\u5e02\u5834\u60c5\u7dd2\u5448\u73fe[[pos:\u8b39\u614e\u6a02\u89c0]]\u8da8\u52e2\uff0c\u4f46\u677f\u584a\u5206\u5316\u660e\u986f\u3002\u79d1\u6280\u5de8\u982d\u5728[[pos:AI\u6558\u4e8b]]\u9a45\u52d5\u4e0b\u4ecd\u7dad\u6301\u9ad8\u4f30\u503c\uff0c\u591a\u6578P/C OI\u504f\u4f4e\uff0c\u6697\u793a[[pos:\u5f37\u52c1\u8cb7\u76e4]]\u652f\u6490\u3002\u7136\u800c\uff0c\u90e8\u5206\u5e02\u5834\u5c0d\u672a\u4f86\u5229\u7387\u548c[[warn:\u4e2d\u570b\u7d93\u6fdf]]\u6301\u89c0\u671b\u614b\u5ea6\uff0c\u5c0e\u81f4\u4e00\u4e9b\u85cd\u7c4c\u80a1IV\u8655\u65bc\u4e2d\u7b49\u6c34\u5e73\u3002Meme\u80a1\u5982AMC\u548cGME\u5247\u5c55\u73fe[[key:\u6975\u9ad8IV]]\u548c[[warn:\u5287\u70c8\u6ce2\u52d5]]\uff0c\u8ce3\u65b9\u53ef\u5229\u7528\u9ad8\u6ea2\u50f9\u3002\u6574\u9ad4\u800c\u8a00\uff0c\u6700\u4f73\u7b56\u7565\u70ba\u5c0d[[pos:\u57fa\u672c\u9762\u7a69\u5065]]\u4e14P/C OI\u4f4e\u7684\u6a19\u7684 Sell Put\uff08\u4f8b\u5982AMZN\u5728260\uff09\uff0c\u540c\u6642\u5c0d[[key:\u9ad8IV\u6ce2\u52d5]]\u6a19\u7684 Sell Call\uff08\u4f8b\u5982AMD\u5728450\u4ee5\u4e0a\uff09\uff0c\u4e26\u56b4\u683c[[key:\u7ba1\u7406\u98a8\u96aa]]\u3002",
-    "TSLA": "\u7576\u524dIV\u7d0430-40%\uff0cP/C OI 0.80 [[pos:\u8f15\u5fae\u770b\u6f32]]\u3002\u963b\u529b\u4f4d$310\uff0c\u652f\u6301\u4f4d$200\uff0cMax Pain $285\u3002\u5efa\u8b70\u5728[[key:280-285]]\u5340\u9593Sell Put\u3002\u4e3b\u8981\u98a8\u96aa\u4f86\u81ea[[warn:\u4e2d\u570b\u5e02\u5834]]\u92b7\u552e\u6578\u64da\u53ca\u653f\u7b56\u8b8a\u5316\u3002",
-    "NVDA": "\u7531\u65bcAI\u9a45\u52d5\u53ca\u5373\u5c07\u5230\u4f86\u7684\u8ca1\u5831\uff0cIV\u7dad\u6301[[key:\u6975\u9ad8\u6c34\u5e73]]\u3002\u5e02\u5834\u666e\u904d[[pos:\u770b\u6f32]]\u3002\u5efa\u8b70\u9022\u9ad8\u5728[[key:200-210]]\u5340\u9593Sell Put\uff0c\u6355\u6349\u6ea2\u50f9\u3002\u6700\u5927\u98a8\u96aa\u70ba[[warn:\u8ca1\u5831]]\u4e0d\u53ca\u9810\u671f\u3002",
-    "AAPL": "IV\u8655\u65bc[[key:\u4e2d\u7b49\u6c34\u5e73]]\uff0c\u5206\u6790\u5e2b\u666e\u904d[[pos:\u770b\u6f32]]\u3002\u5e02\u5834\u6d41\u52d5\u6027\u4f73\uff0c\u5efa\u8b70\u5728[[key:210-215]]\u652f\u6490\u4f4d\u9644\u8fd1Sell Put\u3002\u9700\u7559\u610f\u4f86\u81ea[[warn:\u4e2d\u570b\u5e02\u5834]]\u7684\u7af6\u722d\u548c\u6f5b\u5728\u7684\u76e3\u7ba1\u58d3\u529b\u3002",
-    "AMZN": "IV\u7d0430-35%\uff0cP/C OI 0.63 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$260\uff0c\u963b\u529b\u4f4d$280\uff0cMax Pain $260\u3002\u5efa\u8b70\u5728[[key:260\u6216255]] Sell Put\u3002\u9700\u6ce8\u610f[[warn:\u53cd\u58df\u65b7]]\u8abf\u67e5\u9032\u5c55\u3002",
-    "AMD": "IV\u572860%\u4ee5\u4e0a\uff0c\u70ba[[key:\u9ad8IV]]\u3002P/C OI 0.97\uff0c\u963b\u529b\u5728$400\u3002\u8003\u616e\u5728[[key:440\u6216450]] Sell Call\uff0c\u5229\u7528\u9ad8\u6ea2\u50f9\u3002\u98a8\u96aa\u9ede\u70ba[[warn:AI\u6676\u7247]]\u9700\u6c42\u8b8a\u5316\u53ca\u5e02\u5834\u7af6\u722d\u3002",
-    "META": "IV\u7d0430-35%\uff0cP/C OI 0.55 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$600\uff0c\u963b\u529b\u4f4d$650\uff0cMax Pain $610\u3002\u5efa\u8b70\u5728[[key:600\u6216590]] Sell Put\uff0c\u5b89\u5168\u588a\u8f03\u9ad8\u3002\u4e3b\u8981\u98a8\u96aa\u9ede\u662f[[warn:\u5168\u7403\u76e3\u7ba1]]\u653f\u7b56\u8da8\u56b4\u3002",
-    "MSFT": "IV\u7d0430-40%\uff0cP/C OI 0.51 [[pos:\u5f37\u52c1\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$375\uff0c\u963b\u529b\u4f4d$470\uff0cMax Pain $408\u3002\u5efa\u8b70\u5728[[key:400\u6216410]] Sell Put\uff0c\u5177\u5099\u8f03\u5927\u5b89\u5168\u908a\u969b\u3002\u98a8\u96aa\u4f86\u81ea[[warn:\u96f2\u7aef\u670d\u52d9]]\u5e02\u5834\u7af6\u722d\u3002",
-    "GOOG": "IV\u7d0435%\uff0cP/C OI 0.78 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$370\uff0c\u963b\u529b\u4f4d$390\uff0cMax Pain $370\u3002\u5efa\u8b70\u5728[[key:370\u6216380]] Sell Put\u3002\u9700\u95dc\u6ce8[[warn:\u5ee3\u544a\u6536\u5165]]\u589e\u9577\u653e\u7de9\u53caAI\u7af6\u722d\u3002",
-    "AMC": "IV\u6975\u9ad8\uff0c\u4ecb\u65bc90%-270%\u4e4b\u9593\u3002P/C OI 0.08 [[pos:\u6975\u5ea6\u770b\u6f32]]\u3002\u963b\u529b\u4f4d$2\uff0cMax Pain $2\u3002\u5229\u7528\u5176[[key:\u6975\u7aefIV]]\u5728[[key:2.5\u62163]]\u4ee5\u4e0aSell Call\u3002[[warn:\u8ecb\u7a7a\u98a8\u96aa]]\u548c\u6975\u7aef\u6ce2\u52d5\u9700\u56b4\u683c\u7ba1\u7406\u3002",
-    "PLTR": "IV\u7d0450%\uff0cP/C OI 0.79 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$80\uff0c\u963b\u529b\u4f4d$140\uff0cMax Pain $134\u3002\u5efa\u8b70\u5728[[key:130\u6216125]] Sell Put\uff0c\u63a5\u8fd1Max Pain\u3002\u6f5b\u5728\u98a8\u96aa\u662f[[warn:\u653f\u5e9c\u5408\u7d04]]\u8b8a\u5316\u548c\u4f30\u503c\u904e\u9ad8\u3002",
-    "COIN": "IV\u9ad8\u905470%-140%\uff0cP/C OI 0.53 [[pos:\u770b\u6f32]]\u3002\u963b\u529b\u4f4d$222\uff0cMax Pain $200\u3002\u5efa\u8b70\u5229\u7528[[key:\u9ad8IV]]\u5728[[key:220\u6216225]]\u4ee5\u4e0aSell Call\u3002\u6700\u5927\u98a8\u96aa\u4f86\u81ea[[warn:\u52a0\u5bc6\u8ca8\u5e63]]\u5e02\u5834\u7684\u5287\u70c8\u6ce2\u52d5\u3002",
-    "NFLX": "IV\u7d0430-40%\uff0cP/C OI 0.49 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$88\uff0c\u963b\u529b\u4f4d$100\uff0cMax Pain $90\u3002\u5efa\u8b70\u5728[[key:85\u621680]] Sell Put\uff0c\u5b89\u5168\u588a\u76f8\u5c0d\u8db3\u5920\u3002\u9700\u7559\u610f[[warn:\u6d41\u5a92\u9ad4]]\u5e02\u5834\u7af6\u722d\u52a0\u5287\u3002",
-    "BABA": "IV\u7d0440-60%\uff0cP/C OI 0.26 [[pos:\u6975\u5ea6\u770b\u6f32]]\u3002\u963b\u529b\u4f4d$160\uff0cMax Pain $136\u3002\u5efa\u8b70\u5728[[key:125\u6216130]] Sell Put\u3002\u9700\u8b39\u614e\u61c9\u5c0d[[warn:\u4e2d\u570b\u7d93\u6fdf]]\u548c\u653f\u7b56\u4e0d\u78ba\u5b9a\u6027\u3002",
-    "BAC": "IV\u7d0425-30%\uff0cP/C OI 0.97 [[key:\u4e2d\u6027]]\u3002\u652f\u6301\u4f4d$48\uff0c\u963b\u529b\u4f4d$52\uff0cMax Pain $51\u3002\u5efa\u8b70\u5728[[key:48\u621647.5]] Sell Put\uff0c\u6355\u6349\u5c0f\u5e45\u56de\u8abf\u6a5f\u6703\u3002\u98a8\u96aa\u9ede\u662f[[warn:\u5229\u7387\u653f\u7b56]]\u8b8a\u5316\u3002",
-    "F": "IV\u7d0440-60%\uff0cP/C OI 0.32 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$11\uff0c\u963b\u529b\u4f4d$15\uff0cMax Pain $12\u3002\u5efa\u8b70\u5728[[key:12\u621611.5]] Sell Put\uff0c\u5229\u7528\u9ad8P/C OI\u3002\u9700\u6ce8\u610f[[warn:\u96fb\u52d5\u8eca]]\u5e02\u5834\u7684\u7af6\u722d\u58d3\u529b\u3002",
-    "BA": "IV\u7d0435-50%\uff0cP/C OI 0.40 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$195\uff0c\u963b\u529b\u4f4d$240\uff0cMax Pain $230\u3002\u5efa\u8b70\u5728[[key:215\u6216210]] Sell Put\uff0c\u7dad\u6301\u770b\u6f32\u8da8\u52e2\u3002\u95dc\u6ce8[[warn:\u98db\u6a5f\u4ea4\u4ed8]]\u548c\u54c1\u8cea\u554f\u984c\u3002",
-    "INTC": "IV\u6975\u9ad8\uff0c\u572880%-150%\u4e4b\u9593\u3002P/C OI 1.55 [[neg:\u770b\u8dcc\u5c0d\u6c96]]\u3002\u963b\u529b\u4f4d$130\uff0cMax Pain $109\u3002\u5229\u7528[[key:\u9ad8IV]]\u5728[[key:120\u6216125]]\u4ee5\u4e0aSell Call\u3002\u8b66\u60d5[[warn:\u6676\u7247\u884c\u696d]]\u7af6\u722d\u548c\u5e02\u5834\u4efd\u984d\u58d3\u529b\u3002",
-    "GME": "IV\u6975\u9ad8\uff0c\u572840%-110%\u4e4b\u9593\u3002P/C OI 0.24 [[pos:\u6975\u5ea6\u770b\u6f32]]\u3002\u963b\u529b\u4f4d$25\uff0cMax Pain $23\u3002\u5efa\u8b70\u5229\u7528[[key:\u8d85\u9ad8IV]]\u5728[[key:25\u621627]]\u4ee5\u4e0aSell Call\u3002[[warn:Meme\u80a1]]\u7279\u6027\u5e36\u4f86\u5de8\u5e45\u6ce2\u52d5\u98a8\u96aa\u3002",
-    "DIS": "IV\u7d0425-30%\uff0cP/C OI 1.06 [[key:\u4e2d\u6027]]\u3002\u652f\u6301\u4f4d$101\uff0c\u963b\u529b\u4f4d$109\uff0cMax Pain $105\u3002\u5efa\u8b70\u5728[[key:105\u6216106]] Sell Call\u3002\u4e3b\u8981\u98a8\u96aa\u4f86\u81ea[[warn:\u6d41\u5a92\u9ad4]]\u7528\u6236\u589e\u9577\u653e\u7de9\u3002",
-    "JPM": "IV\u7d0425-40%\uff0cP/C OI 0.44 [[pos:\u770b\u6f32]]\u3002\u652f\u6301\u4f4d$285\uff0c\u963b\u529b\u4f4d$340\uff0cMax Pain $305\u3002\u5efa\u8b70\u5728[[key:290\u6216285]] Sell Put\uff0c\u5229\u7528\u5176\u7a69\u5b9a\u6027\u3002[[warn:\u5b8f\u89c0\u7d93\u6fdf]]\u4e0b\u884c\u53ef\u80fd\u5e36\u4f86\u4fe1\u7528\u98a8\u96aa\u3002"
+    "summary": "2026\u5e745\u670816\u65e5\uff0c\u5168\u7403\u5e02\u5834\u60c5\u7dd2\u5448\u73fe[[pos:\u8b39\u614e\u6a02\u89c0]]\u8da8\u52e2\uff0c\u4f46\u677f\u584a\u5206\u5316\u660e\u986f\u3002",
+    "TSLA": "\u7576\u524d IV \u7d04 30-40%\uff0cP/C OI 0.80 [[pos:\u8f15\u5fae\u770b\u6f32]]\u3002\u963b\u529b\u4f4d$310\uff0c\u652f\u6301\u4f4d$200\uff0cMax Pain $285\u3002\u5efa\u8b70\u5728 [[key:280-285]] \u5340\u9593 Sell Put\u3002\u4e3b\u8981\u98a8\u96aa\u4f86\u81ea [[warn:\u4e2d\u570b\u5e02\u5834]] \u92b7\u552e\u6578\u64da\u53ca\u653f\u7b56\u8b8a\u5316\u3002",
+    "NVDA": "AI \u9700\u6c42\u7a69\u5065\uff0cIV Rank \u504f\u4f4e\uff0c\u9069\u5408 [[pos:\u8ce3\u65b9\u7b56\u7565]]\u3002"
   },
-  "ai_commentary_generated_at": "2026-05-16T14:32:50"
+  "ai_commentary_generated_at": "2026-05-16T14:52:17"
 }
