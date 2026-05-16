@@ -25,14 +25,48 @@
       "description": "Tickers analyzed in this commentary."
     },
     "zh": {
-      "type": "string",
-      "minLength": 50,
-      "description": "Traditional Chinese markdown commentary. May contain inline [[pos|neg|key|warn|u:text]] highlight markers."
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 50,
+          "description": "Legacy: Traditional Chinese markdown string."
+        },
+        {
+          "type": "object",
+          "required": ["summary"],
+          "additionalProperties": true,
+          "properties": {
+            "summary": {
+              "type": "string",
+              "description": "Overall market summary ~100 chars."
+            }
+          },
+          "description": "Structured: summary + per-ticker keys (e.g. TSLA, AAPL). Values may contain [[pos|neg|key|warn|u:text]] markers."
+        }
+      ],
+      "description": "Traditional Chinese AI commentary. String (legacy) or structured dict (new)."
     },
     "en": {
-      "type": "string",
-      "minLength": 50,
-      "description": "English markdown commentary. Same marker syntax as zh."
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 50,
+          "description": "Legacy: English markdown string."
+        },
+        {
+          "type": "object",
+          "required": ["summary"],
+          "additionalProperties": true,
+          "properties": {
+            "summary": {
+              "type": "string",
+              "description": "Overall market summary ~100 chars."
+            }
+          },
+          "description": "Structured: summary + per-ticker keys. Values may contain [[pos|neg|key|warn|u:text]] markers."
+        }
+      ],
+      "description": "English AI commentary. String (legacy) or structured dict (new)."
     },
     "model": {
       "type": "string",
