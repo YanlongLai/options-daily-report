@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at_utc": "2026-05-16T08:20:04Z",
-  "data_hash": "c74bac11489c76d1fd5bd6e9e5464122663628e4d93b9f62125ed882696f8efb",
+  "generated_at_utc": "2026-05-16T14:00:04Z",
+  "data_hash": "508b5253f309c7104fbdd18bda8a8c7ad9d7be91b2bac191a842b938eb586c3f",
   "last_updated": "2026-05-16",
   "data_source": "db",
   "summary": {
@@ -3811,15 +3811,15 @@
           "h": 451.98,
           "l": 441.16,
           "c": 443.3,
-          "v": 45939400
+          "v": 46070400
         },
         {
           "d": "2026-05-15",
-          "o": 434.1,
+          "o": 433.98,
           "h": 434.66,
-          "l": 425.05,
-          "c": 428.0,
-          "v": 17051881
+          "l": 422.0,
+          "c": 422.24,
+          "v": 52271800
         }
       ]
     },
@@ -5515,7 +5515,7 @@
         },
         {
           "d": "2024-12-12",
-          "c": 137.3
+          "c": 137.29
         },
         {
           "d": "2024-12-13",
@@ -7287,15 +7287,15 @@
           "h": 236.54,
           "l": 229.3,
           "c": 235.74,
-          "v": 179114200
+          "v": 180782900
         },
         {
           "d": "2026-05-15",
-          "o": 229.75,
-          "h": 230.05,
-          "l": 224.25,
-          "c": 227.19,
-          "v": 63129175
+          "o": 229.76,
+          "h": 231.5,
+          "l": 224.24,
+          "c": 225.32,
+          "v": 179993300
         }
       ]
     },
@@ -10763,15 +10763,15 @@
           "h": 300.45,
           "l": 295.38,
           "c": 298.21,
-          "v": 35263400
+          "v": 35324900
         },
         {
           "d": "2026-05-15",
-          "o": 297.76,
-          "h": 300.24,
-          "l": 296.53,
-          "c": 300.24,
-          "v": 11237665
+          "o": 297.9,
+          "h": 303.2,
+          "l": 296.52,
+          "c": 300.23,
+          "v": 54721100
         }
       ]
     },
@@ -14239,15 +14239,15 @@
           "h": 270.78,
           "l": 266.63,
           "c": 267.22,
-          "v": 31257000
+          "v": 31338400
         },
         {
           "d": "2026-05-15",
-          "o": 262.59,
-          "h": 264.05,
+          "o": 262.5,
+          "h": 264.36,
           "l": 260.89,
-          "c": 263.58,
-          "v": 13382277
+          "c": 264.14,
+          "v": 40672200
         }
       ]
     },
@@ -14629,7 +14629,7 @@
         },
         {
           "d": "2023-07-14",
-          "c": 306.46
+          "c": 306.47
         },
         {
           "d": "2023-07-17",
@@ -14909,7 +14909,7 @@
         },
         {
           "d": "2023-10-23",
-          "c": 311.57
+          "c": 311.56
         },
         {
           "d": "2023-10-24",
@@ -15177,7 +15177,7 @@
         },
         {
           "d": "2024-01-30",
-          "c": 396.94
+          "c": 396.95
         },
         {
           "d": "2024-01-31",
@@ -15513,7 +15513,7 @@
         },
         {
           "d": "2024-05-30",
-          "c": 463.91
+          "c": 463.9
         },
         {
           "d": "2024-05-31",
@@ -15637,7 +15637,7 @@
         },
         {
           "d": "2024-07-16",
-          "c": 486.97
+          "c": 486.98
         },
         {
           "d": "2024-07-17",
@@ -16701,7 +16701,7 @@
         },
         {
           "d": "2025-08-07",
-          "c": 760.04
+          "c": 760.05
         },
         {
           "d": "2025-08-08",
@@ -17829,15 +17829,15 @@
           "h": 623.73,
           "l": 615.0,
           "c": 618.43,
-          "v": 10632700
+          "v": 10651200
         },
         {
           "d": "2026-05-15",
-          "o": 614.1,
-          "h": 615.0,
+          "o": 613.99,
+          "h": 621.2,
           "l": 609.31,
-          "c": 614.26,
-          "v": 3863486
+          "c": 614.23,
+          "v": 13208700
         }
       ]
     },
@@ -21305,15 +21305,15 @@
           "h": 411.84,
           "l": 400.88,
           "c": 409.43,
-          "v": 27027600
+          "v": 27077500
         },
         {
           "d": "2026-05-15",
-          "o": 414.41,
-          "h": 422.69,
-          "l": 412.92,
-          "c": 422.5,
-          "v": 13623413
+          "o": 414.27,
+          "h": 428.17,
+          "l": 412.91,
+          "c": 421.92,
+          "v": 50310800
         }
       ]
     },
@@ -25237,15 +25237,15 @@
           "h": 88.5,
           "l": 86.65,
           "c": 86.94,
-          "v": 29359000
+          "v": 29408300
         },
         {
           "d": "2026-05-15",
-          "o": 87.77,
+          "o": 87.69,
           "h": 89.49,
-          "l": 87.39,
-          "c": 87.63,
-          "v": 10390693
+          "l": 86.69,
+          "c": 87.02,
+          "v": 31860700
         }
       ]
     },
@@ -28827,15 +28827,15 @@
           "h": 50.47,
           "l": 49.49,
           "c": 49.85,
-          "v": 37619900
+          "v": 37671800
         },
         {
           "d": "2026-05-15",
           "o": 49.62,
           "h": 49.99,
-          "l": 49.48,
-          "c": 49.89,
-          "v": 9235451
+          "l": 49.3,
+          "c": 49.77,
+          "v": 45998300
         }
       ]
     },
@@ -32417,15 +32417,15 @@
           "h": 244.07,
           "l": 227.5,
           "c": 229.21,
-          "v": 17703600
+          "v": 17761100
         },
         {
           "d": "2026-05-15",
           "o": 226.85,
-          "h": 226.0,
-          "l": 222.04,
-          "c": 224.25,
-          "v": 2912817
+          "h": 226.85,
+          "l": 220.45,
+          "c": 220.49,
+          "v": 9451100
         }
       ]
     },
@@ -36235,15 +36235,15 @@
           "h": 303.75,
           "l": 298.81,
           "c": 299.91,
-          "v": 7353000
+          "v": 7364300
         },
         {
           "d": "2026-05-15",
-          "o": 300.2,
-          "h": 300.5,
-          "l": 298.25,
-          "c": 298.43,
-          "v": 1913370
+          "o": 300.21,
+          "h": 300.79,
+          "l": 296.45,
+          "c": 297.81,
+          "v": 8659900
         }
       ]
     },
@@ -39711,15 +39711,15 @@
           "h": 749.53,
           "l": 743.56,
           "c": 748.17,
-          "v": 45231100
+          "v": 45307600
         },
         {
           "d": "2026-05-15",
           "o": 741.79,
-          "h": 742.68,
+          "h": 743.46,
           "l": 737.96,
-          "c": 742.12,
-          "v": 13919054
+          "c": 739.17,
+          "v": 60290000
         }
       ]
     }
@@ -64470,7 +64470,7 @@
   "timing": {
     "TSLA": {
       "symbol": "TSLA",
-      "timestamp": "2026-05-16 08:20:44",
+      "timestamp": "2026-05-16 14:00:45",
       "overall_recommendation": "Neutral conditions for TSLA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64543,7 +64543,7 @@
     },
     "NVDA": {
       "symbol": "NVDA",
-      "timestamp": "2026-05-16 08:20:45",
+      "timestamp": "2026-05-16 14:00:46",
       "overall_recommendation": "Neutral conditions for NVDA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64616,7 +64616,7 @@
     },
     "AAPL": {
       "symbol": "AAPL",
-      "timestamp": "2026-05-16 08:20:46",
+      "timestamp": "2026-05-16 14:00:47",
       "overall_recommendation": "Neutral conditions for AAPL options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64689,7 +64689,7 @@
     },
     "AMZN": {
       "symbol": "AMZN",
-      "timestamp": "2026-05-16 08:20:47",
+      "timestamp": "2026-05-16 14:00:49",
       "overall_recommendation": "Neutral conditions for AMZN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64762,7 +64762,7 @@
     },
     "AMD": {
       "symbol": "AMD",
-      "timestamp": "2026-05-16 08:20:48",
+      "timestamp": "2026-05-16 14:00:50",
       "overall_recommendation": "Neutral conditions for AMD options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64835,7 +64835,7 @@
     },
     "META": {
       "symbol": "META",
-      "timestamp": "2026-05-16 08:20:49",
+      "timestamp": "2026-05-16 14:00:51",
       "overall_recommendation": "Neutral conditions for META options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64908,7 +64908,7 @@
     },
     "MSFT": {
       "symbol": "MSFT",
-      "timestamp": "2026-05-16 08:20:50",
+      "timestamp": "2026-05-16 14:00:52",
       "overall_recommendation": "Neutral conditions for MSFT options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64981,7 +64981,7 @@
     },
     "GOOG": {
       "symbol": "GOOG",
-      "timestamp": "2026-05-16 08:20:51",
+      "timestamp": "2026-05-16 14:00:53",
       "overall_recommendation": "Neutral conditions for GOOG options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65054,7 +65054,7 @@
     },
     "AMC": {
       "symbol": "AMC",
-      "timestamp": "2026-05-16 08:20:52",
+      "timestamp": "2026-05-16 14:00:54",
       "overall_recommendation": "Neutral conditions for AMC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65127,7 +65127,7 @@
     },
     "PLTR": {
       "symbol": "PLTR",
-      "timestamp": "2026-05-16 08:20:53",
+      "timestamp": "2026-05-16 14:00:54",
       "overall_recommendation": "Neutral conditions for PLTR options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65200,7 +65200,7 @@
     },
     "COIN": {
       "symbol": "COIN",
-      "timestamp": "2026-05-16 08:20:54",
+      "timestamp": "2026-05-16 14:00:55",
       "overall_recommendation": "Neutral conditions for COIN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65273,7 +65273,7 @@
     },
     "NFLX": {
       "symbol": "NFLX",
-      "timestamp": "2026-05-16 08:20:55",
+      "timestamp": "2026-05-16 14:00:56",
       "overall_recommendation": "Neutral conditions for NFLX options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65346,7 +65346,7 @@
     },
     "BABA": {
       "symbol": "BABA",
-      "timestamp": "2026-05-16 08:20:56",
+      "timestamp": "2026-05-16 14:00:57",
       "overall_recommendation": "Neutral conditions for BABA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65419,7 +65419,7 @@
     },
     "BAC": {
       "symbol": "BAC",
-      "timestamp": "2026-05-16 08:20:57",
+      "timestamp": "2026-05-16 14:00:58",
       "overall_recommendation": "Neutral conditions for BAC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65492,7 +65492,7 @@
     },
     "F": {
       "symbol": "F",
-      "timestamp": "2026-05-16 08:20:59",
+      "timestamp": "2026-05-16 14:01:00",
       "overall_recommendation": "Neutral conditions for F options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65565,7 +65565,7 @@
     },
     "BA": {
       "symbol": "BA",
-      "timestamp": "2026-05-16 08:21:00",
+      "timestamp": "2026-05-16 14:01:01",
       "overall_recommendation": "Neutral conditions for BA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65638,7 +65638,7 @@
     },
     "INTC": {
       "symbol": "INTC",
-      "timestamp": "2026-05-16 08:21:01",
+      "timestamp": "2026-05-16 14:01:02",
       "overall_recommendation": "Neutral conditions for INTC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65711,7 +65711,7 @@
     },
     "GME": {
       "symbol": "GME",
-      "timestamp": "2026-05-16 08:21:02",
+      "timestamp": "2026-05-16 14:01:03",
       "overall_recommendation": "Neutral conditions for GME options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65784,7 +65784,7 @@
     },
     "DIS": {
       "symbol": "DIS",
-      "timestamp": "2026-05-16 08:21:03",
+      "timestamp": "2026-05-16 14:01:04",
       "overall_recommendation": "Neutral conditions for DIS options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65857,7 +65857,7 @@
     },
     "JPM": {
       "symbol": "JPM",
-      "timestamp": "2026-05-16 08:21:04",
+      "timestamp": "2026-05-16 14:01:05",
       "overall_recommendation": "Neutral conditions for JPM options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
