@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at_utc": "2026-05-16T14:52:29Z",
-  "data_hash": "765b293e7befd0160e20df2192cd85039f13ec5d826039aed8ac9c9a69cb71fb",
+  "generated_at_utc": "2026-05-16T23:08:48Z",
+  "data_hash": "c2634b2b897926b0f9b2b3013b92b666f9afde376d2e260028d4344d1d6f5dda",
   "last_updated": "2026-05-16",
   "data_source": "synthetic",
   "summary": {
@@ -64548,7 +64548,7 @@
   "timing": {
     "TSLA": {
       "symbol": "TSLA",
-      "timestamp": "2026-05-16 07:53:34",
+      "timestamp": "2026-05-16 16:09:44",
       "overall_recommendation": "Neutral conditions for TSLA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64621,7 +64621,7 @@
     },
     "NVDA": {
       "symbol": "NVDA",
-      "timestamp": "2026-05-16 07:53:36",
+      "timestamp": "2026-05-16 16:09:45",
       "overall_recommendation": "Neutral conditions for NVDA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64694,7 +64694,7 @@
     },
     "AAPL": {
       "symbol": "AAPL",
-      "timestamp": "2026-05-16 07:53:37",
+      "timestamp": "2026-05-16 16:09:47",
       "overall_recommendation": "Neutral conditions for AAPL options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64767,7 +64767,7 @@
     },
     "AMZN": {
       "symbol": "AMZN",
-      "timestamp": "2026-05-16 07:53:39",
+      "timestamp": "2026-05-16 16:09:49",
       "overall_recommendation": "Neutral conditions for AMZN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64840,7 +64840,7 @@
     },
     "AMD": {
       "symbol": "AMD",
-      "timestamp": "2026-05-16 07:53:41",
+      "timestamp": "2026-05-16 16:09:50",
       "overall_recommendation": "Neutral conditions for AMD options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64913,7 +64913,7 @@
     },
     "META": {
       "symbol": "META",
-      "timestamp": "2026-05-16 07:53:43",
+      "timestamp": "2026-05-16 16:09:52",
       "overall_recommendation": "Neutral conditions for META options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -64986,7 +64986,7 @@
     },
     "MSFT": {
       "symbol": "MSFT",
-      "timestamp": "2026-05-16 07:53:45",
+      "timestamp": "2026-05-16 16:09:53",
       "overall_recommendation": "Neutral conditions for MSFT options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65059,7 +65059,7 @@
     },
     "GOOG": {
       "symbol": "GOOG",
-      "timestamp": "2026-05-16 07:53:47",
+      "timestamp": "2026-05-16 16:09:55",
       "overall_recommendation": "Neutral conditions for GOOG options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65132,7 +65132,7 @@
     },
     "AMC": {
       "symbol": "AMC",
-      "timestamp": "2026-05-16 07:53:49",
+      "timestamp": "2026-05-16 16:09:57",
       "overall_recommendation": "Neutral conditions for AMC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65205,7 +65205,7 @@
     },
     "PLTR": {
       "symbol": "PLTR",
-      "timestamp": "2026-05-16 07:53:51",
+      "timestamp": "2026-05-16 16:09:58",
       "overall_recommendation": "Neutral conditions for PLTR options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65278,7 +65278,7 @@
     },
     "COIN": {
       "symbol": "COIN",
-      "timestamp": "2026-05-16 07:53:52",
+      "timestamp": "2026-05-16 16:10:00",
       "overall_recommendation": "Neutral conditions for COIN options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65351,7 +65351,7 @@
     },
     "NFLX": {
       "symbol": "NFLX",
-      "timestamp": "2026-05-16 07:53:54",
+      "timestamp": "2026-05-16 16:10:01",
       "overall_recommendation": "Neutral conditions for NFLX options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65424,7 +65424,7 @@
     },
     "BABA": {
       "symbol": "BABA",
-      "timestamp": "2026-05-16 07:53:56",
+      "timestamp": "2026-05-16 16:10:03",
       "overall_recommendation": "Neutral conditions for BABA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65497,7 +65497,7 @@
     },
     "BAC": {
       "symbol": "BAC",
-      "timestamp": "2026-05-16 07:53:59",
+      "timestamp": "2026-05-16 16:10:05",
       "overall_recommendation": "Neutral conditions for BAC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65570,7 +65570,7 @@
     },
     "F": {
       "symbol": "F",
-      "timestamp": "2026-05-16 07:54:00",
+      "timestamp": "2026-05-16 16:10:07",
       "overall_recommendation": "Neutral conditions for F options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65643,7 +65643,7 @@
     },
     "BA": {
       "symbol": "BA",
-      "timestamp": "2026-05-16 07:54:03",
+      "timestamp": "2026-05-16 16:10:09",
       "overall_recommendation": "Neutral conditions for BA options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65716,7 +65716,7 @@
     },
     "INTC": {
       "symbol": "INTC",
-      "timestamp": "2026-05-16 07:54:04",
+      "timestamp": "2026-05-16 16:10:12",
       "overall_recommendation": "Neutral conditions for INTC options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65789,7 +65789,7 @@
     },
     "GME": {
       "symbol": "GME",
-      "timestamp": "2026-05-16 07:54:06",
+      "timestamp": "2026-05-16 16:10:14",
       "overall_recommendation": "Neutral conditions for GME options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65862,7 +65862,7 @@
     },
     "DIS": {
       "symbol": "DIS",
-      "timestamp": "2026-05-16 07:54:08",
+      "timestamp": "2026-05-16 16:10:15",
       "overall_recommendation": "Neutral conditions for DIS options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -65935,7 +65935,7 @@
     },
     "JPM": {
       "symbol": "JPM",
-      "timestamp": "2026-05-16 07:54:10",
+      "timestamp": "2026-05-16 16:10:17",
       "overall_recommendation": "Neutral conditions for JPM options (score: 50/100). Next event: Non-Farm Payrolls in 20 days.",
       "intraday": {
         "best_time": "13:30-14:00 ET",
@@ -80080,9 +80080,27 @@
     "JPM"
   ],
   "ai_commentary": {
-    "summary": "2026\u5e745\u670816\u65e5\uff0c\u5168\u7403\u5e02\u5834\u60c5\u7dd2\u5448\u73fe[[pos:\u8b39\u614e\u6a02\u89c0]]\u8da8\u52e2\uff0c\u4f46\u677f\u584a\u5206\u5316\u660e\u986f\u3002",
-    "TSLA": "\u7576\u524d IV \u7d04 30-40%\uff0cP/C OI 0.80 [[pos:\u8f15\u5fae\u770b\u6f32]]\u3002\u963b\u529b\u4f4d$310\uff0c\u652f\u6301\u4f4d$200\uff0cMax Pain $285\u3002\u5efa\u8b70\u5728 [[key:280-285]] \u5340\u9593 Sell Put\u3002\u4e3b\u8981\u98a8\u96aa\u4f86\u81ea [[warn:\u4e2d\u570b\u5e02\u5834]] \u92b7\u552e\u6578\u64da\u53ca\u653f\u7b56\u8b8a\u5316\u3002",
-    "NVDA": "AI \u9700\u6c42\u7a69\u5065\uff0cIV Rank \u504f\u4f4e\uff0c\u9069\u5408 [[pos:\u8ce3\u65b9\u7b56\u7565]]\u3002"
+    "summary": "\u4eca\u65e5\u5e02\u5834\u60c5\u7dd2\u5448\u73fe [[neg:\u986f\u8457\u6ce2\u52d5]]\uff0c\u591a\u6578\u79d1\u6280\u80a1\u9762\u81e8\u56de\u8abf\u3002\u90e8\u5206\u6a19\u7684\u5982AMD\u548cINTC\u7684 [[warn:\u96b1\u542b\u6ce2\u52d5\u7387]] \u7570\u5e38\u9ad8\u4f01\uff0c\u70ba\u8ce3\u65b9\u7b56\u7565\u63d0\u4f9b\u4e86 [[pos:\u8c50\u539a\u6b0a\u5229\u91d1]] \u6a5f\u6703\u3002\u5efa\u8b70\u805a\u7126AMD (Sell Call @ [[key:$467.50]]) \u6216INTC (Sell Put @ [[key:$98.00]]) \u4ee5\u8cfa\u53d6\u9ad8\u6ce2\u52d5\u6ea2\u50f9\u3002\u5c0d\u65bc\u8ffd\u6c42 [[pos:\u7a69\u5065\u6536\u76ca]] \u7684\u6295\u8cc7\u8005\uff0c\u53ef\u8003\u616e\u5728MSFT (Sell Put @ [[key:$392.50]]) \u548cJPM (Sell Call @ [[key:$320.00]]) \u7b49\u4f4e\u6ce2\u52d5\u6a19\u7684\u9032\u884c\u5e03\u5c40\u3002\u6574\u9ad4\u5e02\u5834\u9810\u8a08\u4ecd\u5c07\u5728\u77ed\u671f\u5340\u9593\u5167\u9707\u76ea\u3002",
+    "TSLA": "TSLA \u73fe\u50f9 [[key:$422.24]]\uff0cMax Pain [[key:$435.00]]\u3002 \u4e3b\u8981\u652f\u6490\u4f4d [[key:$255.00]]\uff1b\u5efa\u8b70\u65bc [[key:$380.00]] \u5340\u9593 Sell Put\uff1b\u6216\u65bc [[key:$465.00]] Sell Call\u3002 [[warn:\u6b64\u70ba\u81ea\u52d5\u7522\u751f\u4e4b\u4fdd\u5b88\u6458\u8981]]\uff0c\u8acb\u53c3\u8003\u91cf\u5316\u5831\u544a\u5b8c\u6574\u6578\u64da\u3002",
+    "NVDA": "NVDA\u5e73\u5747\u96b1\u542b\u6ce2\u52d5\u7387\u905460.0%\uff0c\u80a1\u50f9\u4eca\u65e5\u4e0b\u8dcc\u3002\u5efa\u8b70\u5728 [[key:$202.50]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$247.50]] \u8ce3\u51fa\u770b\u6f32\u3002\u4e0a\u65b9 [[key:$250.00]] \u5b58\u5728\u986f\u8457\u963b\u529b\uff0c\u4e0b\u65b9 [[warn:\u8dcc\u7834115]] \u5247\u9700\u8b66\u60d5\u3002",
+    "AAPL": "AAPL \u73fe\u50f9 [[key:$300.23]]\uff0cMax Pain [[key:$295.00]]\u3002 \u4e3b\u8981\u652f\u6490\u4f4d [[key:$200.00]]\u3002 [[warn:\u6b64\u70ba\u81ea\u52d5\u7522\u751f\u4e4b\u4fdd\u5b88\u6458\u8981]]\uff0c\u8acb\u53c3\u8003\u91cf\u5316\u5831\u544a\u5b8c\u6574\u6578\u64da\u3002",
+    "AMZN": "AMZN\u5e73\u5747IV\u70ba29.1%\uff0c\u80a1\u50f9\u5c0f\u5e45\u4e0b\u8dcc\u3002\u5efa\u8b70\u8ce3\u51fa [[key:$250.00]] \u770b\u8dcc\u671f\u6b0a\uff0c\u6216\u8ce3\u51fa [[key:$280.00]] \u770b\u6f32\u671f\u6b0a\uff0c\u8a72\u50f9\u4f4d\u4ea6\u662fCall\u963b\u529b\u3002\u6f5b\u5728\u98a8\u96aa\u70ba\u77ed\u671f\u7a81\u7834 [[warn:260\u652f\u6490]]\u3002",
+    "AMD": "AMD \u73fe\u50f9 [[key:$424.10]]\uff0cMax Pain [[key:$410.00]]\u3002 \u4e3b\u8981\u652f\u6490\u4f4d [[key:$250.00]]\uff1b\u5efa\u8b70\u65bc [[key:$382.50]] \u5340\u9593 Sell Put\uff1b\u6216\u65bc [[key:$467.50]] Sell Call\u3002 [[warn:\u6b64\u70ba\u81ea\u52d5\u7522\u751f\u4e4b\u4fdd\u5b88\u6458\u8981]]\uff0c\u8acb\u53c3\u8003\u91cf\u5316\u5831\u544a\u5b8c\u6574\u6578\u64da\u3002",
+    "META": "META\u5e73\u5747IV\u70ba35.4%\uff0c\u80a1\u50f9\u5fae\u5e45\u4e0b\u8dcc\u3002\u5efa\u8b70\u8ce3\u51fa [[key:$560.00]] \u770b\u8dcc\uff0c\u6216\u8ce3\u51fa [[key:$675.00]] \u770b\u6f32\u3002\u4e3b\u8981\u98a8\u96aa\u4f86\u81ea\u65bc\u7a81\u7834 [[key:$650.00]] \u7684 [[warn:\u4e0a\u884c\u963b\u529b]]\u3002",
+    "MSFT": "MSFT\u5e73\u5747IV\u70ba31.4%\uff0c\u4eca\u65e5\u9304\u5f97\u986f\u8457\u6f32\u5e45\u3002\u5efa\u8b70\u5728 [[key:$392.50]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$460.00]] \u8ce3\u51fa\u770b\u6f32\u3002\u4e0b\u65b9 [[key:$375.00]] \u5177\u6709\u5f37\u52c1Put\u652f\u6490\uff0c\u70ba [[pos:\u7a69\u5065]] \u8ce3\u65b9\u7b56\u7565\u63d0\u4f9b\u7de9\u885d\u3002",
+    "GOOG": "GOOG\u5e73\u5747IV\u70ba34.0%\uff0c\u80a1\u50f9\u5c0f\u5e45\u56de\u843d\u3002\u5efa\u8b70\u8ce3\u51fa [[key:$355.00]] \u770b\u8dcc\uff0c\u6216\u5728 [[key:$435.00]] \u8ce3\u51fa\u770b\u6f32\u3002\u4e0a\u65b9 [[key:$390.00]] \u70ba\u4e3b\u8981Call\u963b\u529b\uff0c\u4e0b\u65b9 [[warn:\u8dcc\u7834370]] \u5247\u9700\u6ce8\u610f\u3002",
+    "AMC": "AMC \u73fe\u50f9 [[key:$1.28]]\uff0cMax Pain [[key:$1.50]]\u3002 \u4e3b\u8981\u652f\u6490\u4f4d [[key:$1.50]]\u3002 [[warn:\u6b64\u70ba\u81ea\u52d5\u7522\u751f\u4e4b\u4fdd\u5b88\u6458\u8981]]\uff0c\u8acb\u53c3\u8003\u91cf\u5316\u5831\u544a\u5b8c\u6574\u6578\u64da\u3002",
+    "PLTR": "PLTR \u73fe\u50f9 [[key:$133.99]]\uff0cMax Pain [[key:$133.00]]\u3002 \u4e3b\u8981\u652f\u6490\u4f4d [[key:$80.00]]\uff1b\u5efa\u8b70\u65bc [[key:$121.00]] \u5340\u9593 Sell Put\uff1b\u6216\u65bc [[key:$147.00]] Sell Call\u3002 [[warn:\u6b64\u70ba\u81ea\u52d5\u7522\u751f\u4e4b\u4fdd\u5b88\u6458\u8981]]\uff0c\u8acb\u53c3\u8003\u91cf\u5316\u5831\u544a\u5b8c\u6574\u6578\u64da\u3002",
+    "COIN": "COIN\u5e73\u5747IV\u9ad8\u905468.0%\uff0c\u4eca\u65e5 [[neg:\u5927\u8dcc]] \u8fd18%\u3002\u5efa\u8b70\u5728 [[key:$175.00]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$215.00]] \u8ce3\u51fa\u770b\u6f32\u3002\u5176 [[warn:\u6975\u9ad8\u6ce2\u52d5\u7387]] \u4f34\u96a8\u9ad8\u6b0a\u5229\u91d1\uff0c\u4f46\u98a8\u96aa\u4ea6\u9ad8\u3002",
+    "NFLX": "NFLX\u5e73\u5747IV\u70ba31.9%\uff0c\u80a1\u50f9\u57fa\u672c\u6301\u5e73\u3002\u5efa\u8b70\u5728 [[key:$83.00]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$93.00]] \u8ce3\u51fa\u770b\u6f32\u3002\u4e0a\u65b9 [[key:$100.00]] \u70ba\u986f\u8457Call\u963b\u529b\uff0c\u9700\u7559\u610f\u5e02\u5834\u5c0d\u6b64\u50f9\u4f4d\u7684\u614b\u5ea6\u3002",
+    "BABA": "BABA\u5e73\u5747IV\u70ba43.0%\uff0c\u4eca\u65e5 [[neg:\u5927\u5e45\u56de\u843d]]\u3002\u5efa\u8b70\u5728 [[key:$119.00]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$146.00]] \u8ce3\u51fa\u770b\u6f32\u3002Max Pain\u5728 [[key:$136.00]]\u3002\u4e0a\u65b9 [[warn:160\u70ba\u963b\u529b]]\uff0c\u9700\u8b39\u614e\u3002",
+    "BAC": "BAC\u80a1\u50f9\u4eca\u65e5\u6301\u5e73\uff0cMax Pain\u5728 [[key:$51.00]]\u3002\u9810\u671f\u7bc4\u570d $48.36 - $51.18\u3002Put\u652f\u6490\u5728 [[key:$48.50]]\uff0cCall\u963b\u529b\u5728 [[key:$52.00]]\u3002\u5e02\u5834\u5c0d\u5176\u50f9\u683c\u6ce2\u52d5\u7684\u9810\u671f\u8f03\u70ba [[pos:\u6eab\u548c]]\u3002",
+    "F": "F \u73fe\u50f9 [[key:$13.40]]\uff0cMax Pain [[key:$13.00]]\u3002 \u4e3b\u8981\u652f\u6490\u4f4d [[key:$11.00]]\u3002 [[warn:\u6b64\u70ba\u81ea\u52d5\u7522\u751f\u4e4b\u4fdd\u5b88\u6458\u8981]]\uff0c\u8acb\u53c3\u8003\u91cf\u5316\u5831\u544a\u5b8c\u6574\u6578\u64da\u3002",
+    "BA": "BA\u5e73\u5747IV\u70ba35.3%\uff0c\u4eca\u65e5\u4e0b\u8dcc\u3002\u5efa\u8b70\u5728 [[key:$200.00]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$245.00]] \u8ce3\u51fa\u770b\u6f32\u3002\u4e0b\u65b9 [[key:$195.00]] \u5b58\u5728\u986f\u8457Put\u652f\u6490\uff0c\u63d0\u4f9b\u4e00\u5b9a [[pos:\u4fdd\u8b77]]\u3002",
+    "INTC": "INTC\u5e73\u5747IV\u9ad8\u905480.8%\uff0c\u4eca\u65e5 [[neg:\u91cd\u632b]] \u8d856%\u3002\u5efa\u8b70\u5728 [[key:$98.00]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$120.00]] \u8ce3\u51fa\u770b\u6f32\u3002\u5176 [[warn:\u6975\u9ad8\u6ce2\u52d5\u6027]] \u662f\u4e3b\u8981\u98a8\u96aa\u4f86\u6e90\uff0c\u4e5f\u5e36\u4f86\u9ad8\u6b0a\u5229\u91d1\u3002",
+    "GME": "GME \u73fe\u50f9 [[key:$21.59]]\uff0cMax Pain [[key:$23.00]]\u3002 \u4e3b\u8981\u652f\u6490\u4f4d [[key:$23.00]]\u3002 [[warn:\u6b64\u70ba\u81ea\u52d5\u7522\u751f\u4e4b\u4fdd\u5b88\u6458\u8981]]\uff0c\u8acb\u53c3\u8003\u91cf\u5316\u5831\u544a\u5b8c\u6574\u6578\u64da\u3002",
+    "DIS": "DIS\u4eca\u65e5\u5c0f\u5e45\u4e0b\u8dcc\uff0cMax Pain\u5728 [[key:$104.00]]\u3002\u9810\u671f\u7bc4\u570d $100.12 - $105.32\u3002Put\u652f\u6490\u5728 [[key:$101.00]]\uff0cCall\u963b\u529b\u5728 [[key:$109.00]]\u3002\u6ce2\u52d5\u6027\u76f8\u5c0d [[pos:\u7a69\u5b9a]]\u3002",
+    "JPM": "JPM\u5e73\u5747IV\u70ba26.1%\uff0c\u80a1\u50f9\u5c0f\u5e45\u4e0b\u8dcc\u3002\u5efa\u8b70\u5728 [[key:$275.00]] \u8ce3\u51fa\u770b\u8dcc\uff0c\u6216\u5728 [[key:$320.00]] \u8ce3\u51fa\u770b\u6f32\u3002\u4e0a\u65b9 [[key:$340.00]] \u5b58\u5728\u986f\u8457Call\u963b\u529b\uff0c\u6574\u9ad4\u4ea4\u6613\u6a5f\u6703\u8f03\u70ba [[pos:\u5e73\u8861]]\u3002"
   },
-  "ai_commentary_generated_at": "2026-05-16T14:52:17"
+  "ai_commentary_generated_at": "2026-05-16T16:07:28"
 }
