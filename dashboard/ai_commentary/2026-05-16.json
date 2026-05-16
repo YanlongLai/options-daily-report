@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "generated_at": "2026-05-16T06:08:11",
+  "generated_at": "2026-05-16T14:32:50",
   "tickers": [
     "TSLA",
     "NVDA",
@@ -24,64 +24,64 @@
     "JPM"
   ],
   "zh": {
-    "summary": "全球市場在[[key:AI科技]]帶動下呈現[[pos:看漲情緒]]，但[[warn:通膨擔憂]]及債券拋售帶來潛在風險。許多科技巨頭如NVIDIA、AMD等仍保有[[key:高波動性]]，提供賣方策略的優渥溢價。建議首選[[pos:賣出認售]]策略，鎖定如MSFT和GOOG等具有[[pos:強勁基本面]]且下方支撐明確的標的。對於高波動股，謹慎運用賣出認購策略。整體而言，市場雖有變數，但仍可尋得[[pos:穩定收益]]機會。",
-    "TSLA": "TSLA IV中等。市場傾向區間震盪，[[warn:中國市場]]壓力是主要風險。建議Sell Call $310，利用上方阻力收取溢價，距離現價275約+12.7%。關鍵風險在於[[neg:銷售數據]]不如預期，或地緣政治引發波動。",
-    "NVDA": "NVDA具[[key:高IV]]，即將迎來財報，市場[[pos:極度看漲]]。建議Sell Put $195（假設現價$200），利用其強勁上升趨勢收取溢價。然而，[[warn:財報波動]]是最大風險，可能導致快速下跌。",
-    "AAPL": "AAPL IV中等，基本面[[pos:穩健]]。阻力位在$310（假設現價$285.66）。建議Sell Put $275，利用其下方的強勁支撐。主要風險來自[[warn:科技股監管]]政策或iPhone銷售放緩。",
-    "AMZN": "AMZN IV中等偏高，P/C OI比顯示[[pos:看漲情緒]]。Sell Put $260，此為Max Pain及最大認售OI支撐。需留意[[warn:AI治理]]相關的負面消息及[[key:法律糾紛]]。",
-    "AMD": "AMD具[[key:高IV]]，近期晶片股有回落跡象。P/C OI比近中性。Sell Call $460，鎖定上方阻力獲取高溢價，距離現價$424.10約+8.5%。[[warn:晶片股修正]]是主要風險。",
-    "META": "META IV中等，P/C OI比強烈[[pos:看漲]]。[[key:獲利創紀錄]]顯示基本面強勁。建議Sell Put $600，利用其強力支撐，距離現價$614.23約-2.3%。潛在風險為[[warn:廣告收入]]成長放緩。",
-    "MSFT": "MSFT IV中等，P/C OI比[[pos:強勁看漲]]。下方有$375的穩固支撐。建議Sell Put $400，安全邊際較高，距離現價$421.92約-5.2%。[[warn:巨頭拋售]]可能引發短期波動。",
-    "GOOG": "GOOG IV中等，P/C OI比偏[[pos:看漲]]。Max Pain在$370，形成強大支撐。建議Sell Put $370，安全且有穩定溢價，距離現價$393.32約-5.9%。需留意[[warn:廣告收入]]成長變化。",
-    "AMC": "AMC具[[key:極端高IV]]，[[key:迷因股]]性質，股價[[warn:極端波動]]。Max Pain $2。建議Sell Call $2.50，高溢價，但風險極高。現價$1.28，慎防[[warn:劇烈軋空]]。",
-    "PLTR": "PLTR具[[key:高IV]]，[[pos:財報亮眼]]並獲川普加持。P/C OI比偏看漲。建議Sell Put $130，利用市場看好情緒，距離現價$133.99約-3.0%。風險點在於[[warn:估值壓力]]。",
-    "COIN": "COIN具[[key:非常高IV]]，受惠[[pos:加密法案]]利好。Max Pain $200。建議Sell Call $220，鎖定上方波動獲取高溢價，距離現價$195.43約+12.6%。[[warn:估值過高]]和加密貨幣波動是主要風險。",
-    "NFLX": "NFLX IV中高，P/C OI比[[pos:強勁看漲]]。廣告業務增長[[key:前景樂觀]]。建議Sell Put $85，利用下方強勁支撐，距離現價$87.02約-2.3%。[[warn:串流競爭]]激烈是長期風險。",
-    "BABA": "BABA IV中高，P/C OI比[[pos:非常看漲]]，但新聞有[[neg:利潤下滑]]警示。Max Call OI $160形成阻力。建議Sell Call $150，謹慎應對，距離現價$132.59約+13.1%。[[warn:中國政策]]風險是關鍵。",
-    "BAC": "BAC IV偏低，P/C OI比中性。作為[[key:巴菲特愛股]]，股價相對[[pos:穩定]]。建議Sell Put $48，利用下方支撐，距離現價$49.77約-3.6%。[[warn:利率環境]]變化是主要風險。",
-    "F": "F IV中高，受[[pos:電池儲能]]利好，但AI漲勢[[neg:快速消退]]。P/C OI比強勁看漲。建議Sell Put $12，在Max Pain附近獲取溢價，距離現價$13.40約-10.4%。[[warn:電動車競爭]]激烈。",
-    "BA": "BA IV中等，受惠[[pos:中國大單]]利好。P/C OI比強勁看漲。Max Pain $230。建議Sell Put $220，利用看漲趨勢，距離現價$220.49約-0.2%。[[warn:供應鏈問題]]及品質控制仍是風險。",
-    "INTC": "INTC具[[key:非常高IV]]，P/C OI比[[neg:明顯看跌]]。近期晶片股回落。建議Sell Call $120，利用高溢價，距離現價$108.77約+10.3%。[[warn:晶片競爭]]激烈和[[key:市場份額]]流失是主要風險。",
-    "GME": "GME具[[key:極端高IV]]，[[key:迷因股]]特性，價格[[warn:劇烈波動]]。P/C OI比非常看漲。Max Pain $23，高於現價。建議Sell Put $20，博取反彈，距離現價$21.59約-7.4%。[[warn:情緒驅動]]，謹慎操作。",
-    "DIS": "DIS IV偏低，P/C OI比略偏看跌，但[[pos:財報強勁]]。Max Call OI $109為阻力。建議Sell Call $109，利用上方阻力，距離現價$102.72約+6.1%。[[warn:串流訂閱]]增長放緩是長期隱憂。",
-    "JPM": "JPM IV偏低，P/C OI比[[pos:強勁看漲]]。作為[[key:金融巨頭]]，市場地位穩固。建議Sell Put $290，在下方支撐位，距離現價$297.81約-2.6%。[[warn:利率環境]]和經濟前景變化是風險。"
+    "summary": "2026年5月16日，全球市場情緒呈現[[pos:謹慎樂觀]]趨勢，但板塊分化明顯。科技巨頭在[[pos:AI敘事]]驅動下仍維持高估值，多數P/C OI偏低，暗示[[pos:強勁買盤]]支撐。然而，部分市場對未來利率和[[warn:中國經濟]]持觀望態度，導致一些藍籌股IV處於中等水平。Meme股如AMC和GME則展現[[key:極高IV]]和[[warn:劇烈波動]]，賣方可利用高溢價。整體而言，最佳策略為對[[pos:基本面穩健]]且P/C OI低的標的 Sell Put（例如AMZN在260），同時對[[key:高IV波動]]標的 Sell Call（例如AMD在450以上），並嚴格[[key:管理風險]]。",
+    "TSLA": "當前IV約30-40%，P/C OI 0.80 [[pos:輕微看漲]]。阻力位$310，支持位$200，Max Pain $285。建議在[[key:280-285]]區間Sell Put。主要風險來自[[warn:中國市場]]銷售數據及政策變化。",
+    "NVDA": "由於AI驅動及即將到來的財報，IV維持[[key:極高水平]]。市場普遍[[pos:看漲]]。建議逢高在[[key:200-210]]區間Sell Put，捕捉溢價。最大風險為[[warn:財報]]不及預期。",
+    "AAPL": "IV處於[[key:中等水平]]，分析師普遍[[pos:看漲]]。市場流動性佳，建議在[[key:210-215]]支撐位附近Sell Put。需留意來自[[warn:中國市場]]的競爭和潛在的監管壓力。",
+    "AMZN": "IV約30-35%，P/C OI 0.63 [[pos:看漲]]。支持位$260，阻力位$280，Max Pain $260。建議在[[key:260或255]] Sell Put。需注意[[warn:反壟斷]]調查進展。",
+    "AMD": "IV在60%以上，為[[key:高IV]]。P/C OI 0.97，阻力在$400。考慮在[[key:440或450]] Sell Call，利用高溢價。風險點為[[warn:AI晶片]]需求變化及市場競爭。",
+    "META": "IV約30-35%，P/C OI 0.55 [[pos:看漲]]。支持位$600，阻力位$650，Max Pain $610。建議在[[key:600或590]] Sell Put，安全墊較高。主要風險點是[[warn:全球監管]]政策趨嚴。",
+    "MSFT": "IV約30-40%，P/C OI 0.51 [[pos:強勁看漲]]。支持位$375，阻力位$470，Max Pain $408。建議在[[key:400或410]] Sell Put，具備較大安全邊際。風險來自[[warn:雲端服務]]市場競爭。",
+    "GOOG": "IV約35%，P/C OI 0.78 [[pos:看漲]]。支持位$370，阻力位$390，Max Pain $370。建議在[[key:370或380]] Sell Put。需關注[[warn:廣告收入]]增長放緩及AI競爭。",
+    "AMC": "IV極高，介於90%-270%之間。P/C OI 0.08 [[pos:極度看漲]]。阻力位$2，Max Pain $2。利用其[[key:極端IV]]在[[key:2.5或3]]以上Sell Call。[[warn:軋空風險]]和極端波動需嚴格管理。",
+    "PLTR": "IV約50%，P/C OI 0.79 [[pos:看漲]]。支持位$80，阻力位$140，Max Pain $134。建議在[[key:130或125]] Sell Put，接近Max Pain。潛在風險是[[warn:政府合約]]變化和估值過高。",
+    "COIN": "IV高達70%-140%，P/C OI 0.53 [[pos:看漲]]。阻力位$222，Max Pain $200。建議利用[[key:高IV]]在[[key:220或225]]以上Sell Call。最大風險來自[[warn:加密貨幣]]市場的劇烈波動。",
+    "NFLX": "IV約30-40%，P/C OI 0.49 [[pos:看漲]]。支持位$88，阻力位$100，Max Pain $90。建議在[[key:85或80]] Sell Put，安全墊相對足夠。需留意[[warn:流媒體]]市場競爭加劇。",
+    "BABA": "IV約40-60%，P/C OI 0.26 [[pos:極度看漲]]。阻力位$160，Max Pain $136。建議在[[key:125或130]] Sell Put。需謹慎應對[[warn:中國經濟]]和政策不確定性。",
+    "BAC": "IV約25-30%，P/C OI 0.97 [[key:中性]]。支持位$48，阻力位$52，Max Pain $51。建議在[[key:48或47.5]] Sell Put，捕捉小幅回調機會。風險點是[[warn:利率政策]]變化。",
+    "F": "IV約40-60%，P/C OI 0.32 [[pos:看漲]]。支持位$11，阻力位$15，Max Pain $12。建議在[[key:12或11.5]] Sell Put，利用高P/C OI。需注意[[warn:電動車]]市場的競爭壓力。",
+    "BA": "IV約35-50%，P/C OI 0.40 [[pos:看漲]]。支持位$195，阻力位$240，Max Pain $230。建議在[[key:215或210]] Sell Put，維持看漲趨勢。關注[[warn:飛機交付]]和品質問題。",
+    "INTC": "IV極高，在80%-150%之間。P/C OI 1.55 [[neg:看跌對沖]]。阻力位$130，Max Pain $109。利用[[key:高IV]]在[[key:120或125]]以上Sell Call。警惕[[warn:晶片行業]]競爭和市場份額壓力。",
+    "GME": "IV極高，在40%-110%之間。P/C OI 0.24 [[pos:極度看漲]]。阻力位$25，Max Pain $23。建議利用[[key:超高IV]]在[[key:25或27]]以上Sell Call。[[warn:Meme股]]特性帶來巨幅波動風險。",
+    "DIS": "IV約25-30%，P/C OI 1.06 [[key:中性]]。支持位$101，阻力位$109，Max Pain $105。建議在[[key:105或106]] Sell Call。主要風險來自[[warn:流媒體]]用戶增長放緩。",
+    "JPM": "IV約25-40%，P/C OI 0.44 [[pos:看漲]]。支持位$285，阻力位$340，Max Pain $305。建議在[[key:290或285]] Sell Put，利用其穩定性。[[warn:宏觀經濟]]下行可能帶來信用風險。"
   },
   "en": {
-    "summary": "Overall market sentiment today, May 16, 2026, appears [[key:mixed but generally resilient]], driven by AI momentum in a tech-led market, yet tempered by [[warn:inflation fears]] and rising bond yields. Nvidia's market cap surpassing Germany highlights the AI boom. However, sectors like autos face [[warn:China market uncertainties]] or volatility. Key Implied Volatility (IV) levels range from moderate 20-40% for established giants, to [[key:extremely high IV (>100%)]] for meme stocks like AMC and GME, presenting significant premium opportunities. Top trade setups include [[pos:Sell Puts on AMZN ($260)]] due to its strong bullish P/C OI, and [[pos:Sell Calls on AMC ($2.50+)]] to exploit extremely high IV. [[neg:Chip stocks retreated]] overall, indicating caution.",
-    "TSLA": "Current IV is moderate (~23-33%). Given the resistance at [[key:$310]] and recent [[warn:China sales decline]], a Sell Call strategy is preferred. Target strikes slightly above $310. Risk: continued pressure in the Chinese market.",
-    "NVDA": "IV is moderate (~20-33%). With strong analyst sentiment and AI momentum, a Sell Put strategy is plausible, targeting support around [[key:$200]]. However, [[warn:earnings next week]] pose a significant risk of volatility.",
-    "AAPL": "IV is moderate (~23-33%). With price near max pain and a P/C OI of 0.80, a range-bound strategy is indicated. Consider selling a Call spread above [[key:$310]] or a Put spread below $275. Risk: [[warn:General tech market volatility]].",
-    "AMZN": "IV is moderate (~28-36%). The [[key:bullish P/C OI of 0.63]] and [[pos:support at $260]] suggest a Sell Put strategy. Target strikes around $260. Risk: potential impact from [[warn:AI governance backlash]] or consumer lawsuits.",
-    "AMD": "[[key:High IV (67-71%)]] offers attractive premiums. Despite neutral P/C OI, the recent [[neg:chip stock retreat]] and price above max pain suggest selling Calls above [[key:$460]]. Risk: [[warn:sector-wide volatility]].",
-    "META": "IV is moderate (~31-36%). The [[key:bullish P/C OI (0.55)]] and [[pos:strong Q1 earnings]] support a Sell Put strategy. Target strikes near [[key:$600]] support. Risk: potential [[warn:increased regulatory scrutiny]] on social media platforms.",
-    "MSFT": "IV is moderate (~30-39%). The [[key:very bullish P/C OI (0.51)]] and a \"Strong Buy\" consensus make Sell Puts attractive. Aim for strikes around [[key:$400]] to capitalize on underlying strength. Risk: potential [[warn:wider tech market pullback]].",
-    "GOOG": "IV is moderate (~34-35%). With a strong \"Buy\" consensus and [[pos:positive partnership news]], a Sell Put strategy targeting the [[key:$370]] support and max pain level is favored. Risk: potential [[warn:antitrust scrutiny]].",
-    "AMC": "[[key:Extremely high IV (92-269%)]] makes this ideal for selling. Given the price is significantly below the [[key:$2 resistance/max pain]], a Sell Call strategy at higher strikes (e.g., $2.50-$3.00) is attractive. Risk: [[warn:unpredictable meme stock surges]].",
-    "PLTR": "IV is moderate to high (~47-52%). With price at [[key:max pain ($134)]] and recent upgraded outlook, an Iron Condor strategy could be effective. Selling Calls above $140 and Puts around $120. Risk: [[warn:post-earnings fluctuations]] and ESG concerns.",
-    "COIN": "[[key:High IV (72-141%)]] offers attractive premiums for selling. The [[key:bullish P/C OI (0.53)]] suggests a Sell Put strategy, targeting strikes around [[key:$180-$190]] below max pain. Risk: [[warn:stretched valuation]] and crypto price swings.",
-    "NFLX": "IV is moderate (~29-43%). The [[key:very bullish P/C OI (0.49)]] and [[pos:strong ad business growth]] favor a Sell Put strategy. Target strikes near [[key:$87-$88]] (Put OI/Max Pain). Risk: [[warn:AI-driven valuation questions]] and competition.",
-    "BABA": "IV is moderate to high (~40-58%). Despite an [[key:extremely bullish P/C OI (0.26)]], [[neg:Q4 profit decline]] and analyst trimming [[warn:pose a downside risk]]. Consider a cautious Sell Call strategy above [[key:$140]].",
-    "BAC": "IV is moderate (~25-38%). With a neutral P/C OI and [[pos:positive tailwinds]] for banks from rising yields, a Sell Put strategy at the [[key:$48 support]] is suitable. Risk: [[warn:economic slowdown]] impacting loan demand.",
-    "F": "[[key:High IV (41-60%)]] offers good premium. Despite recent [[warn:extreme volatility]], the very [[key:bullish P/C OI (0.32)]] and battery storage potential favor a Sell Put strategy around [[key:$12-$13]]. Risk: quick shifts in market sentiment.",
-    "BA": "IV is moderate to high (~36-53%). [[pos:Positive news]] regarding [[key:China aircraft orders]] and a [[key:very bullish P/C OI (0.40)]] make Sell Puts attractive. Target strikes around [[key:$210-$220]]. Risk: potential [[warn:geopolitical shifts]] impacting trade.",
-    "INTC": "[[key:Very high IV (83-158%)]] offers substantial premium. The [[key:bearish P/C OI (1.55)]] and recent [[neg:chip sector retreat]] favor a Sell Call strategy around [[key:$120-$125]]. Risk: [[warn:significant bearish sentiment]].",
-    "GME": "[[key:Very high IV (43-110%)]] makes selling strategies lucrative. Despite the [[key:extremely bullish P/C OI (0.24)]], the price is below [[key:$23 max pain]]. A Sell Call strategy at strikes above [[key:$25]] is recommended. Risk: [[warn:unpredictable meme stock surges]].",
-    "DIS": "IV is moderate (~25-29%). With [[pos:strong Q2 results]], a Sell Put strategy targeting [[key:$101 support]] could be suitable, despite a slightly neutral P/C OI (1.06). Risk: ongoing [[warn:legal battles]] and streaming competition.",
-    "JPM": "IV is moderate (~25-40%). The [[key:very bullish P/C OI (0.44)]] and general [[pos:tailwinds for banks]] suggest a Sell Put strategy. Target strikes around [[key:$285-$290]]. Risk: potential [[warn:global bond market turbulence]]."
+    "summary": "Overall market sentiment is largely [[pos:bullish in tech]], fueled by AI narratives, yet selective volatility exists. [[key:Implied Volatility (IV)]] is moderate to high across many names, creating attractive premiums for selling strategies. We see a split focus: continued strength in AI leaders like Amazon and Microsoft, alongside cautious positions in value and meme stocks. Top trade setups include a [[key:Sell Put]] on AMZN around $260, leveraging strong support and bullish sentiment. Conversely, a [[key:Sell Call]] on AMD at $400-$405 appears promising given high IV and price currently above resistance, anticipating a pullback. [[warn:Geopolitical risks]] and [[warn:upcoming earnings]] are key factors.",
+    "TSLA": "Current IV is [[key:moderate]]. With price near resistance and a 0.80 P/C OI ratio, a [[key:Sell Call]] strategy above $310 is viable. Key strike level is $310-$315. Risk factor: [[warn:Trump's China trip]] impact on sentiment.",
+    "NVDA": "Quantitative options data was not provided for NVDA. However, it shows [[pos:strong analyst consensus]] and is a [[key:dominant AI play]]. Upcoming earnings (May 20) will drive volatility. Risk factor: [[warn:earnings volatility]].",
+    "AAPL": "Quantitative options data was not provided for AAPL. The stock maintains a [[pos:bullish analyst outlook]]. An [[warn:antitrust probe for Arm Holdings]] could be a headwind. A [[key:Sell Put]] strategy would assume continued stability.",
+    "AMZN": "AMZN's IV is [[key:moderate]]. The P/C OI ratio of 0.63 indicates [[pos:bullish sentiment]]. Max pain and support are at $260. A [[key:Sell Put]] strategy at [[key:$260]] or slightly below is attractive. Risk: [[warn:Lawsuit regarding tariff costs]].",
+    "AMD": "AMD exhibits [[key:high IV]]. Price is currently above the $400 max call OI and resistance, suggesting a potential pullback. A [[key:Sell Call]] strategy at [[key:$400-$405]] is favored due to high premium. Risk: [[warn:AI sector volatility]].",
+    "META": "META's IV is [[key:moderate]]. With a 0.55 P/C OI ratio indicating [[pos:bullish sentiment]], selling a put below support seems prudent. A [[key:Sell Put]] strategy at [[key:$600]] or slightly below is optimal. Risk: [[warn:AI job destruction concerns]].",
+    "MSFT": "MSFT has [[key:moderate IV]] and a 0.51 P/C OI ratio, signaling [[pos:strong bullish sentiment]]. Max pain is at $408. A [[key:Sell Put]] strategy at [[key:$405-$410]] is advisable. Risk factor: [[warn:Bill Gates selling all shares]].",
+    "GOOG": "GOOG's IV is [[key:moderate]]. Resistance is at $390, very close to current price. Max pain is at $370. A [[key:Sell Call]] strategy near [[key:$390]] might be considered if expecting a reversion. Risk: [[warn:Ackman's recent exit]].",
+    "AMC": "AMC shows [[key:extremely high IV]] and a 0.08 P/C OI ratio, pointing to [[pos:extreme bullish sentiment]]. Max pain and strong support/resistance are at $2.00. A [[key:Sell Put]] at [[key:$1.00]] or lower. Risk factor: [[warn:extreme meme volatility]].",
+    "PLTR": "PLTR has [[key:high IV]]. Price is near max pain ($134) and resistance ($140). A [[key:Sell Call]] strategy at [[key:$140-$145]] can capitalize on the high premium if resistance holds. Risk: [[warn:high volatility]].",
+    "COIN": "COIN features [[key:very high IV]] and a 0.53 P/C OI ratio, indicating [[pos:strong bullish sentiment]]. Max pain is $200. A [[key:Sell Put]] strategy around [[key:$180-$190]] is suitable. Risk: [[warn:expensive valuation]].",
+    "NFLX": "NFLX has [[key:moderate IV]] and a 0.49 P/C OI ratio, suggesting [[pos:strong bullish sentiment]]. Price is below support ($88) and max pain ($90). A [[key:Sell Put]] at [[key:$85-$87]] looks appealing. Risk: [[warn:recent stock whipsaw]].",
+    "BABA": "BABA's IV is [[key:moderate]]. An extremely bullish 0.26 P/C OI ratio suggests strong upside. Price is below support ($140) and max pain ($136). A [[key:Sell Put]] at [[key:$130-$135]] is recommended. Risk: [[warn:geopolitical tensions (China)]].",
+    "BAC": "BAC has [[key:low IV]], making option selling less attractive. Max pain is at $51, with support at $48. A [[key:Sell Put]] at [[key:$48-$49]] could be considered given the tight range. Risk: [[warn:financial sector sensitivity]].",
+    "F": "Ford's IV is [[key:moderate]]. With a 0.32 P/C OI ratio indicating [[pos:strong bullish sentiment]], and max pain at $12, a [[key:Sell Put]] at [[key:$12.50-$13]] is suitable. Risk: [[warn:AI-driven rally reversal]].",
+    "BA": "BA has [[key:moderate IV]] and a 0.40 P/C OI ratio, showing [[pos:strong bullish sentiment]]. Max pain is $230. A [[key:Sell Put]] strategy at [[key:$215-$220]] seems favorable given bullish news. Risk: [[warn:geopolitical trade dynamics]].",
+    "INTC": "INTC shows [[key:very high IV]] and a 1.55 P/C OI ratio, suggesting [[neg:bearish hedging]]. Max pain is near current price ($109). A [[key:Sell Call]] at [[key:$115-$120]] is suitable. Risk: [[warn:market share loss to AMD]].",
+    "GME": "GME exhibits [[key:high IV]] and an extremely bullish 0.24 P/C OI ratio. Max pain and strong support are at $23, above current price. A [[key:Sell Put]] at [[key:$20-$21]] can capture premium. Risk: [[warn:meme stock volatility]].",
+    "DIS": "DIS has [[key:low IV]], reducing premium appeal. The P/C OI ratio of 1.06 suggests a slightly bearish bias, with max pain at $105. A [[key:Sell Put]] at [[key:$100-$101]] is advised. Risk: [[warn:international legal disputes]].",
+    "JPM": "JPM has [[key:low IV]]. Max pain is $305, with strong support at $285. A 0.44 P/C OI ratio indicates [[pos:strong bullish sentiment]]. A [[key:Sell Put]] at [[key:$290-$295]] is suitable. Risk: [[warn:weak US growth outlook]]."
   },
   "_grounding": {
     "zh": {
-      "checked": 0,
-      "failed_tokens": [],
-      "ok": true
-    },
-    "en": {
-      "checked": 7,
+      "checked": 5,
       "failed_tokens": [
         "2026",
-        "100%"
+        "450"
       ],
       "ok": false
+    },
+    "en": {
+      "checked": 3,
+      "failed_tokens": [],
+      "ok": true
     }
   }
 }
