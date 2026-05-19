@@ -1,7 +1,7 @@
 {
-  "hash": "2ad301c3864fcd6e270ea5ca3c977813fa6b0c25767d93a83abe6b3f84f63338",
+  "hash": "0fb85858248ba89516ca9d6febd1c7fc7f80d1a10fc33601f57dcc402c9ea2ac",
   "schema_version": "1.0.0",
-  "generated_at_utc": "2026-05-19T02:50:29Z",
-  "data_url_v2": "dashboard/data-2ad301c3864f.json",
+  "generated_at_utc": "2026-05-19T04:20:17Z",
+  "data_url_v2": "dashboard/data-0fb85858248b.json",
   "data_url": "https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/dashboard/data.json"
 }
