@@ -1,6 +1,6 @@
 {
   "date": "2026-05-19",
-  "generated_at": "2026-05-19T12:08:48",
+  "generated_at": "2026-05-19T19:56:42",
   "tickers": [
     "TSLA",
     "NVDA",
@@ -24,61 +24,15 @@
     "JPM"
   ],
   "zh": {
-    "summary": "整體市場情緒在科技股中[[pos:偏向樂觀]]，但NVDA即將發布財報，部分個股IV [[warn:波動較大]]。今日多數標的Call OI佔比較高，顯示看漲預期。AMD與GOOG的阻力點低於現價，需[[warn:特別留意]]。建議關注AMZN或PLTR，其支撐與阻力區間[[pos:相對清晰]]，可考慮Sell Put/Call鐵蝶或跨式策略以獲取時間價值。高IV的COIN或GME可提供[[pos:豐厚溢價]]，但風險相對更高。",
-    "TSLA": "TSLA 現價 [[key:$409.99]]，Max Pain [[key:$417.50]]。 主要支撐位 [[key:$200.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "NVDA": "NVDA目前交易於$222.32，下方有[[key:$190.00]]的Put支撐。上方Call阻力為[[key:$230.00]]，建議可在此區間外尋找Sell Put或Sell Call機會，利用[[pos:清晰區間]]。",
-    "AAPL": "AAPL現價$297.84，Max Pain在[[key:$295.00]]。Put支撐為[[key:$280.00]]，Call阻力在[[key:$300.00]]。可考慮Sell Put在$280.00下方，Sell Call在$300.00上方，利用[[pos:近端阻力]]獲取權利金，但需注意[[warn:阻力點近]]。",
-    "AMZN": "AMZN現價$264.86，接近[[key:$265.00]]的Max Pain。Put支撐為[[key:$245.00]]，Call阻力為[[key:$295.00]]。Sell Put可在$245.00以下，Sell Call則在$295.00以上，此為[[pos:較寬區間]]策略。",
-    "AMD": "AMD 現價 [[key:$420.99]]，Max Pain [[key:$435.00]]。 主要支撐位 [[key:$255.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "META": "META現價$611.21，Max Pain接近[[key:$607.50]]。下方Put支撐為[[key:$570.00]]，上方Call阻力在[[key:$670.00]]。可考慮Sell Put在$570.00下方，Sell Call則在$670.00上方，運用[[pos:明確區間]]操作。",
-    "MSFT": "MSFT現價$423.54，Max Pain在[[key:$422.50]]附近。Put支撐位於[[key:$410.00]]，Call阻力在[[key:$460.00]]。建議Sell Put在$410.00下方，Sell Call在$460.00上方，利用[[pos:良好支撐]]與阻力邊緣。",
-    "GOOG": "GOOG現價$393.11，Max Pain在[[key:$400.00]]。主要Call阻力在[[key:$390.00]]，[[neg:低於現價]]。Put支撐位於[[key:$370.00]]。考慮Sell Put在$370.00以下，Sell Call需[[warn:特別謹慎]]，選擇高於$393.11的執行價。",
-    "AMC": "AMC 現價 [[key:$1.36]]，Max Pain [[key:$1.50]]。 主要支撐位 [[key:$1.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "PLTR": "PLTR現價$135.14，Max Pain位於[[key:$133.00]]。Put支撐為[[key:$125.00]]，Call阻力在[[key:$150.00]]。建議Sell Put在$125.00以下，Sell Call在$150.00以上，利用[[pos:明確區間]]進行操作。",
-    "COIN": "COIN 現價 [[key:$189.44]]，Max Pain [[key:$192.50]]。 主要支撐位 [[key:$115.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "NFLX": "NFLX現價$89.65，Max Pain在[[key:$89.00]]。Put支撐緊鄰現價在[[key:$89.00]]，Call阻力為[[key:$100.00]]。建議Sell Put在$89.00下方，Sell Call在$100.00上方，注意[[warn:近端支撐]]。",
-    "BABA": "BABA現價$133.26，Max Pain為[[key:$135.00]]。Put支撐在[[key:$125.00]]，Call阻力在[[key:$145.00]]。可考慮Sell Put在$125.00以下，Sell Call在$145.00以上，運用[[pos:相對穩定]]的區間。",
-    "BAC": "BAC現價$50.69，Max Pain接近[[key:$51.00]]。Put支撐為[[key:$47.00]]，Call阻力在[[key:$52.00]]。Sell Put可在$47.00下方，Sell Call在$52.00上方，注意[[warn:窄幅震盪]]風險。",
-    "F": "F 現價 [[key:$13.03]]，Max Pain [[key:$13.00]]。 主要支撐位 [[key:$11.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "BA": "BA現價$220.61，Max Pain為[[key:$225.00]]。Put支撐在[[key:$205.00]]，Call阻力為[[key:$240.00]]。建議Sell Put在$205.00下方，Sell Call在$240.00上方，把握[[pos:市場區間]]。",
-    "INTC": "INTC 現價 [[key:$108.17]]，Max Pain [[key:$109.00]]。 主要支撐位 [[key:$70.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "GME": "GME 現價 [[key:$21.91]]，Max Pain [[key:$22.50]]。 主要支撐位 [[key:$21.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "DIS": "DIS現價$103.91，Max Pain與現價接近[[key:$104.00]]。Put支撐為[[key:$95.00]]，Call阻力為[[key:$106.00]]。可Sell Put在$95.00下方，Sell Call在$106.00上方，此區間[[pos:相對明確]]。",
-    "JPM": "JPM現價$300.73，Max Pain接近[[key:$300.00]]。Put支撐為[[key:$285.00]]，Call阻力在[[key:$340.00]]。建議Sell Put在$285.00以下，Sell Call在$340.00以上，利用[[pos:穩健區間]]策略。"
+    "summary": "> ⚠️ AI 市場解讀暫時無法使用（Gemini API error: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.）\n> 請設定 `GEMINI_API_KEY` 環境變數以啟用此功能。\n> 量化分析報告仍然完整可用。",
+    "TSLA": "",
+    "NVDA": "",
+    "AAPL": ""
   },
   "en": {
-    "summary": "Overall market sentiment is mixed, characterized by ongoing interest in AI-driven growth alongside concerns about inflation and regulatory pressures. Implied volatility levels are [[key:moderate to elevated]] across many major tech and growth stocks, presenting attractive opportunities for premium selling strategies. The market continues to absorb [[neg:various macro headlines]]. Top setups include selling puts below strong support in names like [[pos:MSFT and BABA]], leveraging their stability. Conversely, selling calls in names testing resistance like [[pos:NVDA or GOOG]] could be appealing, but beware of [[warn:impending catalysts]].",
-    "TSLA": "TSLA trades at [[key:$409.99]], Max Pain [[key:$417.50]]. Key support at [[key:$200.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "NVDA": "NVDA is at $222.32, [[neg:down 1.33%]]. Max Pain is at [[key:$197.50]], with strong call resistance at [[key:$230.00]]. A Sell Call strategy above the $230.00 strike might be considered, expecting a pullback or consolidation around resistance. [[warn:Upcoming earnings]] are a significant volatility driver.",
-    "AAPL": "AAPL is at $297.84, [[neg:down 0.80%]]. Max Pain is at [[key:$295.00]], with resistance at [[key:$300.00]]. A Sell Call strategy above $300.00 could capitalize on this resistance level. The company faces [[warn:regulatory scrutiny and lawsuits]].",
-    "AMZN": "AMZN trades at [[key:$264.86]], Max Pain [[key:$265.00]]. Key support at [[key:$245.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "AMD": "AMD is at $420.99, [[neg:down 0.73%]], above its call resistance of [[key:$400.00]]. Max Pain is at [[key:$435.00]]. A Sell Put strategy below the $400.00 strike could be considered, given the [[pos:positive CPU market outlook]]. [[warn:High competition]] in the chip sector remains a risk.",
-    "META": "META trades at [[key:$611.21]], Max Pain [[key:$607.50]]. Key support at [[key:$570.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "MSFT": "MSFT trades at [[key:$423.54]], Max Pain [[key:$422.50]]. Key support at [[key:$410.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "GOOG": "GOOG is at $393.11, [[neg:down 0.05%]], just above its call resistance of [[key:$390.00]]. Max Pain is at [[key:$400.00]]. A Sell Call strategy above $390.00 could be considered, but be mindful of the [[warn:upcoming AI cloud venture]].",
-    "AMC": "AMC trades at [[key:$1.36]], Max Pain [[key:$1.50]]. Key support at [[key:$1.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "PLTR": "PLTR is at $135.14, [[pos:up 0.86%]]. Max Pain is at [[key:$133.00]], with call resistance at [[key:$150.00]]. A Sell Put strategy near or below the [[key:$125.00 support]] could be appealing given the [[pos:positive market sentiment]] around AI. [[warn:Trade secret concerns]] are a factor.",
-    "COIN": "COIN trades at [[key:$189.44]], Max Pain [[key:$192.50]]. Key support at [[key:$115.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "NFLX": "NFLX is trading at $89.65, [[pos:up 3.02%]], close to its Max Pain of [[key:$89.00]]. Put support is at [[key:$89.00]] and call resistance at $100.00. A Sell Call above the $100.00 strike or a tight Sell Put near $89.00 could be viable, considering [[pos:improved sentiment]].",
-    "BABA": "BABA trades at [[key:$133.26]], Max Pain [[key:$135.00]]. Key support at [[key:$125.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "BAC": "BAC is at $50.69, [[pos:up 1.85%]], very near Max Pain of [[key:$51.00]]. Call resistance is at [[key:$52.00]]. A Sell Call above $52.00 or a Sell Put around $47.00-$50.00 could be suitable given [[pos:renewed analyst coverage]]. [[warn:Interest rate sensitivity]] is a factor.",
-    "F": "F trades at [[key:$13.03]], Max Pain [[key:$13.00]]. Key support at [[key:$11.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "BA": "BA trades at [[key:$220.61]], Max Pain [[key:$225.00]]. Key support at [[key:$205.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "INTC": "INTC trades at [[key:$108.17]], Max Pain [[key:$109.00]]. Key support at [[key:$70.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "GME": "GME trades at [[key:$21.91]], Max Pain [[key:$22.50]]. Key support at [[key:$21.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "DIS": "DIS trades at [[key:$103.91]], Max Pain [[key:$104.00]]. Key support at [[key:$95.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "JPM": "JPM trades at [[key:$300.73]], Max Pain [[key:$300.00]]. Key support at [[key:$285.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data."
-  },
-  "_grounding": {
-    "zh": {
-      "checked": 0,
-      "failed_tokens": [],
-      "ok": true
-    },
-    "en": {
-      "checked": 0,
-      "failed_tokens": [],
-      "ok": true
-    }
+    "summary": "> ⚠️ AI 市場解讀暫時無法使用（Gemini API error: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.）\n> 請設定 `GEMINI_API_KEY` 環境變數以啟用此功能。\n> 量化分析報告仍然完整可用。",
+    "TSLA": "",
+    "NVDA": "",
+    "AAPL": ""
   }
 }

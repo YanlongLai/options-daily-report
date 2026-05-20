@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-19",
-  "generated_at": "2026-05-19T19:56:42",
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T22:13:16",
   "tickers": [
     "TSLA",
     "NVDA",
@@ -27,12 +27,46 @@
     "summary": "> ⚠️ AI 市場解讀暫時無法使用（Gemini API error: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.）\n> 請設定 `GEMINI_API_KEY` 環境變數以啟用此功能。\n> 量化分析報告仍然完整可用。",
     "TSLA": "",
     "NVDA": "",
-    "AAPL": ""
+    "AAPL": "",
+    "AMZN": "",
+    "AMD": "",
+    "META": "",
+    "MSFT": "",
+    "GOOG": "",
+    "AMC": "",
+    "PLTR": "",
+    "COIN": "",
+    "NFLX": "",
+    "BABA": "",
+    "BAC": "",
+    "F": "",
+    "BA": "",
+    "INTC": "",
+    "GME": "",
+    "DIS": "",
+    "JPM": ""
   },
   "en": {
     "summary": "> ⚠️ AI 市場解讀暫時無法使用（Gemini API error: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.）\n> 請設定 `GEMINI_API_KEY` 環境變數以啟用此功能。\n> 量化分析報告仍然完整可用。",
     "TSLA": "",
     "NVDA": "",
-    "AAPL": ""
+    "AAPL": "",
+    "AMZN": "",
+    "AMD": "",
+    "META": "",
+    "MSFT": "",
+    "GOOG": "",
+    "AMC": "",
+    "PLTR": "",
+    "COIN": "",
+    "NFLX": "",
+    "BABA": "",
+    "BAC": "",
+    "F": "",
+    "BA": "",
+    "INTC": "",
+    "GME": "",
+    "DIS": "",
+    "JPM": ""
   }
 }
