@@ -2,9 +2,9 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/schema/v1.json",
   "title": "Options Core Report Envelope v1",
-  "description": "Envelope emitted as report.json by options-core. The 'data' property contains the same payload as dashboard/data.json.",
+  "description": "Lean pointer-style envelope emitted as report.json by options-core. Carries metadata + (eventually) structured insights[]. Full dashboard payload lives at dashboard/data.json (legacy) or the content-addressed dashboard/data-{hash}.json (preferred for caching).",
   "type": "object",
-  "required": ["schema_version", "generated_at_utc", "source", "schema_url", "data"],
+  "required": ["schema_version", "generated_at_utc", "source", "schema_url"],
   "additionalProperties": true,
   "properties": {
     "schema_version": {
@@ -27,211 +27,32 @@
       "format": "uri",
       "description": "Canonical URL of this schema file."
     },
+    "ticker_count": {
+      "type": ["integer", "null"],
+      "description": "Number of tickers covered in the underlying data payload (informational)."
+    },
     "strategy_count": {
       "type": ["integer", "null"],
       "description": "Number of distinct strategies present in strategy_stats (informational)."
     },
-    "data": {
-      "type": "object",
-      "description": "The full dashboard payload. Same shape as dashboard/data.json.",
-      "additionalProperties": true,
-      "required": ["last_updated", "summary"],
-      "properties": {
-        "last_updated": {
-          "type": "string",
-          "description": "Date or ISO timestamp when the underlying data was last refreshed."
-        },
-        "summary": {
-          "type": "object",
-          "description": "Global backtest statistics across all tickers and strategies.",
-          "additionalProperties": true,
-          "properties": {
-            "total_trades": { "type": "integer" },
-            "wins": { "type": "integer" },
-            "losses": { "type": "integer" },
-            "win_rate": { "type": "number" },
-            "avg_return": { "type": "number" },
-            "profit_factor": { "type": "number" },
-            "max_drawdown": { "type": "number" },
-            "sharpe_ratio": { "type": "number" },
-            "sortino_ratio": { "type": "number" },
-            "total_pnl": { "type": "number" },
-            "avg_win": { "type": "number" },
-            "avg_loss": { "type": "number" }
-          }
-        },
-        "live_prices": {
-          "type": "array",
-          "description": "Current price snapshot for each tracked ticker (top-of-dashboard cards).",
-          "items": {
-            "type": "object",
-            "additionalProperties": true,
-            "required": ["symbol", "price", "change_pct"],
-            "properties": {
-              "symbol": { "type": "string" },
-              "price": { "type": "number" },
-              "change": { "type": "number" },
-              "change_pct": { "type": "number" },
-              "high": { "type": "number" },
-              "low": { "type": "number" },
-              "volume": { "type": "integer" },
-              "market_state": { "type": "string" },
-              "intraday_prices": {
-                "type": "array",
-                "items": { "type": "number" }
-              },
-              "intraday_times": {
-                "type": "array",
-                "items": { "type": "string" }
-              }
-            }
-          }
-        },
-        "options_matrices": {
-          "type": "object",
-          "description": "Per-ticker options chain matrix (Sell Put / Sell Call by expiry).",
-          "additionalProperties": {
-            "type": "object",
-            "additionalProperties": true,
-            "properties": {
-              "price": { "type": "number" },
-              "expiries": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "additionalProperties": true,
-                  "properties": {
-                    "date": { "type": "string" },
-                    "dte": { "type": "integer" },
-                    "puts": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
-                    "calls": { "type": "array", "items": { "type": "object", "additionalProperties": true } }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "oi_distribution": {
-          "type": "object",
-          "description": "Open interest distribution by ticker — support/resistance levels.",
-          "additionalProperties": {
-            "type": "object",
-            "additionalProperties": true,
-            "properties": {
-              "symbol": { "type": "string" },
-              "price": { "type": "number" },
-              "expiries_analyzed": { "type": "integer" },
-              "total_call_oi": { "type": "integer" },
-              "total_put_oi": { "type": "integer" },
-              "pc_oi_ratio": { "type": ["number", "null"] },
-              "put_concentration": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
-              "call_concentration": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
-              "oi_by_strike": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
-              "volume_hotspots": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
-              "key_levels": {
-                "type": "object",
-                "additionalProperties": true,
-                "properties": {
-                  "max_call_oi_strike": { "type": ["number", "null"] },
-                  "max_put_oi_strike": { "type": ["number", "null"] },
-                  "max_pain": { "type": ["number", "null"] },
-                  "highest_volume_strike": { "type": ["number", "null"] }
-                }
-              },
-              "interpretation": { "type": ["string", "null"] }
-            }
-          }
-        },
-        "timing": {
-          "type": "object",
-          "description": "Intraday/weekly timing signals per ticker.",
-          "additionalProperties": {
-            "type": "object",
-            "additionalProperties": true,
-            "properties": {
-              "action": { "type": "string", "enum": ["SELL_NOW", "WAIT", "AVOID"] },
-              "combined_score": { "type": "number" },
-              "overall_recommendation": { "type": "string" }
-            }
-          }
-        },
-        "ticker_stats": {
-          "type": "object",
-          "description": "Per-ticker aggregate backtest statistics.",
-          "additionalProperties": {
-            "type": "object",
-            "additionalProperties": true,
-            "properties": {
-              "trades": { "type": "integer" },
-              "wins": { "type": "integer" },
-              "losses": { "type": "integer" },
-              "win_rate": { "type": "number" },
-              "total_pnl": { "type": "number" },
-              "avg_return": { "type": "number" }
-            }
-          }
-        },
-        "strategy_stats": {
-          "type": "object",
-          "description": "Per-strategy aggregate backtest statistics.",
-          "additionalProperties": {
-            "type": "object",
-            "additionalProperties": true,
-            "properties": {
-              "trades": { "type": "integer" },
-              "wins": { "type": "integer" },
-              "losses": { "type": "integer" },
-              "win_rate": { "type": "number" },
-              "total_pnl": { "type": "number" },
-              "avg_return": { "type": "number" }
-            }
-          }
-        },
-        "recent_trades": {
-          "type": "array",
-          "description": "Most recent backtested trades (up to 20), newest first.",
-          "items": {
-            "type": "object",
-            "additionalProperties": true,
-            "required": ["date", "symbol", "strategy", "strike", "premium", "result", "pnl"],
-            "properties": {
-              "date": { "type": "string", "description": "Entry date (YYYY-MM-DD)." },
-              "symbol": { "type": "string" },
-              "strategy": { "type": "string" },
-              "strike": { "type": "number" },
-              "premium": { "type": "number" },
-              "expiry": { "type": "string" },
-              "result": { "type": "string", "enum": ["win", "loss"] },
-              "pnl": { "type": "number" }
-            }
-          }
-        },
-        "cumulative_pnl": {
-          "type": "object",
-          "description": "Cumulative P&L time-series per strategy, aligned to a shared dates array.",
-          "additionalProperties": true,
-          "properties": {
-            "dates": { "type": "array", "items": { "type": "string" } }
-          }
-        },
-        "monthly_returns": {
-          "type": "object",
-          "description": "Monthly P&L totals per strategy, aligned to a shared months array.",
-          "additionalProperties": true,
-          "properties": {
-            "months": { "type": "array", "items": { "type": "string" } }
-          }
-        },
-        "strike_comparison": {
-          "type": "array",
-          "description": "Live options chain strike comparison data.",
-          "items": { "type": "object", "additionalProperties": true }
-        },
-        "tsla_matrix": {
-          "type": "object",
-          "description": "Legacy TSLA-only matrix. Deprecated — do not add new consumers.",
-          "additionalProperties": true
-        }
+    "data_hash": {
+      "type": "string",
+      "description": "SHA-256 hex digest of the dashboard payload, also used in data_url_v2 filename."
+    },
+    "data_url": {
+      "type": "string",
+      "description": "Relative path (from the data-repo root) to the legacy mutable data.json."
+    },
+    "data_url_v2": {
+      "type": ["string", "null"],
+      "description": "Relative path to the content-addressed immutable data-{hash}.json (preferred for CDN caching)."
+    },
+    "insights": {
+      "type": "array",
+      "description": "Structured insight objects, sorted critical-first. Empty array when no insights are emitted yet (options-core is in transition to V2-style insights).",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
       }
     }
   }
