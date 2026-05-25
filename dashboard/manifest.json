@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-23T01:40:07+00:00",
+  "generated_at": "2026-05-25T13:39:11+00:00",
   "schema_version": "1.0.0",
   "reports": [
-    "2026-05-23"
+    "2026-05-25"
   ],
   "weekly_summaries": [],
   "ai_commentary_dates": [
-    "2026-05-23"
+    "2026-05-25"
   ],
   "latest": {
-    "report": "2026-05-23",
+    "report": "2026-05-25",
     "weekly": null,
-    "ai": "2026-05-23"
+    "ai": "2026-05-25"
   }
 }
