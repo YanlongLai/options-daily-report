@@ -1,7 +1,7 @@
 {
-  "run_id": "4b35466b-f9c5-4dd5-96e8-665a7fb358c2",
-  "started_at": "2026-07-08T14:28:07.807230+00:00",
-  "finished_at": "2026-07-08T14:29:10.938116+00:00",
+  "run_id": "8da1ad44-3c05-463e-b162-26fa5293881f",
+  "started_at": "2026-07-09T14:28:05.148280+00:00",
+  "finished_at": "2026-07-09T14:29:48.703702+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -25,6 +25,7 @@
     "JPM"
   ],
   "tickers_succeeded": [
+    "TSLA",
     "NVDA",
     "AAPL",
     "AMZN",
@@ -45,16 +46,10 @@
     "DIS",
     "JPM"
   ],
-  "tickers_failed": [
-    {
-      "ticker": "TSLA",
-      "stage": "fetch_or_analyze",
-      "error": "Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'fc.yahoo.com'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-    }
-  ],
+  "tickers_failed": [],
   "ai_commentary_count": 2,
   "sources_status": {
-    "yfinance": "partial",
+    "yfinance": "ok",
     "gemini": "ok",
     "finnhub": "not_used",
     "finmind": "not_used"
