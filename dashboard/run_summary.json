@@ -1,7 +1,7 @@
 {
-  "run_id": "ab826490-3c6b-478a-8728-e206a899d1a7",
-  "started_at": "2026-07-10T14:28:06.329293+00:00",
-  "finished_at": "2026-07-10T14:29:09.093729+00:00",
+  "run_id": "68732d12-d680-4e0d-a9a7-8dc62ee909f5",
+  "started_at": "2026-07-11T14:28:00.538217+00:00",
+  "finished_at": "2026-07-11T14:29:30.216910+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -31,7 +31,6 @@
     "AMZN",
     "AMD",
     "META",
-    "MSFT",
     "GOOG",
     "AMC",
     "PLTR",
@@ -46,10 +45,16 @@
     "DIS",
     "JPM"
   ],
-  "tickers_failed": [],
+  "tickers_failed": [
+    {
+      "ticker": "MSFT",
+      "stage": "fetch_or_analyze",
+      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    }
+  ],
   "ai_commentary_count": 2,
   "sources_status": {
-    "yfinance": "ok",
+    "yfinance": "partial",
     "gemini": "ok",
     "finnhub": "not_used",
     "finmind": "not_used"
