@@ -1,61 +1,13 @@
 {
-  "week_ending": "2026-07-05",
-  "week_start": "2026-06-30",
-  "week_end": "2026-07-04",
-  "iso_week": "2026-W27",
+  "week_ending": "2026-07-12",
+  "week_start": "2026-07-07",
+  "week_end": "2026-07-11",
+  "iso_week": "2026-W28",
   "tickers": {
     "TSLA": {
-      "price_start": 406.0,
-      "price_end": 393.45001220703125,
-      "price_change_pct": -3.09,
-      "iv_avg": null,
-      "iv_min": null,
-      "iv_max": null,
-      "iv_trend": "unknown",
-      "pc_ratio_avg": null,
-      "recommendations_count": 0,
-      "sell_put_count": 0,
-      "sell_call_count": 0,
-      "best_trade": null,
-      "accuracy": {
-        "total": 0,
-        "profitable": 0,
-        "score": null
-      },
-      "next_week_outlook": {
-        "direction": "bearish",
-        "confidence": 3.2,
-        "reasoning": "偏空（信心 3.2/10）：本週下跌 -3.1%，動能偏空；本週 Sell Call 建議為主，分析師偏空"
-      }
-    },
-    "AMZN": {
-      "price_start": 237.35000610351562,
-      "price_end": 242.6699981689453,
-      "price_change_pct": 2.24,
-      "iv_avg": null,
-      "iv_min": null,
-      "iv_max": null,
-      "iv_trend": "unknown",
-      "pc_ratio_avg": null,
-      "recommendations_count": 0,
-      "sell_put_count": 0,
-      "sell_call_count": 0,
-      "best_trade": null,
-      "accuracy": {
-        "total": 0,
-        "profitable": 0,
-        "score": null
-      },
-      "next_week_outlook": {
-        "direction": "neutral",
-        "confidence": 5.2,
-        "reasoning": "中性（信心 5.2/10）：本週小幅上漲 2.2%；本週 Sell Call 建議為主，分析師偏空"
-      }
-    },
-    "NVDA": {
-      "price_start": 197.24000549316406,
-      "price_end": 194.8300018310547,
-      "price_change_pct": -1.22,
+      "price_start": 416.9599914550781,
+      "price_end": 407.760009765625,
+      "price_change_pct": -2.21,
       "iv_avg": null,
       "iv_min": null,
       "iv_max": null,
@@ -73,11 +25,59 @@
       "next_week_outlook": {
         "direction": "neutral",
         "confidence": 4.2,
-        "reasoning": "中性（信心 4.2/10）：本週小幅下跌 -1.2%；本週 Sell Call 建議為主，分析師偏空"
+        "reasoning": "中性（信心 4.2/10）：本週小幅下跌 -2.2%；本週 Sell Call 建議為主，分析師偏空"
+      }
+    },
+    "AMZN": {
+      "price_start": 246.97999572753906,
+      "price_end": 245.33999633789062,
+      "price_change_pct": -0.66,
+      "iv_avg": null,
+      "iv_min": null,
+      "iv_max": null,
+      "iv_trend": "unknown",
+      "pc_ratio_avg": null,
+      "recommendations_count": 0,
+      "sell_put_count": 0,
+      "sell_call_count": 0,
+      "best_trade": null,
+      "accuracy": {
+        "total": 0,
+        "profitable": 0,
+        "score": null
+      },
+      "next_week_outlook": {
+        "direction": "neutral",
+        "confidence": 4.2,
+        "reasoning": "中性（信心 4.2/10）：本週小幅下跌 -0.7%；本週 Sell Call 建議為主，分析師偏空"
+      }
+    },
+    "NVDA": {
+      "price_start": 192.3699951171875,
+      "price_end": 210.9600067138672,
+      "price_change_pct": 9.66,
+      "iv_avg": null,
+      "iv_min": null,
+      "iv_max": null,
+      "iv_trend": "unknown",
+      "pc_ratio_avg": null,
+      "recommendations_count": 0,
+      "sell_put_count": 0,
+      "sell_call_count": 0,
+      "best_trade": null,
+      "accuracy": {
+        "total": 0,
+        "profitable": 0,
+        "score": null
+      },
+      "next_week_outlook": {
+        "direction": "neutral",
+        "confidence": 6.2,
+        "reasoning": "中性（信心 6.2/10）：本週上漲 9.7%，動能偏多；本週 Sell Call 建議為主，分析師偏空"
       }
     }
   },
-  "overall_score": 42.0,
+  "overall_score": 48.7,
   "overall_accuracy": null,
-  "generated_at": "2026-07-05T19:01:38.415046Z"
+  "generated_at": "2026-07-12T18:50:11.216814Z"
 }
