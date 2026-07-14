@@ -1,7 +1,7 @@
 {
-  "run_id": "5f999b53-6369-40cd-b7f7-27f3493859ce",
-  "started_at": "2026-07-14T13:37:38.874618+00:00",
-  "finished_at": "2026-07-14T13:39:50.929191+00:00",
+  "run_id": "bfe5653d-89a7-4e99-90a2-7fd2f07c0d06",
+  "started_at": "2026-07-14T14:28:02.654299+00:00",
+  "finished_at": "2026-07-14T14:30:39.012876+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -29,7 +29,6 @@
     "NVDA",
     "AAPL",
     "AMZN",
-    "AMD",
     "META",
     "MSFT",
     "GOOG",
@@ -43,11 +42,12 @@
     "BA",
     "INTC",
     "GME",
-    "DIS"
+    "DIS",
+    "JPM"
   ],
   "tickers_failed": [
     {
-      "ticker": "JPM",
+      "ticker": "AMD",
       "stage": "fetch_or_analyze",
       "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     }
