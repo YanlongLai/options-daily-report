@@ -1,7 +1,7 @@
 {
-  "run_id": "6589e173-9b70-4c49-8152-e6ff77d2e48c",
-  "started_at": "2026-07-13T14:28:10.387022+00:00",
-  "finished_at": "2026-07-13T14:29:35.262322+00:00",
+  "run_id": "5f999b53-6369-40cd-b7f7-27f3493859ce",
+  "started_at": "2026-07-14T13:37:38.874618+00:00",
+  "finished_at": "2026-07-14T13:39:50.929191+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -43,13 +43,18 @@
     "BA",
     "INTC",
     "GME",
-    "DIS",
-    "JPM"
+    "DIS"
   ],
-  "tickers_failed": [],
+  "tickers_failed": [
+    {
+      "ticker": "JPM",
+      "stage": "fetch_or_analyze",
+      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    }
+  ],
   "ai_commentary_count": 2,
   "sources_status": {
-    "yfinance": "ok",
+    "yfinance": "partial",
     "gemini": "ok",
     "finnhub": "not_used",
     "finmind": "not_used"
