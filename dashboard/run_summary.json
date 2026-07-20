@@ -1,7 +1,7 @@
 {
-  "run_id": "642baf53-1288-45c5-8a5d-94bbf934792b",
-  "started_at": "2026-07-19T14:28:14.774421+00:00",
-  "finished_at": "2026-07-19T14:29:40.304668+00:00",
+  "run_id": "fa495b81-e62b-4f08-86fc-8ff98ca408ed",
+  "started_at": "2026-07-20T14:28:02.674486+00:00",
+  "finished_at": "2026-07-20T14:32:41.614957+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -25,7 +25,6 @@
     "JPM"
   ],
   "tickers_succeeded": [
-    "TSLA",
     "NVDA",
     "AAPL",
     "AMZN",
@@ -33,23 +32,37 @@
     "META",
     "MSFT",
     "GOOG",
-    "AMC",
     "PLTR",
     "COIN",
     "NFLX",
     "BABA",
     "BAC",
-    "F",
     "BA",
     "INTC",
     "GME",
     "DIS",
     "JPM"
   ],
-  "tickers_failed": [],
+  "tickers_failed": [
+    {
+      "ticker": "TSLA",
+      "stage": "fetch_or_analyze",
+      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    {
+      "ticker": "AMC",
+      "stage": "fetch_or_analyze",
+      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    {
+      "ticker": "F",
+      "stage": "fetch_or_analyze",
+      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    }
+  ],
   "ai_commentary_count": 2,
   "sources_status": {
-    "yfinance": "ok",
+    "yfinance": "partial",
     "gemini": "ok",
     "finnhub": "not_used",
     "finmind": "not_used"
