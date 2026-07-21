@@ -1,7 +1,7 @@
 {
-  "run_id": "6effc520-3f9b-4f28-b84e-1e7e903a4fbf",
-  "started_at": "2026-07-21T13:46:20.446910+00:00",
-  "finished_at": "2026-07-21T13:50:01.046283+00:00",
+  "run_id": "20410468-1594-408d-91c6-ba7985c3ed70",
+  "started_at": "2026-07-21T14:28:04.677465+00:00",
+  "finished_at": "2026-07-21T14:31:55.041831+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -36,6 +36,7 @@
     "AMC",
     "PLTR",
     "COIN",
+    "NFLX",
     "BABA",
     "BAC",
     "F",
@@ -45,16 +46,10 @@
     "DIS",
     "JPM"
   ],
-  "tickers_failed": [
-    {
-      "ticker": "NFLX",
-      "stage": "fetch_or_analyze",
-      "error": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-    }
-  ],
+  "tickers_failed": [],
   "ai_commentary_count": 2,
   "sources_status": {
-    "yfinance": "partial",
+    "yfinance": "ok",
     "gemini": "ok",
     "finnhub": "not_used",
     "finmind": "not_used"
