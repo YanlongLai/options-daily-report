@@ -1,13 +1,13 @@
 {
-  "week_ending": "2026-07-19",
-  "week_start": "2026-07-14",
-  "week_end": "2026-07-18",
-  "iso_week": "2026-W29",
+  "week_ending": "2026-07-26",
+  "week_start": "2026-07-21",
+  "week_end": "2026-07-25",
+  "iso_week": "2026-W30",
   "tickers": {
     "TSLA": {
-      "price_start": 399.04998779296875,
-      "price_end": 380.8399963378906,
-      "price_change_pct": -4.56,
+      "price_start": 371.1700134277344,
+      "price_end": 313.0299987792969,
+      "price_change_pct": -15.66,
       "iv_avg": null,
       "iv_min": null,
       "iv_max": null,
@@ -25,13 +25,13 @@
       "next_week_outlook": {
         "direction": "bearish",
         "confidence": 3.2,
-        "reasoning": "偏空（信心 3.2/10）：本週下跌 -4.6%，動能偏空；本週 Sell Call 建議為主，分析師偏空"
+        "reasoning": "偏空（信心 3.2/10）：本週下跌 -15.7%，動能偏空；本週 Sell Call 建議為主，分析師偏空"
       }
     },
     "AMZN": {
-      "price_start": 245.5500030517578,
-      "price_end": 247.22999572753906,
-      "price_change_pct": 0.68,
+      "price_start": 249.11000061035156,
+      "price_end": 232.11000061035156,
+      "price_change_pct": -6.82,
       "iv_avg": null,
       "iv_min": null,
       "iv_max": null,
@@ -47,15 +47,15 @@
         "score": null
       },
       "next_week_outlook": {
-        "direction": "neutral",
-        "confidence": 5.2,
-        "reasoning": "中性（信心 5.2/10）：本週小幅上漲 0.7%；本週 Sell Call 建議為主，分析師偏空"
+        "direction": "bearish",
+        "confidence": 3.2,
+        "reasoning": "偏空（信心 3.2/10）：本週下跌 -6.8%，動能偏空；本週 Sell Call 建議為主，分析師偏空"
       }
     },
     "NVDA": {
-      "price_start": 208.1999969482422,
-      "price_end": 202.80999755859375,
-      "price_change_pct": -2.59,
+      "price_start": 207.5399932861328,
+      "price_end": 206.83999633789062,
+      "price_change_pct": -0.34,
       "iv_avg": null,
       "iv_min": null,
       "iv_max": null,
@@ -73,11 +73,11 @@
       "next_week_outlook": {
         "direction": "neutral",
         "confidence": 4.2,
-        "reasoning": "中性（信心 4.2/10）：本週小幅下跌 -2.6%；本週 Sell Call 建議為主，分析師偏空"
+        "reasoning": "中性（信心 4.2/10）：本週小幅下跌 -0.3%；本週 Sell Call 建議為主，分析師偏空"
       }
     }
   },
-  "overall_score": 42.0,
+  "overall_score": 35.3,
   "overall_accuracy": null,
-  "generated_at": "2026-07-19T18:50:34.366337Z"
+  "generated_at": "2026-07-26T18:55:38.737185Z"
 }
