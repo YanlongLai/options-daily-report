@@ -1,7 +1,7 @@
 {
-  "run_id": "bf7cb72f-1d7c-4263-9539-8e3bcd7f59b3",
-  "started_at": "2026-07-27T14:28:09.600088+00:00",
-  "finished_at": "2026-07-27T14:29:18.675788+00:00",
+  "run_id": "949bee2c-3e87-4c5b-b63e-e9a50e922475",
+  "started_at": "2026-07-28T13:46:58.230334+00:00",
+  "finished_at": "2026-07-28T13:52:31.616086+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -25,31 +25,80 @@
     "JPM"
   ],
   "tickers_succeeded": [
-    "TSLA",
-    "NVDA",
     "AAPL",
-    "AMZN",
     "AMD",
     "META",
     "MSFT",
     "GOOG",
-    "AMC",
-    "PLTR",
     "COIN",
-    "NFLX",
-    "BABA",
     "BAC",
-    "F",
-    "BA",
-    "INTC",
-    "GME",
-    "DIS",
     "JPM"
   ],
-  "tickers_failed": [],
+  "tickers_failed": [
+    {
+      "ticker": "TSLA",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "NVDA",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "AMZN",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "AMC",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "PLTR",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "NFLX",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "BABA",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "F",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "BA",
+      "stage": "fetch_or_analyze",
+      "error": "object of type 'NoneType' has no len()"
+    },
+    {
+      "ticker": "INTC",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "GME",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "ticker": "DIS",
+      "stage": "fetch_or_analyze",
+      "error": "argument of type 'NoneType' is not iterable"
+    }
+  ],
   "ai_commentary_count": 2,
   "sources_status": {
-    "yfinance": "ok",
+    "yfinance": "partial",
     "gemini": "ok",
     "finnhub": "not_used",
     "finmind": "not_used"
