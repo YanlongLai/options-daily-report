@@ -20,9 +20,32 @@ reports/
 
 dashboard/
   data.json                     — Latest aggregate dashboard payload
+  data-<hash12>.json            — Immutable content-addressed dashboard payload
+  latest.json                   — Pointer to the current content-addressed payload
   weekly_summary.json           — Latest weekly summary payload
   index.html                    — Static dashboard viewer (GitHub Pages)
 ```
+
+## Artifact relationship
+
+`reports/YYYY-MM-DD.md` is the daily report artifact. `dashboard/data.json`
+is the mutable compatibility alias for the aggregate metrics, while
+`dashboard/latest.json` points to the matching immutable
+`dashboard/data-<hash12>.json` payload. The engine publishes the payload first
+and flips the pointer second. These generated files must not be edited by hand;
+if report and dashboard dates differ, fix the `options-core` generation or
+publish workflow.
+
+## Retention
+
+The engine publisher removes dated reports, weekly summaries, AI results, and
+old immutable dashboard snapshots according to the TTL settings. The
+30-day base is `DATA_RETENTION_DAYS`; `REPORT_RETENTION_DAYS`,
+`AI_RETENTION_DAYS`, and `SNAPSHOT_RETENTION_DAYS` can override categories
+independently (allowed range 7–3650). Mutable aliases and the snapshot
+referenced by `dashboard/latest.json` are always preserved. If `latest.json`
+is malformed or missing, snapshot cleanup is skipped for safety. Do not
+manually delete generated artifacts in this data-only repository.
 
 ## Update schedule
 

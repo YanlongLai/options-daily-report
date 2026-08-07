@@ -36,6 +36,15 @@ schemas/
 | `reports/weekly_summary_*.md` | 週日 | 18:00 |
 | `dashboard/*.json` | 每次日報/週報執行後 | 13:25 / 18:05 |
 
+## 保留期限
+
+發布引擎會依 TTL 清理舊的日期報告、週報、AI 結果與 immutable dashboard
+snapshot。`DATA_RETENTION_DAYS` 基準為 30 天，並可用
+`REPORT_RETENTION_DAYS`、`AI_RETENTION_DAYS`、`SNAPSHOT_RETENTION_DAYS`
+分別設定（各允許 7–3650 天）。可變 alias 與 `dashboard/latest.json` 指向的
+snapshot 永遠保留；若 `latest.json` 損壞或遺失，清理程序會暫停刪除
+snapshot 以避免誤刪目前資料。請勿手動刪除生成檔。
+
 ## 授權
 
 ### 資料與報告 — **CC BY-NC 4.0**
