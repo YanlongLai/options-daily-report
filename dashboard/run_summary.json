@@ -1,7 +1,7 @@
 {
-  "run_id": "c93139a2-5e29-4863-9987-2e8a65605f3a",
-  "started_at": "2026-08-07T13:43:33.429924+00:00",
-  "finished_at": "2026-08-07T13:45:30.339742+00:00",
+  "run_id": "ca8f56b6-1152-44aa-b705-7e5a4f1e5f85",
+  "started_at": "2026-08-09T00:17:32.785455+00:00",
+  "finished_at": "2026-08-09T00:19:12.257359+00:00",
   "tickers_attempted": [
     "TSLA",
     "NVDA",
@@ -49,9 +49,10 @@
   "tickers_failed": [],
   "ai_commentary_count": 2,
   "sources_status": {
+    "tradier": "not_used",
+    "finnhub": "partial",
     "yfinance": "ok",
     "gemini": "ok",
-    "finnhub": "not_used",
     "finmind": "not_used"
   },
   "data_repo_committed": false
