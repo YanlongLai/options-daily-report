@@ -1,7 +1,7 @@
 {
-  "run_id": "90c49f2b-e633-49ee-b8e2-250ec751bcd4",
-  "started_at": "2026-08-11T13:37:03.718683+00:00",
-  "finished_at": "2026-08-11T13:41:10.912612+00:00",
+  "run_id": "5c3ac3fc-71cd-4883-9947-ad4399b808d7",
+  "started_at": "2026-08-12T03:00:44.283730+00:00",
+  "finished_at": "2026-08-12T03:04:12.908455+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -110,7 +110,6 @@
   "ai_commentary_count": 2,
   "sources_status": {
     "tradier": "ok",
-    "finnhub": "quota_exhausted",
     "gemini": "ok",
     "finmind": "not_used"
   },
