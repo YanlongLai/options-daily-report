@@ -1,7 +1,7 @@
 {
-  "run_id": "b76189bb-7c70-4199-8063-974d0cf7a3bf",
-  "started_at": "2026-08-12T03:10:16.401297+00:00",
-  "finished_at": "2026-08-12T03:13:47.391497+00:00",
+  "run_id": "364ee095-d423-4944-971d-dce6e12b8ea2",
+  "started_at": "2026-08-12T03:32:07.549625+00:00",
+  "finished_at": "2026-08-12T03:35:49.789380+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -113,5 +113,5 @@
     "gemini": "ok",
     "finmind": "not_used"
   },
-  "data_repo_committed": false
+  "data_repo_committed": true
 }
