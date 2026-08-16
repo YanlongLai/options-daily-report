@@ -1,0 +1,65 @@
+name: gitea-schema-check
+
+# Report repositories are data-only.  Airflow publishes the report; this
+# workflow validates the resulting JSON and never writes back to the repo.
+on:
+  push:
+    paths:
+      - 'dashboard/**'
+      - 'schemas/**'
+  pull_request:
+    paths:
+      - 'dashboard/**'
+      - 'schemas/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: dappgo-linux-host
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON schemas
+        run: |
+          set -Eeuo pipefail
+          venv="$HOME/a001/tools/report-schema-venv"
+          if [ ! -x "$venv/bin/python" ]; then
+            python3 -m venv "$venv"
+            "$venv/bin/pip" install --disable-pip-version-check --quiet 'jsonschema>=4.20,<5'
+          fi
+          "$venv/bin/python" - <<'PY'
+          import json
+          from pathlib import Path
+          from jsonschema import Draft202012Validator
+
+          root = Path.cwd()
+
+          def check(data_path: Path, schema_path: Path) -> None:
+              if not data_path.exists():
+                  print(f"skip: {data_path}")
+                  return
+              schema = json.loads(schema_path.read_text())
+              data = json.loads(data_path.read_text())
+              errors = sorted(
+                  Draft202012Validator(schema).iter_errors(data),
+                  key=lambda error: list(error.path),
+              )
+              if errors:
+                  for error in errors[:20]:
+                      location = ".".join(str(part) for part in error.path) or "$"
+                      print(f"{data_path}: {location}: {error.message}")
+                  raise SystemExit(f"{data_path}: {len(errors)} schema error(s)")
+              print(f"ok: {data_path}")
+
+          check(root / "dashboard/data.json", root / "schemas/data.schema.json")
+          if (root / "schemas/weekly_summary.schema.json").exists():
+              check(root / "dashboard/weekly_summary.json", root / "schemas/weekly_summary.schema.json")
+          if (root / "schemas/manifest.schema.json").exists():
+              check(root / "dashboard/manifest.json", root / "schemas/manifest.schema.json")
+          commentary_schema = root / "schemas/ai_commentary.schema.json"
+          if commentary_schema.exists():
+              for path in sorted((root / "dashboard/ai_commentary").glob("*.json")):
+                  check(path, commentary_schema)
+          PY
