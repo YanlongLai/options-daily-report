@@ -1,7 +1,7 @@
 {
-  "run_id": "df8b45b0-bd8e-41c5-a7af-a46f86039dd9",
-  "started_at": "2026-08-16T05:46:01.563120+00:00",
-  "finished_at": "2026-08-16T05:53:18.253273+00:00",
+  "run_id": "3a125f23-51f8-472d-ab01-1b45fa3a45b4",
+  "started_at": "2026-08-16T06:15:36.122616+00:00",
+  "finished_at": "2026-08-16T06:28:00.491281+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -110,22 +110,23 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "blocked",
-    "lazy_score": 35,
+    "lazy_score": 32,
     "threshold": 60,
-    "coverage": 0.0,
+    "coverage": 0.2,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 1.0,
+      "self_ref_miss_rate": 0.98,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 1.0,
+      "anchor_miss_rate": 0.8,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
-    "batch_size": 50,
-    "batch_count": 1,
+    "batch_size": 10,
+    "batch_count": 5,
     "batch_workers": 1,
+    "fallback_batches": 5,
     "raw_status": "blocked",
     "historical": {
       "status": "regression",
