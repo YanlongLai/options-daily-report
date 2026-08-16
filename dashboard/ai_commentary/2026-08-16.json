@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "generated_at": "2026-08-16T06:27:54",
+  "generated_at": "2026-08-16T07:56:28",
   "tickers": [
     "AAPL",
     "MSFT",
@@ -54,34 +54,84 @@
     "EWT"
   ],
   "zh": {
-    "summary": "科技股分化明顯[[pos:科技分化]]，AVGO重挫6%[[neg:AVGO重挫]]、ORCL PLTR回落，AAPL MSFT NVDA GOOGL META 偏穩。多檔IV數據缺失[[warn:IV缺失]]，流動性參差[[warn:流動性低]]。最佳設定：AVGO賣Put370/Call425[[key:AVGO370/425]]、META賣Put560/Call630[[key:META560/630]]捕捉區間震盪。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Expecting value: line 1 column 1 (char 0)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Unterminated string starting at: line 13 column 12 (char 1995)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Unterminated string starting at: line 8 column 12 (char 939)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Expecting value: line 1 column 1 (char 0)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。",
-    "AAPL": "價格305.93企稳300支撐[[key:300]]，Max Pain302.50吸引。建議賣Put300或賣Call330[[key:330]]。風險：IV數據缺失[[warn:IV缺失]]。",
-    "MSFT": "價格495.4貼合Max Pain495[[key:495]]，預期波動窄490-500。建議賣Put490[[key:490]]或賣Call500[[key:500]]。風險：支撐375過遠[[warn:支撐遠]]。",
-    "NVDA": "價格225.16高於Max Pain220[[key:220]]，區間221-228極窄。建議賣Put220或賣Call230[[key:230]]。風險：AI題材波動[[warn:題材風險]]。",
-    "AVGO": "重挫5.9%至393[[neg:重挫]]，Max Pain420在上方。引擎建議賣Put370[[key:370]]、賣Call425[[key:425]]。風險：動能延續下行[[warn:動能弱]]。",
-    "ORCL": "下跌3.6%至150.5[[neg:下跌]]，Max Pain140在下方。引擎建議賣Put136[[key:136]]、賣Call165[[key:165]]。風險：跌破140加速[[warn:破位風險]]。",
-    "PLTR": "高估值回落至174[[neg:回落]]，Max Pain140遠離。引擎建議賣Put157.5[[key:157.5]]、賣Call190[[key:190]]。風險：估值泡沫[[warn:高估值]]。",
-    "GOOGL": "價格345.9貼合Max Pain345[[key:345]]，預期波動極窄341-350。缺乏5-10%OTM報價[[warn:流動性低]]。建議觀望或鐵鷹[[pos:區間震盪]]。",
-    "META": "價格589.8接近Max Pain585[[key:585]]。引擎建議賣Put560[[key:560]]、賣Call630[[key:630]]。風險：監管不確定[[warn:監管風險]]。",
-    "NFLX": "價格78.16高於Max Pain75[[key:75]]，阻力80[[key:80]]附近。引擎建議賣Call83[[key:83]]。風險：內容支出增加[[warn:成本壓力]]。",
-    "T": "上漲1.26%至24.89[[pos:上漲]]，逼近阻力25[[key:25]]。Max Pain23在下方。缺合適OTM報價[[warn:流動性低]]。建議賣Call25或觀望。"
+    "summary": "今日市場情緒偏多，科技股 IV 仍偏高，尤其 AAPL、META 超過 30%；AVGO 與 NVDA 迎回檔機會。最佳設定：[[key:AVGO 370]] [[key:META 560]]\n\n整體IV數據多缺失[[neg:IV缺失]]，科技股波動大[[pos:高波動]]，消費股相對穩健[[pos:防禦性]]。TSLA與HD有引擎推薦策略[[key:TSLA/HD]]，WMT鐵鷹風險收益佳[[key:WMT]]，留意宏觀財報季[[warn:財報風險]]。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Expecting value: line 1 column 1 (char 0)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n美股波動下降，IV普遍偏低，適合收取權利金[[pos:波動低]]。最佳設定為ABBV賣出Put至[[key:$235]]與XOM賣出Put至[[key:$150]]，需警惕支撐破位[[warn:支撐破位]]，市場仍存不確定性[[neg:市場不確定]]。\n\n今日市場波動小，IV資訊大多缺少，偏好高權利金賣方策略。[[pos:機會]]聚焦 DUK [[key:115/135]]、EWT [[key:100/115]]、LIN [[key:435/530]]等區間。風險在於市場突破 [[warn:支撐]]。",
+    "AAPL": "AAPL 現價 305.93，IV 高企，建議 [[pos:賣沽]] 300 Put，收取權利金，風險 [[warn:跌破 302.5]]",
+    "MSFT": "MSFT 現價 495.40，IV 較高，建議 [[pos:賣沽]] 375 Put，收取較佳權利金，風險 [[warn:跌破 495]]",
+    "NVDA": "NVDA 現價 225.16，IV 高企，建議 [[pos:賣買]] 240 Call，權利金不錯，風險 [[warn:突破 240]]",
+    "AVGO": "AVGO 現價 392.99，IV 中性，建議 [[pos:賣沽]] 370 Put，收取穩健權利金，風險 [[warn:跌破 340]]",
+    "ORCL": "ORCL 現價 150.52，IV 偏低，建議 [[pos:賣沽]] 140 Put，靠近 Max Pain，風險 [[warn:跌破 95]]",
+    "PLTR": "PLTR 現價 174.04，IV 偏高，建議 [[pos:賣買]] 200 Call，收取不錯權利金，風險 [[warn:突破 200]]",
+    "GOOGL": "GOOGL 現價 345.90，IV 靜止，建議 [[pos:賣沽]] 300 Put，貼近支撐，風險 [[warn:跌破 300]]",
+    "META": "META 現價 589.85，IV 高漲，建議 [[pos:賣沽]] 560 Put，離 Max Pain 585 近，風險 [[warn:跌破 470]]",
+    "NFLX": "NFLX 現價 78.16，IV 中等，建議 [[pos:賣買]] 80 Call，接近阻力，風險 [[warn:突破 80]]",
+    "T": "T 現價 24.89，IV 低迷，建議 [[pos:賣買]] 25 Call，靠近阻力，風險 [[warn:突破 25]]",
+    "TBLA": "現價4.05，IV數據缺失[[neg:IV缺失]]，最大痛點5.00與Put/Call支撐阻力重疊[[key:5.00]]。預期波動區間3.40-4.70[[pos:區間寬]]，建議Sell Put 3.40、Sell Call 4.70[[key:3.40/4.70]]，風險在Google政策變動[[warn:政策風險]]。",
+    "VZ": "現價48.48，IV數據缺失[[neg:IV缺失]]，Put支撐45.00、Call阻力50.00[[key:45/50]]，最大痛點45.00。預期區間47.42-49.54[[pos:窄幅]]，建議Sell Put 45.00、Sell Call 50.00[[key:45/50]]，風險在債務水位[[warn:高債務]]。",
+    "AMZN": "現價262.65，IV數據缺失[[neg:IV缺失]]，Put支撐240.00、Call阻力300.00[[key:240/300]]，最大痛點265.00。預期區間259.46-265.84[[pos:窄幅]]，建議Sell Put 259.00、Sell Call 266.00[[key:259/266]]，風險在雲端增長放緩[[warn:增長放緩]]。",
+    "TSLA": "現價342.27，IV前月32.8%後月38.9%[[pos:IV升水]]，Put支撐300.00、Call阻力400.00[[key:300/400]]。引擎推薦Sell Put 322.50、Sell Call 372.50[[key:322/372]]，風險在現金流為負[[warn:現金流負]]。",
+    "HD": "現價338.86，IV數據缺失[[neg:IV缺失]]，Put支撐270.00、Call阻力350.00[[key:270/350]]，最大痛點340.00。引擎推薦Sell Put 315.00、Sell Call 365.00[[key:315/365]]，風險在CEO臨時離職[[warn:CEO變動]]。",
+    "MCD": "現價272.83，IV數據缺失[[neg:IV缺失]]，Put支撐255.00、Call阻力290.00[[key:255/290]]，最大痛點270.00。預期區間268.04-277.62[[pos:窄幅]]，建議Sell Put 268.00、Sell Call 278.00[[key:268/278]]，風險在同業價格戰[[warn:價格戰]]。",
+    "NKE": "現價40.73，IV數據缺失[[neg:IV缺失]]，Put支撐39.00、Call阻力43.00[[key:39/43]]，最大痛點42.50。預期區間39.48-41.98[[pos:窄幅]]，建議Sell Put 39.50、Sell Call 42.00[[key:39.5/42]]，風險在庫存積壓[[warn:庫存高]]。",
+    "WMT": "現價115.27，IV數據缺失[[neg:IV缺失]]，Put支撐99.00、Call阻力120.00[[key:99/120]]，最大痛點117.00。引擎推薦Sell Put 109.00、Sell Call 122.00[[key:109/122]]，鐵鷹風險收益1:3.5[[pos:風險收益佳]]，風險在自動化成本超支[[warn:成本超支]]。",
+    "PG": "現價144.55，IV數據缺失[[neg:IV缺失]]，Put支撐140.00、Call阻力157.50[[key:140/157.5]]，最大痛點146.00。預期區間142.11-146.99[[pos:窄幅]]，建議Sell Put 142.00、Sell Call 147.00[[key:142/147]]，風險在原料成本上漲[[warn:原料漲價]]。",
+    "KO": "現價87.71，IV數據缺失[[neg:IV缺失]]，Put支撐80.00、Call阻力94.00[[key:80/94]]，最大痛點82.50。預期區間86.38-89.04[[pos:窄幅]]，建議Sell Put 86.50、Sell Call 89.00[[key:86.5/89]]，風險在糖稅政策[[warn:糖稅風險]]。",
+    "ABBV": "現價 $249.46，IV 低，建議[[pos:賣出Put]]至[[key:$235]]，若跌破[[warn:支撐$250]]風險。",
+    "ISRG": "ISRG 現價 [[key:$394.51]]，Max Pain [[key:$370.00]]。 主要支撐位 [[key:$320.00]]；建議於 [[key:$365.00]] 區間 Sell Put；或於 [[key:$415.00]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "CAT": "CAT 現價 [[key:$856.57]]，Max Pain [[key:$865.00]]。 主要支撐位 [[key:$650.00]]；建議於 [[key:$775.00]] 區間 Sell Put；或於 [[key:$940.00]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "BA": "現價 $231.67，IV 較低，建議[[pos:賣出Put]]至[[key:$220]]，注意[[warn:跌破支撐$220]]。",
+    "HON": "現價 $233.96，IV 低，建議[[pos:賣出Put]]至[[key:$220]]，留意[[warn:跌破$220]]。",
+    "UPS": "現價 $104.50，IV 低，建議[[pos:賣出Put]]至[[key:$97]]，注意[[warn:跌破$97支撐]]。",
+    "SPCX": "SPCX 現價 [[key:$140.00]]，Max Pain [[key:$135.00]]。 主要支撐位 [[key:$75.00]]；建議於 [[key:$126.00]] 區間 Sell Put；或於 [[key:$152.50]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "XOM": "現價 $160.10，IV 低，建議[[pos:賣出Put]]至[[key:$150]]，留意[[warn:跌破$140支撐]]。",
+    "CVX": "現價 $200.00，IV 低，建議[[pos:賣出Put]]至[[key:$190]]，注意[[warn:跌破$175支撐]]。",
+    "NEE": "現價 $86.19，IV 低，建議[[pos:賣出Call]]至[[key:$95]]，警惕[[warn:上破$95阻力]]。",
+    "DUK": "IV資料不足 [[pos:穩健]]，建議賣出 [[key:115]] Put 收取 1.80 權利金，風險若跌破 [[warn:120]] 支撐。",
+    "LIN": "IV資訊缺乏 [[pos:看好]]，可賣出 [[key:435]] Put 獲利，或 [[key:530]] Call 進行升勢捕捉，注意 [[warn:580]] 阻力。",
+    "FCX": "IV資料不足 [[pos:偏好]]，建議賣出 [[key:62]] Put 獲取 1.12 權利金，若上破 [[warn:70]] 需警惕。",
+    "AMT": "IV資訊缺乏 [[pos:正面]]，推薦賣出 [[key:160]] Put 獲利，亦可考慮 [[key:190]] Call，風險在於突破 [[warn:175]] 阻力。",
+    "PLD": "IV資料不足 [[pos:穩健]]，賣出 [[key:130]] Put 收取 1.95 權利金，或 [[key:155]] Call 抓住上行，注意 [[warn:155]] 阻力。",
+    "SPY": "IV缺乏資料 [[pos:中性]]，可賣出 [[key:720]] Put 或 [[key:797]] Call，風險若跌破 [[warn:720]] 支撐。",
+    "QQQ": "IV資訊不足 [[pos:觀望]]，推介賣出 [[key:700]] Put，無明顯適合的 Call，留意價格跌破 [[warn:700]]。",
+    "DIA": "IV缺乏 [[pos:穩定]]，建議賣出 [[key:475]] Put 或 [[key:550]] Call，風險在於突破 [[warn:550]] 阻力。",
+    "IWM": "IV資料不足 [[pos:偏好]]，可賣出 [[key:295]] Put 及 [[key:315]] Call，風險若跌破 [[warn:295]] 支撐。",
+    "EWT": "IV資訊缺乏 [[pos:吸引]]，最佳賣出 [[key:100]] Put 獲取 4.50 權利金，或 [[key:115]] Call，風險在於跌破 [[warn:100]]。"
   },
   "en": {
-    "summary": "> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Expecting value: line 1 column 1 (char 0)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Expecting value: line 1 column 1 (char 0)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Unterminated string starting at: line 1 column 2589 (char 2588)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Unterminated string starting at: line 12 column 12 (char 2889)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Expecting value: line 1 column 1 (char 0)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。"
+    "summary": "Overall market sentiment remains [[pos:steady]] as equity volatility eases, with implied volatilities generally [[key:low IV]] across the tech sector. The recent pullback in AI chips and mixed earnings keep [[neg:uncertainty]] alive. Thin IV favors premium‑capture strategies. Top setups: sell put on AAPL at $300 and sell call on META at $630, both offering attractive credit with defined risk.\n\nOverall market remains [[pos:bullish on earnings]] as corporate results lift sentiment, but elevated [[neg:IV in tech]] keeps option premiums rich. The TSLA front‑month IV sits at 32.8% versus 38.9% back month, creating a [[key:IV spread]] opportunity. Top setups: [[pos:sell put]] TSLA $322.50 for solid credit, and [[pos:sell call]] VZ $50.00 resistance to capture upside premium. Watch for surprise moves that could compress these spreads.\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Unterminated string starting at: line 4 column 13 (char 616)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Unterminated string starting at: line 11 column 12 (char 2268)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。\n\n> ⚠️ AI 市場解讀暫時無法使用（AI provider returned invalid JSON: Unterminated string starting at: line 8 column 12 (char 1959)）\n> 請檢查 `config/ai_providers.yaml` 與所選 provider 的環境變數。\n> 量化分析報告仍然完整可用。",
+    "AAPL": "Spot price $305.93 (+0.22%); Max Pain $302.50; Put support $300.00; Call resistance $330.00; Expected range $302.80 - $309.06. [[pos:stable]] Sell Put at [[key:$300]] strikes a solid premium with limited upside risk, but a break below $300 [[warn:support breach]] could trigger assignment.",
+    "MSFT": "MSFT trades at [[key:$495.40]], Max Pain [[key:$495.00]]. Key support at [[key:$375.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "NVDA": "NVDA trades at [[key:$225.16]], Max Pain [[key:$220.00]]. Key support at [[key:$190.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "AVGO": "AVGO trades at [[key:$392.99]], Max Pain [[key:$420.00]]. Key support at [[key:$340.00]]; Sell Put around [[key:$370.00]]; or Sell Call near [[key:$425.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "ORCL": "ORCL trades at [[key:$150.52]], Max Pain [[key:$140.00]]. Key support at [[key:$95.00]]; Sell Put around [[key:$136.00]]; or Sell Call near [[key:$165.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "PLTR": "PLTR trades at [[key:$174.04]], Max Pain [[key:$140.00]]. Key support at [[key:$150.00]]; Sell Put around [[key:$157.50]]; or Sell Call near [[key:$190.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "GOOGL": "GOOGL trades at [[key:$345.90]], Max Pain [[key:$345.00]]. Key support at [[key:$300.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "META": "META trades at [[key:$589.85]], Max Pain [[key:$585.00]]. Key support at [[key:$470.00]]; Sell Put around [[key:$560.00]]; or Sell Call near [[key:$630.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "NFLX": "NFLX trades at [[key:$78.16]], Max Pain [[key:$75.00]]. Key support at [[key:$70.00]]; or Sell Call near [[key:$83.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "T": "Spot price $24.89 (+1.26%); Max Pain $23.00; Put support $22.50; Call resistance $25.00; Expected range $24.35 - $25.43. [[pos:bullish]] Sell Call at [[key:$25]] offers limited premium; risk if price climbs above $25 [[warn:call assignment]].",
+    "TBLA": "TBLA trades at [[key:$4.05]], Max Pain [[key:$5.00]]. Key support at [[key:$5.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "VZ": "Spot $48.48 (+0.54%). IV N/A. Recommended [[pos:sell put]] at the $45.00 put support, safely ≤ spot and within expected range $47.42‑$49.54. Watch for a surprise rally toward the $50.00 call resistance [[warn:upside breakout]].",
+    "AMZN": "Spot $262.65 (-0.94%). IV N/A. Favor [[pos:sell put]] at $240.00 put support, below spot and within expected range $259.46‑$265.84. Risk of a pullback if macro headwinds intensify [[warn:macro headwinds]].",
+    "TSLA": "TSLA trades at [[key:$342.27]], Max Pain [[key:$327.50]]. Key support at [[key:$300.00]]; Sell Put around [[key:$322.50]]; or Sell Call near [[key:$372.50]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "HD": "HD trades at [[key:$338.86]], Max Pain [[key:$340.00]]. Key support at [[key:$270.00]]; Sell Put around [[key:$315.00]]; or Sell Call near [[key:$365.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "MCD": "Spot $272.83 (+0.21%). IV N/A. Best [[pos:sell put]] at $255.00 (≤ spot) aligning with put support $255.00. Risk of earnings surprise pushing price above $290 call resistance [[warn:earnings surprise]].",
+    "NKE": "Spot $40.73 (-1.21%). IV N/A. Favor [[pos:sell call]] at $43.00 (≥ spot) matching call resistance $43.00. Risk of a pullback toward $39 support [[warn:downside risk]].",
+    "WMT": "WMT trades at [[key:$115.27]], Max Pain [[key:$117.00]]. Key support at [[key:$99.00]]; Sell Put around [[key:$109.00]]; or Sell Call near [[key:$122.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "PG": "Spot $144.55 (+0.20%). IV N/A. Suggest [[pos:sell put]] at $140.00 (≤ spot) aligned with put support $140.00. Risk of a dip below $142 lower range [[warn:downside dip]].",
+    "KO": "Spot $87.71 (+0.33%). IV N/A. Favor [[pos:sell call]] at $94.00 (≥ spot) near call resistance $94.00. Risk of a slide toward $86 support [[warn:downside slide]]."
   },
   "_grounding": {
     "zh": {
-      "checked": 2,
+      "checked": 6,
       "failed_tokens": [
-        "435"
+        "435",
+        "530"
       ],
       "ok": false
     },
     "en": {
-      "checked": 11,
+      "checked": 2,
       "failed_tokens": [
-        "4.3%",
-        "62"
+        "530.00"
       ],
       "ok": false
     }
