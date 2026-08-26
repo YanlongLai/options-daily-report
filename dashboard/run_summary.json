@@ -1,7 +1,7 @@
 {
-  "run_id": "5d8d8b3f-805d-4687-a94e-2efec0e1b238",
-  "started_at": "2026-08-26T13:35:36.509552+00:00",
-  "finished_at": "2026-08-26T14:11:58.644795+00:00",
+  "run_id": "2da2652f-db73-40f1-b503-5e86e62c0423",
+  "started_at": "2026-08-26T16:52:59.171872+00:00",
+  "finished_at": "2026-08-26T17:29:59.558703+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -522,19 +522,21 @@
     "batch_size": 20,
     "batch_count": 0,
     "rounds": 0,
+    "delay_seconds": 30,
+    "delay_applied_seconds": 0,
     "duration_seconds": 0.0
   },
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 11,
+    "lazy_score": 12,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.57,
+      "cross_similarity_rate": 0.581,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
@@ -549,7 +551,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.603,
+        "cross_similarity_rate": 0.587,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
@@ -642,7 +644,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 8,
+        "sample_count": 10,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
@@ -659,7 +661,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 23,
+      "sample_count": 25,
       "min_samples": 3,
       "median_lazy_score": 12.0,
       "p95_lazy_score": 28.0,
@@ -669,7 +671,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 8,
+        "sample_count": 10,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
