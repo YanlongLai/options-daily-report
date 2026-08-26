@@ -1,7 +1,7 @@
 {
-  "run_id": "2bb48106-3ff4-44f5-94f9-3ed70fedf682",
-  "started_at": "2026-08-26T05:30:30.014108+00:00",
-  "finished_at": "2026-08-26T06:09:54.234537+00:00",
+  "run_id": "5d8d8b3f-805d-4687-a94e-2efec0e1b238",
+  "started_at": "2026-08-26T13:35:36.509552+00:00",
+  "finished_at": "2026-08-26T14:11:58.644795+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -526,31 +526,31 @@
   },
   "ai_commentary_count": 2,
   "ai_quality": {
-    "status": "degraded",
-    "lazy_score": 14,
+    "status": "pass",
+    "lazy_score": 11,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.67,
-      "anchor_miss_rate": 0.008,
+      "cross_similarity_rate": 0.57,
+      "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 11,
+      "lazy_score": 12,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.527,
-        "anchor_miss_rate": 0.04,
+        "cross_similarity_rate": 0.603,
+        "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -641,17 +641,15 @@
       "support_status": "pass",
       "history_min_samples": 3,
       "historical": {
-        "status": "regression",
-        "sample_count": 7,
+        "status": "stable",
+        "sample_count": 8,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 1.0,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 25,
-        "flags": [
-          "vip_commentary_repeat"
-        ]
+        "flags": []
       }
     },
     "batch_size": 20,
@@ -660,36 +658,32 @@
     "fallback_batches": 13,
     "raw_status": "pass",
     "historical": {
-      "status": "regression",
+      "status": "stable",
       "sample_count": 23,
       "min_samples": 3,
       "median_lazy_score": 12.0,
       "p95_lazy_score": 28.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 1.0,
+      "previous_repeat_rate": 0.0,
       "compared_tickers": 252,
-      "flags": [
-        "cross_day_commentary_repeat"
-      ],
+      "flags": [],
       "vip": {
-        "status": "regression",
-        "sample_count": 7,
+        "status": "stable",
+        "sample_count": 8,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 1.0,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 25,
-        "flags": [
-          "vip_commentary_repeat"
-        ]
+        "flags": []
       }
     }
   },
   "sources_status": {
     "tradier": "partial",
     "yfinance": "partial",
-    "gemini": "partial",
+    "gemini": "ok",
     "finmind": "not_used"
   },
   "data_repo_committed": true
