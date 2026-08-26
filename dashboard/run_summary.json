@@ -1,7 +1,7 @@
 {
-  "run_id": "2da2652f-db73-40f1-b503-5e86e62c0423",
-  "started_at": "2026-08-26T16:52:59.171872+00:00",
-  "finished_at": "2026-08-26T17:29:59.558703+00:00",
+  "run_id": "d3554a05-0b0b-463b-915c-cb624925e142",
+  "started_at": "2026-08-26T19:59:30.474264+00:00",
+  "finished_at": "2026-08-26T20:34:42.525778+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -529,14 +529,14 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 12,
+    "lazy_score": 9,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.581,
+      "cross_similarity_rate": 0.426,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
@@ -544,14 +544,14 @@
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 12,
+      "lazy_score": 6,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.587,
+        "cross_similarity_rate": 0.317,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
@@ -644,7 +644,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 10,
+        "sample_count": 12,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
@@ -661,7 +661,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 25,
+      "sample_count": 27,
       "min_samples": 3,
       "median_lazy_score": 12.0,
       "p95_lazy_score": 28.0,
@@ -671,7 +671,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 10,
+        "sample_count": 12,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
