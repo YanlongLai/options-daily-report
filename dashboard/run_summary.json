@@ -1,7 +1,7 @@
 {
-  "run_id": "d3554a05-0b0b-463b-915c-cb624925e142",
-  "started_at": "2026-08-26T19:59:30.474264+00:00",
-  "finished_at": "2026-08-26T20:34:42.525778+00:00",
+  "run_id": "a93047ae-ff53-4f48-ae53-21397b80df31",
+  "started_at": "2026-08-26T21:26:39.115823+00:00",
+  "finished_at": "2026-08-26T22:01:03.008339+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -48,7 +48,6 @@
     "UPS",
     "SPCX",
     "SHEL",
-    "BAK",
     "XOM",
     "CVX",
     "NEE",
@@ -302,7 +301,6 @@
     "UPS",
     "SPCX",
     "SHEL",
-    "BAK",
     "XOM",
     "CVX",
     "NEE",
@@ -529,14 +527,14 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 9,
+    "lazy_score": 11,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.426,
+      "cross_similarity_rate": 0.568,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
@@ -551,7 +549,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.317,
+        "cross_similarity_rate": 0.322,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
@@ -580,7 +578,6 @@
         "META",
         "INTC",
         "UNH",
-        "BAK.A",
         "SPCX",
         "EWT",
         "ISRG"
@@ -607,7 +604,6 @@
         "META",
         "INTC",
         "UNH",
-        "BAK",
         "SPCX",
         "EWT",
         "ISRG"
@@ -634,7 +630,6 @@
         "META",
         "INTC",
         "UNH",
-        "BAK",
         "SPCX",
         "EWT",
         "ISRG"
@@ -644,13 +639,13 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 12,
+        "sample_count": 14,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
-        "compared_tickers": 25,
+        "compared_tickers": 24,
         "flags": []
       }
     },
@@ -661,32 +656,32 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 27,
+      "sample_count": 29,
       "min_samples": 3,
       "median_lazy_score": 12.0,
       "p95_lazy_score": 28.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
-      "compared_tickers": 252,
+      "compared_tickers": 251,
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 12,
+        "sample_count": 14,
         "min_samples": 3,
         "median_lazy_score": 11.0,
         "p95_lazy_score": 13.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
-        "compared_tickers": 25,
+        "compared_tickers": 24,
         "flags": []
       }
     }
   },
   "sources_status": {
-    "tradier": "partial",
-    "yfinance": "partial",
+    "tradier": "ok",
     "gemini": "ok",
-    "finmind": "not_used"
+    "finmind": "not_used",
+    "yfinance": "ok"
   },
   "data_repo_committed": true
 }
