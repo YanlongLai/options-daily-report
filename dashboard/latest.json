@@ -1,11 +1,11 @@
 {
-  "hash": "46f3909624ec9aff3d2f197f3d7f3ac4c5af8b6e69041ac1b471aa555920ed95",
+  "hash": "be96bf39f55d96f16bab6828cf44cc47949dce10adf09f808f7037e26401096f",
   "schema_version": "1.0.0",
   "report_date": "2026-09-01",
-  "generated_at_utc": "2026-09-01T04:19:59Z",
-  "publication_slot": "options-airflow-cutover-20260901",
+  "generated_at_utc": "2026-09-01T14:12:21Z",
+  "publication_slot": "options",
   "publication_revision": 1,
-  "publication_run_id": "58461a98-71c0-4375-914a-e2d71d55aa88",
-  "data_url_v2": "dashboard/data-46f3909624ec.json",
+  "publication_run_id": "49f2652a-453c-4c25-b6cc-afb02edec336",
+  "data_url_v2": "dashboard/data-be96bf39f55d.json",
   "data_url": "https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/dashboard/data.json"
 }
