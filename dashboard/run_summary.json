@@ -1,7 +1,7 @@
 {
-  "run_id": "49f2652a-453c-4c25-b6cc-afb02edec336",
-  "started_at": "2026-09-01T13:35:12.505247+00:00",
-  "finished_at": "2026-09-01T14:10:09.927695+00:00",
+  "run_id": "80cf1792-1823-4c22-bd7e-001092bd4c3f",
+  "started_at": "2026-09-02T13:35:18.313516+00:00",
+  "finished_at": "2026-09-02T14:10:00.032051+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -533,23 +533,23 @@
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.581,
-      "anchor_miss_rate": 0.008,
+      "self_ref_miss_rate": 0.044,
+      "cross_similarity_rate": 0.555,
+      "anchor_miss_rate": 0.012,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 12,
+      "lazy_score": 4,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.601,
+        "cross_similarity_rate": 0.199,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
@@ -639,7 +639,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 9,
+        "sample_count": 11,
         "min_samples": 3,
         "median_lazy_score": 12.0,
         "p95_lazy_score": 19.0,
@@ -652,13 +652,13 @@
     "batch_size": 20,
     "batch_count": 13,
     "batch_workers": 1,
-    "fallback_batches": 13,
+    "fallback_batches": 12,
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 20,
+      "sample_count": 22,
       "min_samples": 3,
-      "median_lazy_score": 10.0,
+      "median_lazy_score": 12.0,
       "p95_lazy_score": 28.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
@@ -666,7 +666,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 9,
+        "sample_count": 11,
         "min_samples": 3,
         "median_lazy_score": 12.0,
         "p95_lazy_score": 19.0,
