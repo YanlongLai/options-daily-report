@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/schemas/data.schema.json",
-  "$schemaVersion": "1.0.0",
+  "$schemaVersion": "1.1.0",
   "title": "Options Daily Report — Dashboard Data",
   "description": "Aggregate dashboard payload consumed by the mobile app and web viewer. Regenerated after each daily-report run. Version bump policy: schemas/VERSIONING.md.",
   "type": "object",
@@ -153,6 +153,34 @@
             "type": "array",
             "description": "Intraday price series (30-min candles for the current session).",
             "items": { "type": "number" }
+          },
+          "valuation_model": {
+            "type": ["object", "null"],
+            "description": "Optional DappGo underlying-stock valuation range; not an option premium or strike forecast.",
+            "additionalProperties": true,
+            "properties": {
+              "status": { "type": "string", "enum": ["ok", "degraded", "insufficient_data", "not_applicable", "unavailable"] },
+              "model_version": { "type": "string" },
+              "as_of_date": { "type": "string", "format": "date" },
+              "current_price": { "type": ["number", "null"] },
+              "range": {
+                "type": ["object", "null"],
+                "properties": {
+                  "low": { "type": "number" },
+                  "base": { "type": "number" },
+                  "high": { "type": "number" }
+                },
+                "additionalProperties": true
+              },
+              "distance": { "type": ["object", "null"], "additionalProperties": true },
+              "signal": { "type": "string" },
+              "confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+              "method": { "type": "string" },
+              "components": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+              "inputs": { "type": "object", "additionalProperties": true },
+              "assumptions": { "type": "object", "additionalProperties": true },
+              "warnings": { "type": "array", "items": { "type": "string" } }
+            }
           }
         }
       }

@@ -12,6 +12,7 @@ Three repos are involved:
 
 | App version | Schema version | options-core commit range | Notes |
 |---|---|---|---|
+| 1.4.x | 1.1.0 | valuation-model-v1 | Optional underlying-stock valuation range; old clients remain compatible |
 | 1.0.x | 1.0.0 | current | Initial launch — flat, no breaking changes |
 
 ## Bump policy
