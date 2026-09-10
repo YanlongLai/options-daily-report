@@ -1,7 +1,7 @@
 {
-  "run_id": "a9ad172f-8318-4571-ad99-7612de75580c",
-  "started_at": "2026-09-10T13:35:10.226538+00:00",
-  "finished_at": "2026-09-10T13:44:01.403262+00:00",
+  "run_id": "66da63a6-9767-4cb8-9fc4-f30cc2d994b6",
+  "started_at": "2026-09-10T20:55:18.775871+00:00",
+  "finished_at": "2026-09-10T21:00:07.945857+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -72,7 +72,7 @@
     "delay_applied_seconds": 0,
     "duration_seconds": 0.0
   },
-  "ai_commentary_count": 2,
+  "ai_commentary_count": 1,
   "ai_quality": {
     "status": "pass",
     "lazy_score": 1,
@@ -112,7 +112,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 3,
+      "sample_count": 4,
       "min_samples": 3,
       "median_lazy_score": 1.0,
       "p95_lazy_score": 4.0,
