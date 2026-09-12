@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-12T08:53:25",
+  "generated_at": "2026-09-12T09:17:06",
   "tickers": [
     "GOOG",
     "BABA",
@@ -30,16 +30,16 @@
     "MRVL"
   ],
   "zh": {
-    "summary": "宏觀面臨中選年不確定性與財政擴張風險，整體 IV 水位分化明顯。[[pos:科技基本面強]] [[neg:估值極端分化]] [[key:TSLA/COST高波動]] [[warn:選擇權流動性不足]] 重點關注 GOOG 近期雲端大單支撐、BABA AI 指控帶來波動、TSLA 機器人出租車催化劑。建議優先佈局近月賣方策略，嚴守支撐阻力帶。\n\nAI 需求推升半導體，VOO 吸金 436 億，估值分歧大。多檔 IV 缺失，價差品質尚可。TSM 營收創高雙向機會佳，META 賣 Call 700 阻力位吸引，INTC 賣 Call 110 年化高。風險在巨頭估值與宏觀利率。[[pos:AI需求]][[pos:資金流入]][[neg:估值分歧]][[key:TSM雙向]][[key:META700]][[key:INTC110]][[warn:巨頭估值]][[warn:利率風險]]\n\n六檔標的表現分歧：[[neg:UNH醫保下跌]] [[pos:AI晶片帶動雙星]] AVGO MRVL上漲，[[key:ISRG程序增長]] 但面臨美中阻力，EWT台股AI衝刺，SPCX缺催化劑。[[warn:多檔估值偏高]]",
-    "GOOG": "現價 $335.45，支撐 $330.00 阻力 $350.00，預期區間 $326.10-$344.80。SpaceX 雲端大單利好長期基本面，建議賣方策略偏多，Sell Put $305.00 (26d) 年化尚可，Sell Call $365.00 (26d) 權利金較豐。[[pos:雲端大單]] [[key:330/350]] [[warn:宏觀不確定]]",
-    "BABA": "BABA 現價 [[key:$109.30]]，Max Pain [[key:$110.00]]。 主要支撐位 [[key:$100.00]]；建議於 [[key:$102.00]] 區間 Sell Put；或於 [[key:$120.00]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "summary": "科技巨頭基本面強勁但估值偏高，GOOG/MSFT/AMZN財報向好；TSLA/SBUX/COST本益比極高；BABA面臨地緣風險；TLT利率敏感度極大。最佳設定：GOOG賣權$305、TSLA賣看漲$397.5。[[pos:科技基本面強]] [[neg:整體估值高]] [[key:GOOG/TSLA]] [[warn:宏觀不確定]] [[pos:財報向好]] [[neg:地緣風險]] [[key:IV水位]] [[warn:利率敏感]]\n\nAI 需求推升半導體，VOO 吸金 436 億，估值分歧大。多檔 IV 缺失，價差品質尚可。TSM 營收創高雙向機會佳，META 賣 Call 700 阻力位吸引，INTC 賣 Call 110 年化高。風險在巨頭估值與宏觀利率。[[pos:AI需求]][[pos:資金流入]][[neg:估值分歧]][[key:TSM雙向]][[key:META700]][[key:INTC110]][[warn:巨頭估值]][[warn:利率風險]]\n\n六檔標的表現分歧：[[neg:UNH醫保下跌]] [[pos:AI晶片帶動雙星]] AVGO MRVL上漲，[[key:ISRG程序增長]] 但面臨美中阻力，EWT台股AI衝刺，SPCX缺催化劑。[[warn:多檔估值偏高]]",
+    "GOOG": "IV隱含2.8%，建議SP $305/SC $365，支撐$330阻力$350，基本面佳。[[pos:基本面佳]] [[key:$305/$365]] [[warn:大選不確定]]",
+    "BABA": "IV隱含3.6%，建議SP $102/SC $120，支撐$100阻力$100，估值便宜。[[pos:估值便宜]] [[key:$102/$120]] [[warn:中美AI爭端]]",
     "NFLX": "NFLX 現價 [[key:$77.40]]，Max Pain [[key:$78.00]]。 主要支撐位 [[key:$65.00]]；或於 [[key:$82.00]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "TLT": "現價 $80.87，支撐 $81.00 阻力 $82.00，預期區間極窄 $80.41-$81.33。債券波動極低，GEX 翻轉點 $83.00，適合賣方鐵鷹或跨式策略收取微薄權利金。[[pos:區間震盪]] [[key:81/82]] [[warn:財政赤字擴大]]",
-    "MSFT": "現價 $495.63，支撐 $480.00 阻力 $550.00，預期區間 $490.47-$500.79。Oracle 雲端競爭加劇但基本面穩健，SEC 顯示高估，建議 Sell Put $480 附近、Sell Call $550 附近佈局寬跨式。[[pos:基本面穩健]] [[neg:估值偏高]] [[key:480/550]]",
-    "AMZN": "現價 $256.78，支撐 $240.00 阻力 $280.00，預期區間 $253.27-$260.29。Thiel 基金增持與 Prime Video AI 購物利好，SEC 合理估值，Sell Put $240、Sell Call $280 區間對稱度佳。[[pos:AI購物創新]] [[key:240/280]] [[warn:消費疲軟]]",
+    "TLT": "IV極低0.6%，無引擎建議，支撐$81阻力$82，財政赤字風險。[[neg:波動極低]] [[key:$81/$82]] [[warn:財政赤字]]",
+    "MSFT": "IV隱含1.0%，無引擎建議，支撐$480阻力$550，雲端增長但本益比高。[[pos:雲端增長]] [[key:$480/$550]] [[warn:本益比高]]",
+    "AMZN": "IV隱含1.4%，無引擎建議，支撐$240阻力$280，AI獲利增長估值合理。[[pos:AI獲利增]] [[key:$240/$280]] [[warn:估值合理]]",
     "TSLA": "TSLA 現價 [[key:$365.44]]，Max Pain [[key:$365.00]]。 主要支撐位 [[key:$200.00]]；建議於 [[key:$340.00]] 區間 Sell Put；或於 [[key:$397.50]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
-    "SHEL": "現價 $96.77，支撐 $82.50 阻力 $110.00，Max Pain $87.50 遠低於現價。項目受挫消息壓制上行，GEX 支撐 $95.00 阻力 $97.50，適合 Sell Call $110.00 遠期、Sell Put $82.50 深度虛值。[[neg:項目受挫]] [[key:95/97.5]] [[warn:天然氣冬季需求]]",
-    "SBUX": "SBUX 現價 [[key:$98.74]]，Max Pain [[key:$105.00]]。 主要支撐位 [[key:$85.00]]。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
+    "SHEL": "IV數據缺失，無引擎建議，支撐$82.5阻力$110，專案受挫風險。[[warn:專案受挫]] [[key:$82.5/$110]] [[neg:能源股混雜]]",
+    "SBUX": "IV隱含2.7%，無引擎建議，支撐$85阻力$110，EPS下滑競爭加劇。[[neg:獲利下滑]] [[key:$85/$110]] [[warn:競爭加劇]]",
     "COST": "COST 現價 [[key:$904.77]]，Max Pain [[key:$920.00]]。 主要支撐位 [[key:$900.00]]；建議於 [[key:$815.00]] 區間 Sell Put；或於 [[key:$995.00]] Sell Call。 [[warn:此為自動產生之保守摘要]]，請參考量化報告完整數據。",
     "VOO": "VOO 現價 702.56，put 支撐 670、call 壓力 720，引擎建議賣 Put 660（19 天）收 1.15。新聞顯示 9/11 單月吸金 436 億無視回調論，資金流入支撐。適合賣 Put 660 以下，風險在廣泛市場回調。[[pos:資金流入]][[key:660/670]][[warn:回調風險]]",
     "TSM": "TSM 現價 433.24，put 支撐 400、call 壓力 430，引擎給賣 Put 390（1.39）與賣 Call 475（1.73）均 19 天。9/11 新聞確認 8 月營收創歷史新高且 Broadcom、Marvell 客製 AI 晶片帶動需求。雙向策略皆可，風險在晶圓代工議價壓力。[[pos:營收創高]][[key:390/475]][[warn:議價壓力]]",
@@ -59,24 +59,24 @@
     "MRVL": "MRVL漲4.03%至236.10，[[pos:定制AI贏單]] [[key:賣Put215]](19d)4.90，[[warn:本益比84.6倍]]。"
   },
   "en": {
-    "summary": "Macro sentiment mixed with [[pos:AI-driven mega-cap strength]] offset by [[warn:rate uncertainty pressuring bonds]]. IV elevated in TSLA (1.9% move) and BABA (3.6%) vs compressed in TLT (0.6%). Top setups: [[key:GOOG $365 call]] for AI cloud tailwinds and [[key:AMZN $240 put]] for e-commerce support. [[neg:TSLA valuation]] and [[neg:SBUX earnings decline]] warrant caution.\n\nMarket shows [[pos:strong ETF inflows]] with VOO attracting $43.6B monthly. AI semiconductor theme dominates: TSM record revenue confirms AMD/NVDA ramp, while INTC surges on political catalyst. [[key:IV elevated across tech]] with NVDA/AMD/META flagged overvalued by SEC metrics. Top setups: [[pos:TSM sell put $390]] for AI foundry tailwind and [[pos:INTC sell put $96]] for high premium near support. [[warn:concentration risk]] in mega-cap tech given stretched valuations.\n\nMarket shows mixed sentiment with AI semiconductor names (AVGO, MRVL) rallying on custom chip demand while healthcare (UNH, ISRG) faces headwinds. IV elevated in MRVL (±6.5% expected move) and SPCX (±5.5%) vs tighter ranges in AVGO (±1.7%). Top setups: [[pos:AVGO sell put $340]] near support with 8d expiry, [[pos:MRVL sell put $215]] capturing high premium at 19d. [[warn:UNH downside risk]] from sector rotation, [[warn:ISRG China exposure]] clouds procedure growth.",
-    "GOOG": "IV ~2.8% via expected move. [[pos:Strong earnings growth]] supports [[key:Sell Call $365]] above $350 resistance; [[warn:SpaceX deal]] may boost cloud demand. SP $305 conservative at put support $330.",
-    "BABA": "IV ~3.6% via expected move. [[neg:Anthropic AI allegations]] cloud outlook; [[key:Sell Put $102]] at put support $100 offers buffer. SC $120 far above $110 max pain. Unusual put/call OI both at $100.",
+    "summary": "Market shows mixed IV: mega-caps MSFT/AMZN/GOOG tight moves (1-2.8%), TSLA/SBUX wider (1.9-2.7%), TLT minimal (0.6%). SEC flags MSFT/TSLA/SBUX/COST overvalued; NFLX undervalued. Top setups: [[pos:GOOG put $305]] for premium with 26d buffer, [[pos:TSLA call $397.50]] high CP score 47.8. [[warn:TSLA valuation]] and [[warn:SBUX earnings]] are key risks. [[key:BABA $102 put]] offers 3.6% expected move cushion. Election/fiscal headlines [[warn:macro uncertainty]] dominate TLT and broad sentiment.\n\nMarket shows mixed sentiment with mega-cap tech diverging. VOO attracts [[pos:$43.6B monthly inflows]] despite selloff talk. NVDA and AMD benefit from AI capex surge but trade at [[warn:extreme valuations]]. META's [[key:$18B settlement]] may unlock AI products. TSM [[pos:record revenue]] confirms foundry demand. INTC rallies on political catalyst but fundamentals weak. ARCC offers [[key:value with yield]] amid EPS decline. SPYV provides [[key:defensive value tilt]]. Best setups: TSM strangle [[key:$390/$475]] and META iron condor [[key:$602.5/$700]]\n\nMixed macro backdrop: UNH [[neg:drops despite market gains]] while AVGO [[pos:custom AI chip boom]] and MRVL [[pos:winning custom AI business]] benefit from hyperscaler demand. ISRG faces [[warn:US procedure slowdown]] despite strong fundamentals. EWT rides [[pos:Taiwan AI surge 50%+]]. SPCX lacks specific catalysts. Key setups: MRVL [[key:Sell Put $215/19d]] for high premium in wide $220.80-$251.40 range; AVGO [[key:Sell Call $382.50/5d]] for quick theta decay near $365 max pain. Most names show SEC overvalued signals except UNH near_fair.",
+    "GOOG": "GOOG trades at [[key:$335.45]], Max Pain [[key:$330.00]]. Key support at [[key:$330.00]]; Sell Put around [[key:$305.00]]; or Sell Call near [[key:$365.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "BABA": "BABA trades at [[key:$109.30]], Max Pain [[key:$110.00]]. Key support at [[key:$100.00]]; Sell Put around [[key:$102.00]]; or Sell Call near [[key:$120.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
     "NFLX": "NFLX trades at [[key:$77.40]], Max Pain [[key:$78.00]]. Key support at [[key:$65.00]]; or Sell Call near [[key:$82.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "TLT": "IV ~0.6% via expected move, extremely low. [[neg:Trump fiscal plans]] and [[warn:rising rate bias]] pressure prices. Range $80.41-$81.33 tight; no engine picks. GEX flip $83 below spot.",
-    "MSFT": "IV ~1.0% via expected move. [[pos:Strong fundamentals]] but [[warn:SEC overvalued]] at 29.8x P/E. [[key:Sell Put $480]] at put support. Call resistance $550 distant. Oracle AI cloud competition noted.",
-    "AMZN": "IV ~1.4% via expected move. [[pos:Thiel AI bet]] and Prime Video shopping boost sentiment. [[key:Sell Put $240]] at put support. Call resistance $280; SEC near_fair at 21.1x P/E with 131% EPS growth.",
+    "TLT": "TLT trades at [[key:$80.87]], Max Pain [[key:$81.00]]. Key support at [[key:$81.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "MSFT": "MSFT trades at [[key:$495.63]], Max Pain [[key:$495.00]]. Key support at [[key:$480.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "AMZN": "AMZN trades at [[key:$256.78]], Max Pain [[key:$255.00]]. Key support at [[key:$240.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
     "TSLA": "TSLA trades at [[key:$365.44]], Max Pain [[key:$365.00]]. Key support at [[key:$200.00]]; Sell Put around [[key:$340.00]]; or Sell Call near [[key:$397.50]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "SHEL": "SHEL trades at [[key:$96.77]], Max Pain [[key:$87.50]]. Key support at [[key:$82.50]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
+    "SHEL": "SHEL at $96.77 with max pain $87.50, put support $82.50, call resistance $110. No expected move data. News: troubled project blow [[warn:project risk]], mixed energy sector. Analysts mostly Hold (9). GEX flip $83, key support $95 [[key:95 support]]. No engine picks; low IV data [[warn:data gap]].",
     "SBUX": "SBUX trades at [[key:$98.74]], Max Pain [[key:$105.00]]. Key support at [[key:$85.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "COST": "IV ~1.8% via expected move. [[warn:SEC overvalued]] at 49.5x P/E. [[key:Sell Call $995]] at 26d (CP 50.3); SP $815 premiums falling. Holiday spending tailwind; put support $900.",
+    "COST": "COST trades at [[key:$904.77]], Max Pain [[key:$920.00]]. Key support at [[key:$900.00]]; Sell Put around [[key:$815.00]]; or Sell Call near [[key:$995.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
     "VOO": "VOO trades at [[key:$702.56]], Max Pain [[key:$670.00]]. Key support at [[key:$670.00]]; Sell Put around [[key:$645.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
     "TSM": "TSM trades at [[key:$433.24]], Max Pain [[key:$410.00]]. Key support at [[key:$400.00]]; Sell Put around [[key:$390.00]]; or Sell Call near [[key:$475.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "SPYV": "SPYV at $63.04 with max pain $58, put support $60, call resistance $62. No engine picks provided. [[pos:value tilt favored]] as S&P 500 expensive per recent analysis. [[warn:limited options data]] restricts strategy precision. Consider broad market direction for bias.",
+    "SPYV": "Spot $63.04, put support $60, call resistance $62, max pain $58. No engine picks or expected move data. [[key:$60/$62 range]] [[pos:value tilt]] [[warn:no IV data]]",
     "NVDA": "NVDA trades at [[key:$218.29]], Max Pain [[key:$220.00]]. Key support at [[key:$200.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
     "AMD": "AMD trades at [[key:$516.13]], Max Pain [[key:$500.00]]. Key support at [[key:$410.00]]; Sell Put around [[key:$465.00]]; or Sell Call near [[key:$567.50]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
-    "ARCC": "ARCC at $19.74 with put support $17, call resistance $20, expected range $19.09-$20.39. [[pos:SEC undervalued at 13.5x P/E]] with high yield appeal. [[warn:EPS declined -35.4%]] pressures fundamentals. No engine picks; consider sell put near $17 support for income.",
-    "AAPL": "AAPL at $332.27 with put support $300, call resistance $350, expected range $327.86-$336.68. [[pos:listed as new buy]] amid macro pressure. [[warn:SEC overvalued at 39.4x P/E]] despite +15.7% revenue growth. No engine picks; sell call near $350 resistance or put near $300 support.",
+    "ARCC": "Spot $19.74, put support $17, call resistance $20, expected range $19.09-$20.39. SEC says undervalued (13.5x P/E) but EPS -35.4%. [[key:$17/$20 range]] [[pos:undervalued per SEC]] [[warn:EPS decline]]",
+    "AAPL": "Spot $332.27, put support $300, call resistance $350, expected range $327.86-$336.68. SEC overvalued (39.4x P/E). [[key:$300/$350 range]] [[pos:new buy rating]] [[warn:overvalued per SEC]]",
     "ABNB": "ABNB trades at [[key:$170.19]], Max Pain [[key:$160.00]]. Key support at [[key:$170.00]]; or Sell Call near [[key:$185.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
     "META": "META trades at [[key:$648.03]], Max Pain [[key:$620.00]]. Key support at [[key:$140.00]]; Sell Put around [[key:$602.50]]; or Sell Call near [[key:$700.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
     "INTC": "INTC trades at [[key:$102.94]], Max Pain [[key:$100.00]]. Key support at [[key:$95.00]]; Sell Put around [[key:$96.00]]; or Sell Call near [[key:$111.00]]. [[warn:Auto-generated conservative summary]] — see quant report for full data.",
@@ -89,12 +89,12 @@
   },
   "_grounding": {
     "zh": {
-      "checked": 0,
+      "checked": 2,
       "failed_tokens": [],
       "ok": true
     },
     "en": {
-      "checked": 7,
+      "checked": 8,
       "failed_tokens": [],
       "ok": true
     }
