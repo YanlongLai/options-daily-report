@@ -1,7 +1,7 @@
 {
-  "run_id": "5ce0110a-069f-4546-b79d-bfa08b54cd80",
-  "started_at": "2026-09-24T21:18:55.072692+00:00",
-  "finished_at": "2026-09-24T21:37:16.540549+00:00",
+  "run_id": "0da28d26-2370-4c6d-9f54-7ffcaa7573c6",
+  "started_at": "2026-09-25T13:40:11.656833+00:00",
+  "finished_at": "2026-09-25T13:57:25.349723+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,14 +77,14 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 7,
+    "lazy_score": 4,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.308,
-      "cross_similarity_rate": 0.018,
+      "self_ref_miss_rate": 0.154,
+      "cross_similarity_rate": 0.055,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
@@ -111,19 +111,18 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 20,
+    "fallback_ticker_count": 22,
     "fallback_by_language": {
-      "en": 16,
-      "zh": 4
+      "zh": 11,
+      "en": 11
     },
     "fallback_reasons": {
-      "price_validation": 14,
-      "missing_output": 6
+      "price_validation": 22
     },
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 41,
+      "sample_count": 42,
       "min_samples": 3,
       "median_lazy_score": 11.0,
       "p95_lazy_score": 26.0,
