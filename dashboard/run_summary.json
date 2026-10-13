@@ -1,7 +1,7 @@
 {
-  "run_id": "66ba336a-4549-4647-9394-9a345e40240c",
-  "started_at": "2026-10-13T13:40:09.533094+00:00",
-  "finished_at": "2026-10-13T13:52:19.015821+00:00",
+  "run_id": "4c56b5e2-4e21-47ea-ae73-d82746eefff1",
+  "started_at": "2026-10-13T14:40:10.203768+00:00",
+  "finished_at": "2026-10-13T14:48:07.753526+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,8 +84,7 @@
   },
   "sources_status": {
     "tradier": "partial",
-    "yfinance": "partial",
-    "flashalpha": "down",
+    "yfinance": "ok",
     "gemini": "down",
     "finmind": "not_used"
   },
