@@ -1,7 +1,7 @@
 {
-  "run_id": "4c56b5e2-4e21-47ea-ae73-d82746eefff1",
-  "started_at": "2026-10-13T14:40:10.203768+00:00",
-  "finished_at": "2026-10-13T14:48:07.753526+00:00",
+  "run_id": "2b512e9f-98a6-411a-a790-63684e79b619",
+  "started_at": "2026-10-13T15:40:13.491860+00:00",
+  "finished_at": "2026-10-13T15:47:31.428088+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -83,10 +83,10 @@
     "error": "VIP config is missing: /home/ubuntu/a001/config/self-hosted/vip-stocks.yaml"
   },
   "sources_status": {
-    "tradier": "partial",
-    "yfinance": "ok",
+    "tradier": "ok",
     "gemini": "down",
-    "finmind": "not_used"
+    "finmind": "not_used",
+    "yfinance": "ok"
   },
   "data_repo_committed": true
 }
