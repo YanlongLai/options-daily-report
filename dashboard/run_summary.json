@@ -1,7 +1,7 @@
 {
-  "run_id": "3baaf99c-95f6-4f34-a4f7-38e3bb0f178a",
-  "started_at": "2026-10-15T15:40:08.593449+00:00",
-  "finished_at": "2026-10-15T15:49:40.642007+00:00",
+  "run_id": "99e12077-e13e-4d39-9a25-f6057c37dfed",
+  "started_at": "2026-10-15T16:40:09.697312+00:00",
+  "finished_at": "2026-10-15T16:46:41.753716+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.0,
+      "cross_similarity_rate": 0.022,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
@@ -99,7 +99,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.0,
+        "cross_similarity_rate": 0.022,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
@@ -195,10 +195,10 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 19,
+        "sample_count": 20,
         "min_samples": 3,
-        "median_lazy_score": 17.0,
-        "p95_lazy_score": 31.0,
+        "median_lazy_score": 13.0,
+        "p95_lazy_score": 26.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
@@ -209,17 +209,18 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 22,
+    "fallback_ticker_count": 27,
     "fallback_by_language": {
-      "en": 22
+      "en": 21,
+      "zh": 6
     },
     "fallback_reasons": {
-      "price_validation": 22
+      "price_validation": 27
     },
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 75,
+      "sample_count": 76,
       "min_samples": 3,
       "median_lazy_score": 5.0,
       "p95_lazy_score": 25.0,
@@ -229,10 +230,10 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 19,
+        "sample_count": 20,
         "min_samples": 3,
-        "median_lazy_score": 17.0,
-        "p95_lazy_score": 31.0,
+        "median_lazy_score": 13.0,
+        "p95_lazy_score": 26.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
@@ -241,10 +242,10 @@
     }
   },
   "sources_status": {
-    "tradier": "ok",
+    "tradier": "partial",
+    "yfinance": "ok",
     "gemini": "ok",
-    "finmind": "not_used",
-    "yfinance": "ok"
+    "finmind": "not_used"
   },
   "data_repo_committed": true
 }
