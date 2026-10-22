@@ -1,7 +1,7 @@
 {
-  "run_id": "ebe1ae1b-dd57-4d3e-ae31-c8c1b9e02131",
-  "started_at": "2026-10-21T19:40:08.180477+00:00",
-  "finished_at": "2026-10-21T19:52:50.445661+00:00",
+  "run_id": "7a04672a-442c-4daa-b8ac-ad45fccb143b",
+  "started_at": "2026-10-22T13:40:09.123094+00:00",
+  "finished_at": "2026-10-22T13:50:21.322384+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -195,7 +195,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 46,
+        "sample_count": 47,
         "min_samples": 3,
         "median_lazy_score": 5.0,
         "p95_lazy_score": 25.0,
@@ -209,13 +209,13 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 26,
+    "fallback_ticker_count": 25,
     "fallback_by_language": {
-      "zh": 7,
-      "en": 19
+      "en": 19,
+      "zh": 6
     },
     "fallback_reasons": {
-      "price_validation": 26
+      "price_validation": 25
     },
     "raw_status": "pass",
     "historical": {
@@ -230,7 +230,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 46,
+        "sample_count": 47,
         "min_samples": 3,
         "median_lazy_score": 5.0,
         "p95_lazy_score": 25.0,
@@ -242,11 +242,10 @@
     }
   },
   "sources_status": {
-    "tradier": "down",
-    "flashalpha": "quota_exhausted",
-    "yfinance": "ok",
+    "tradier": "ok",
     "gemini": "ok",
-    "finmind": "not_used"
+    "finmind": "not_used",
+    "yfinance": "ok"
   },
   "data_repo_committed": true
 }
