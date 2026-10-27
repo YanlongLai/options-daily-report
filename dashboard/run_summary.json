@@ -1,7 +1,7 @@
 {
-  "run_id": "d124e209-1871-479c-a9a6-77c116ee0529",
-  "started_at": "2026-10-27T17:40:08.934805+00:00",
-  "finished_at": "2026-10-27T17:45:15.832746+00:00",
+  "run_id": "36fb587f-f6d1-4575-aec0-3f2d5f75304d",
+  "started_at": "2026-10-27T18:40:08.793692+00:00",
+  "finished_at": "2026-10-27T18:44:58.898452+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,13 +77,13 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 2,
+    "lazy_score": 0,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.077,
+      "self_ref_miss_rate": 0.0,
       "cross_similarity_rate": 0.0,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
@@ -92,13 +92,13 @@
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 2,
+      "lazy_score": 0,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.077,
+        "self_ref_miss_rate": 0.0,
         "cross_similarity_rate": 0.0,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
@@ -198,9 +198,9 @@
         "sample_count": 57,
         "min_samples": 3,
         "median_lazy_score": 3.0,
-        "p95_lazy_score": 18.0,
+        "p95_lazy_score": 14.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.077,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
         "flags": []
       }
@@ -209,12 +209,12 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 23,
+    "fallback_ticker_count": 22,
     "fallback_by_language": {
-      "en": 23
+      "en": 22
     },
     "fallback_reasons": {
-      "price_validation": 23
+      "price_validation": 22
     },
     "raw_status": "pass",
     "historical": {
@@ -224,7 +224,7 @@
       "median_lazy_score": 3.0,
       "p95_lazy_score": 12.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.077,
+      "previous_repeat_rate": 0.0,
       "compared_tickers": 26,
       "flags": [],
       "vip": {
@@ -232,9 +232,9 @@
         "sample_count": 57,
         "min_samples": 3,
         "median_lazy_score": 3.0,
-        "p95_lazy_score": 18.0,
+        "p95_lazy_score": 14.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.077,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
         "flags": []
       }
