@@ -1,7 +1,7 @@
 {
-  "run_id": "e7a15564-8e8c-4d7b-ba94-9d8c9fa0e4da",
-  "started_at": "2026-10-29T17:40:08.450417+00:00",
-  "finished_at": "2026-10-29T17:46:38.928318+00:00",
+  "run_id": "b2f95863-b3bc-4a5f-97bf-68d159bafc0d",
+  "started_at": "2026-10-29T18:40:08.700789+00:00",
+  "finished_at": "2026-10-29T18:46:09.307510+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,30 +77,30 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 8,
+    "lazy_score": 1,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.346,
-      "cross_similarity_rate": 0.046,
-      "anchor_miss_rate": 0.038,
+      "self_ref_miss_rate": 0.0,
+      "cross_similarity_rate": 0.065,
+      "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 8,
+      "lazy_score": 1,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.346,
-        "cross_similarity_rate": 0.046,
-        "anchor_miss_rate": 0.038,
+        "self_ref_miss_rate": 0.0,
+        "cross_similarity_rate": 0.065,
+        "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -195,9 +195,9 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 68,
+        "sample_count": 69,
         "min_samples": 3,
-        "median_lazy_score": 2.0,
+        "median_lazy_score": 3.0,
         "p95_lazy_score": 12.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
@@ -209,13 +209,13 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 19,
+    "fallback_ticker_count": 30,
     "fallback_by_language": {
-      "zh": 6,
-      "en": 13
+      "zh": 16,
+      "en": 14
     },
     "fallback_reasons": {
-      "price_validation": 19
+      "price_validation": 30
     },
     "raw_status": "pass",
     "historical": {
@@ -230,9 +230,9 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 68,
+        "sample_count": 69,
         "min_samples": 3,
-        "median_lazy_score": 2.0,
+        "median_lazy_score": 3.0,
         "p95_lazy_score": 12.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
