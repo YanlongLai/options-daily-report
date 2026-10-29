@@ -1,7 +1,7 @@
 {
-  "run_id": "cd0a2338-cbac-4829-93c2-54c6d7df9fcc",
-  "started_at": "2026-10-29T13:40:08.615427+00:00",
-  "finished_at": "2026-10-29T13:48:32.505220+00:00",
+  "run_id": "05a8e814-b686-494b-a28a-f047b0b221d1",
+  "started_at": "2026-10-29T14:40:08.800007+00:00",
+  "finished_at": "2026-10-29T14:47:31.231356+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,14 +77,14 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 7,
+    "lazy_score": 12,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.348,
+      "self_ref_miss_rate": 0.269,
+      "cross_similarity_rate": 0.338,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
@@ -92,14 +92,14 @@
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 7,
+      "lazy_score": 12,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.348,
+        "self_ref_miss_rate": 0.269,
+        "cross_similarity_rate": 0.338,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
@@ -195,7 +195,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 64,
+        "sample_count": 65,
         "min_samples": 3,
         "median_lazy_score": 2.0,
         "p95_lazy_score": 9.0,
@@ -209,13 +209,13 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 40,
+    "fallback_ticker_count": 35,
     "fallback_by_language": {
-      "zh": 17,
-      "en": 23
+      "zh": 18,
+      "en": 17
     },
     "fallback_reasons": {
-      "price_validation": 40
+      "price_validation": 35
     },
     "raw_status": "pass",
     "historical": {
@@ -230,7 +230,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 64,
+        "sample_count": 65,
         "min_samples": 3,
         "median_lazy_score": 2.0,
         "p95_lazy_score": 9.0,
