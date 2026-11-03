@@ -1,7 +1,7 @@
 {
-  "run_id": "689d9555-7475-4a13-96f6-08dce101308f",
-  "started_at": "2026-11-03T14:40:08.922672+00:00",
-  "finished_at": "2026-11-03T14:58:32.743825+00:00",
+  "run_id": "06f7314b-6970-4a47-b6f2-9b61f04f7ce2",
+  "started_at": "2026-11-03T15:40:08.300451+00:00",
+  "finished_at": "2026-11-03T15:51:25.966337+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.077,
-      "cross_similarity_rate": 0.092,
+      "cross_similarity_rate": 0.086,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
@@ -99,7 +99,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.077,
-        "cross_similarity_rate": 0.092,
+        "cross_similarity_rate": 0.086,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
@@ -195,7 +195,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 85,
+        "sample_count": 86,
         "min_samples": 3,
         "median_lazy_score": 3.0,
         "p95_lazy_score": 12.0,
@@ -209,13 +209,13 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 25,
+    "fallback_ticker_count": 31,
     "fallback_by_language": {
-      "en": 16,
+      "en": 22,
       "zh": 9
     },
     "fallback_reasons": {
-      "price_validation": 25
+      "price_validation": 31
     },
     "raw_status": "pass",
     "historical": {
@@ -230,7 +230,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 85,
+        "sample_count": 86,
         "min_samples": 3,
         "median_lazy_score": 3.0,
         "p95_lazy_score": 12.0,
