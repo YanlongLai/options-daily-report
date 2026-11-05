@@ -1,7 +1,7 @@
 {
-  "run_id": "33fdc892-28a6-4d7f-b24a-cbb9fed8c1e4",
-  "started_at": "2026-11-05T19:40:08.086294+00:00",
-  "finished_at": "2026-11-05T19:52:55.553914+00:00",
+  "run_id": "c9736bef-a839-4b4d-ad45-646c2ff882de",
+  "started_at": "2026-11-05T20:40:08.775566+00:00",
+  "finished_at": "2026-11-05T20:48:46.897724+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -200,7 +200,7 @@
         "median_lazy_score": 3.0,
         "p95_lazy_score": 12.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.038,
         "compared_tickers": 26,
         "flags": []
       }
@@ -209,13 +209,13 @@
     "batch_count": 3,
     "batch_workers": 1,
     "fallback_batches": 3,
-    "fallback_ticker_count": 26,
+    "fallback_ticker_count": 20,
     "fallback_by_language": {
-      "zh": 5,
-      "en": 21
+      "zh": 4,
+      "en": 16
     },
     "fallback_reasons": {
-      "price_validation": 26
+      "price_validation": 20
     },
     "raw_status": "pass",
     "historical": {
@@ -225,7 +225,7 @@
       "median_lazy_score": 3.0,
       "p95_lazy_score": 12.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.0,
+      "previous_repeat_rate": 0.038,
       "compared_tickers": 26,
       "flags": [],
       "vip": {
@@ -235,7 +235,7 @@
         "median_lazy_score": 3.0,
         "p95_lazy_score": 12.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.038,
         "compared_tickers": 26,
         "flags": []
       }
