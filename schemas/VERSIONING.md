@@ -9,8 +9,7 @@ to parse data produced under a major version they don't understand.
 
 | Schema | Version | Used by |
 |---|---|---|
-| `data.schema.json` | 1.4.0 | Mobile app Dashboard/Matrix, web viewer; optional valuation range, ticker taxonomy, bilingual news metadata, and next earnings date |
-| `../schema/v1.json` | 1.1.0 | Lean report envelope; optional earnings date contract for legacy embedded dashboard |
+| `data.schema.json` | 1.3.0 | Mobile app Dashboard/Matrix, web viewer; optional valuation range, ticker taxonomy, and bilingual news metadata |
 | `weekly_summary.schema.json` | 1.0.0 | Mobile app Weekly Summary screen |
 | `ai_commentary.schema.json` | 1.0.0 | Mobile app Reports, dappgo.com/options |
 | `manifest.schema.json` | 1.0.0 | Mobile app startup listing |
