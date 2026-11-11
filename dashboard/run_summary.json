@@ -1,7 +1,7 @@
 {
-  "run_id": "c4297858-21eb-4c3c-a828-904c64bb2498",
-  "started_at": "2026-11-11T17:40:24.623085+00:00",
-  "finished_at": "2026-11-11T17:46:31.661406+00:00",
+  "run_id": "b47c79ab-d034-4851-acbd-42115edb114e",
+  "started_at": "2026-11-11T18:40:23.289009+00:00",
+  "finished_at": "2026-11-11T18:46:38.012243+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,7 +97,7 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 6,
+    "lazy_score": 7,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -105,14 +105,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.278,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.0,
+      "anchor_miss_rate": 0.083,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 6,
+      "lazy_score": 7,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -120,7 +120,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.278,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.0,
+        "anchor_miss_rate": 0.083,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -260,9 +260,9 @@
     "batch_workers": 1,
     "ai_calls": {
       "count": 8,
-      "p50_duration_ms": 17385.156,
-      "p95_duration_ms": 32494.179,
-      "max_duration_ms": 33587.726,
+      "p50_duration_ms": 16037.936,
+      "p95_duration_ms": 31997.672,
+      "max_duration_ms": 32368.146,
       "timeouts": 0
     },
     "budget_exhausted": false,
