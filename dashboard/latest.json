@@ -1,11 +1,11 @@
 {
-  "hash": "4445b6e8e2448912aa37356e6ccc177f9434856636198e94703650dc06848a3c",
+  "hash": "2eddc6a64d009f8ea833d55d98d72be52a3f732ff7a5a2ec9cb3d408c6bd72c7",
   "schema_version": "1.4.0",
   "report_date": "2026-11-13",
-  "generated_at_utc": "2026-11-13T19:48:29Z",
-  "publication_slot": "options-20261113t1140",
+  "generated_at_utc": "2026-11-13T20:49:05Z",
+  "publication_slot": "options-20261113t1240",
   "publication_revision": 1,
-  "publication_run_id": "434cf17e-e040-4a87-b4af-7625185a7e59",
-  "data_url_v2": "dashboard/data-4445b6e8e244.json",
+  "publication_run_id": "7ba56cbe-ccda-4622-a72d-ae2f0da94753",
+  "data_url_v2": "dashboard/data-2eddc6a64d00.json",
   "data_url": "https://raw.githubusercontent.com/YanlongLai/options-daily-report/main/dashboard/data.json"
 }
