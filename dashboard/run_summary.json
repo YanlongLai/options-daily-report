@@ -1,7 +1,7 @@
 {
-  "run_id": "f07400da-170b-4149-9cd4-29886f9b0099",
-  "started_at": "2026-11-16T15:40:23.082130+00:00",
-  "finished_at": "2026-11-16T15:46:07.385528+00:00",
+  "run_id": "5337308d-1f67-49fe-afb8-bdc2c9231fdd",
+  "started_at": "2026-11-16T17:40:22.753188+00:00",
+  "finished_at": "2026-11-16T17:45:35.185995+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,30 +97,30 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 7,
+    "lazy_score": 2,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.306,
+      "self_ref_miss_rate": 0.0,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.056,
+      "anchor_miss_rate": 0.111,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 7,
+      "lazy_score": 2,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.306,
+        "self_ref_miss_rate": 0.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.056,
+        "anchor_miss_rate": 0.111,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -259,16 +259,16 @@
     "batch_count": 4,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 11,
-      "p50_duration_ms": 16649.633,
-      "p95_duration_ms": 32569.708,
-      "max_duration_ms": 34772.648,
+      "count": 8,
+      "p50_duration_ms": 21248.607,
+      "p95_duration_ms": 36931.197,
+      "max_duration_ms": 38921.311,
       "timeouts": 0
     },
     "budget_exhausted": false,
     "budget_skipped_count": 0,
     "budget_skipped_ticker_count": 0,
-    "fallback_batches": 2,
+    "fallback_batches": 3,
     "fallback_ticker_count": 0,
     "fallback_by_language": {},
     "fallback_reasons": {},
@@ -297,11 +297,10 @@
     }
   },
   "sources_status": {
-    "tradier": "partial",
-    "flashalpha": "quota_exhausted",
-    "yfinance": "ok",
+    "tradier": "ok",
     "gemini": "ok",
-    "finmind": "not_used"
+    "finmind": "not_used",
+    "yfinance": "ok"
   },
   "data_repo_committed": true
 }
