@@ -1,7 +1,7 @@
 {
-  "run_id": "9b54da77-d4fe-4b4c-8613-6f56892fdc89",
-  "started_at": "2026-11-17T15:40:23.538547+00:00",
-  "finished_at": "2026-11-17T15:46:26.765697+00:00",
+  "run_id": "97ac0147-a3d4-4ea7-a632-811718365ac8",
+  "started_at": "2026-11-17T16:40:22.959844+00:00",
+  "finished_at": "2026-11-17T16:45:35.554838+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,30 +97,30 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 5,
+    "lazy_score": 9,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.25,
+      "self_ref_miss_rate": 0.417,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.0,
+      "anchor_miss_rate": 0.056,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 5,
+      "lazy_score": 9,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.25,
+        "self_ref_miss_rate": 0.417,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.0,
+        "anchor_miss_rate": 0.056,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -259,22 +259,22 @@
     "batch_count": 4,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 14,
-      "p50_duration_ms": 18571.641,
-      "p95_duration_ms": 32867.883,
-      "max_duration_ms": 33889.37,
+      "count": 13,
+      "p50_duration_ms": 17932.474,
+      "p95_duration_ms": 32348.06,
+      "max_duration_ms": 38091.909,
       "timeouts": 0
     },
     "budget_exhausted": false,
     "budget_skipped_count": 0,
     "budget_skipped_ticker_count": 0,
     "fallback_batches": 2,
-    "fallback_ticker_count": 2,
+    "fallback_ticker_count": 1,
     "fallback_by_language": {
-      "en": 2
+      "en": 1
     },
     "fallback_reasons": {
-      "price_validation": 2
+      "price_validation": 1
     },
     "raw_status": "pass",
     "historical": {
@@ -301,10 +301,10 @@
     }
   },
   "sources_status": {
-    "tradier": "partial",
-    "yfinance": "ok",
+    "tradier": "ok",
     "gemini": "ok",
-    "finmind": "not_used"
+    "finmind": "not_used",
+    "yfinance": "ok"
   },
   "data_repo_committed": true
 }
