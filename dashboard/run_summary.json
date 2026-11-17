@@ -1,7 +1,7 @@
 {
-  "run_id": "2271d328-05cc-4287-9e86-8e70846af1b1",
-  "started_at": "2026-11-17T14:40:24.288543+00:00",
-  "finished_at": "2026-11-17T14:46:16.656384+00:00",
+  "run_id": "9b54da77-d4fe-4b4c-8613-6f56892fdc89",
+  "started_at": "2026-11-17T15:40:23.538547+00:00",
+  "finished_at": "2026-11-17T15:46:26.765697+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,30 +97,30 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 0,
+    "lazy_score": 5,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.0,
+      "self_ref_miss_rate": 0.25,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.028,
+      "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 0,
+      "lazy_score": 5,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.0,
+        "self_ref_miss_rate": 0.25,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.028,
+        "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -259,19 +259,23 @@
     "batch_count": 4,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 8,
-      "p50_duration_ms": 19232.894,
-      "p95_duration_ms": 25984.325,
-      "max_duration_ms": 26559.063,
+      "count": 14,
+      "p50_duration_ms": 18571.641,
+      "p95_duration_ms": 32867.883,
+      "max_duration_ms": 33889.37,
       "timeouts": 0
     },
     "budget_exhausted": false,
     "budget_skipped_count": 0,
     "budget_skipped_ticker_count": 0,
-    "fallback_batches": 0,
-    "fallback_ticker_count": 0,
-    "fallback_by_language": {},
-    "fallback_reasons": {},
+    "fallback_batches": 2,
+    "fallback_ticker_count": 2,
+    "fallback_by_language": {
+      "en": 2
+    },
+    "fallback_reasons": {
+      "price_validation": 2
+    },
     "raw_status": "pass",
     "historical": {
       "status": "stable",
@@ -299,7 +303,6 @@
   "sources_status": {
     "tradier": "partial",
     "yfinance": "ok",
-    "flashalpha": "quota_exhausted",
     "gemini": "ok",
     "finmind": "not_used"
   },
