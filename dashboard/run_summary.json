@@ -1,7 +1,7 @@
 {
-  "run_id": "c7fc6aba-2517-487a-b8bd-604690f00733",
-  "started_at": "2026-11-19T19:40:25.314792+00:00",
-  "finished_at": "2026-11-19T19:47:12.671331+00:00",
+  "run_id": "f1dfc83b-c018-4c9c-abe0-a4977beaec26",
+  "started_at": "2026-11-19T20:40:24.970798+00:00",
+  "finished_at": "2026-11-19T20:46:44.955713+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -103,7 +103,7 @@
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.278,
+      "self_ref_miss_rate": 0.306,
       "cross_similarity_rate": 0.0,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 0.0,
@@ -118,7 +118,7 @@
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.278,
+        "self_ref_miss_rate": 0.306,
         "cross_similarity_rate": 0.0,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 0.0,
@@ -259,19 +259,23 @@
     "batch_count": 4,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 8,
-      "p50_duration_ms": 33434.613,
-      "p95_duration_ms": 49296.475,
-      "max_duration_ms": 50132.071,
+      "count": 11,
+      "p50_duration_ms": 22893.437,
+      "p95_duration_ms": 48785.858,
+      "max_duration_ms": 49601.597,
       "timeouts": 0
     },
     "budget_exhausted": false,
     "budget_skipped_count": 0,
     "budget_skipped_ticker_count": 0,
     "fallback_batches": 3,
-    "fallback_ticker_count": 0,
-    "fallback_by_language": {},
-    "fallback_reasons": {},
+    "fallback_ticker_count": 1,
+    "fallback_by_language": {
+      "en": 1
+    },
+    "fallback_reasons": {
+      "price_validation": 1
+    },
     "raw_status": "pass",
     "historical": {
       "status": "stable",
