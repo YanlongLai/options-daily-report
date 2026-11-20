@@ -1,7 +1,7 @@
 {
-  "run_id": "b6bdd311-2fa0-4ca5-a359-62b32478b08d",
-  "started_at": "2026-11-20T16:40:25.715634+00:00",
-  "finished_at": "2026-11-20T16:46:38.141958+00:00",
+  "run_id": "1a2ab54f-1384-41d8-8695-b5e2efd86b90",
+  "started_at": "2026-11-20T17:40:25.745173+00:00",
+  "finished_at": "2026-11-20T17:45:31.420862+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -260,9 +260,9 @@
     "batch_workers": 2,
     "ai_calls": {
       "count": 8,
-      "p50_duration_ms": 30184.838,
-      "p95_duration_ms": 38168.224,
-      "max_duration_ms": 40148.021,
+      "p50_duration_ms": 24367.715,
+      "p95_duration_ms": 34395.626,
+      "max_duration_ms": 35273.371,
       "timeouts": 0
     },
     "budget_exhausted": false,
