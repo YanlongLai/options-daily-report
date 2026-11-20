@@ -1,7 +1,7 @@
 {
-  "run_id": "408ff842-5445-4159-8216-e5ce45cb0e05",
-  "started_at": "2026-11-20T15:40:24.661836+00:00",
-  "finished_at": "2026-11-20T15:46:44.540524+00:00",
+  "run_id": "b6bdd311-2fa0-4ca5-a359-62b32478b08d",
+  "started_at": "2026-11-20T16:40:25.715634+00:00",
+  "finished_at": "2026-11-20T16:46:38.141958+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,30 +97,30 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 14,
+    "lazy_score": 7,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.694,
+      "self_ref_miss_rate": 0.278,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.0,
+      "anchor_miss_rate": 0.083,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 14,
+      "lazy_score": 7,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.694,
+        "self_ref_miss_rate": 0.278,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.0,
+        "anchor_miss_rate": 0.083,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -259,10 +259,10 @@
     "batch_count": 4,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 12,
-      "p50_duration_ms": 20456.58,
-      "p95_duration_ms": 38649.261,
-      "max_duration_ms": 47596.582,
+      "count": 8,
+      "p50_duration_ms": 30184.838,
+      "p95_duration_ms": 38168.224,
+      "max_duration_ms": 40148.021,
       "timeouts": 0
     },
     "budget_exhausted": false,
