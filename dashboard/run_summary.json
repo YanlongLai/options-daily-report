@@ -1,7 +1,7 @@
 {
-  "run_id": "4c93a5a2-ae1a-4cfc-b904-e60948a19860",
-  "started_at": "2026-11-26T20:40:25.158147+00:00",
-  "finished_at": "2026-11-26T20:45:29.402884+00:00",
+  "run_id": "42545f66-b216-48cd-9e69-8309fbd42ba1",
+  "started_at": "2026-11-27T14:40:24.962100+00:00",
+  "finished_at": "2026-11-27T14:46:00.854486+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,30 +97,30 @@
   "ai_commentary_count": 2,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 0,
+    "lazy_score": 10,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.0,
+      "self_ref_miss_rate": 0.444,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.0,
+      "anchor_miss_rate": 0.056,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 0,
+      "lazy_score": 10,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.0,
+        "self_ref_miss_rate": 0.444,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.0,
+        "anchor_miss_rate": 0.056,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -259,19 +259,23 @@
     "batch_count": 4,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 8,
-      "p50_duration_ms": 26869.459,
-      "p95_duration_ms": 38844.946,
-      "max_duration_ms": 41773.312,
+      "count": 11,
+      "p50_duration_ms": 21250.254,
+      "p95_duration_ms": 37583.552,
+      "max_duration_ms": 39220.94,
       "timeouts": 0
     },
     "budget_exhausted": false,
     "budget_skipped_count": 0,
     "budget_skipped_ticker_count": 0,
-    "fallback_batches": 1,
-    "fallback_ticker_count": 0,
-    "fallback_by_language": {},
-    "fallback_reasons": {},
+    "fallback_batches": 2,
+    "fallback_ticker_count": 1,
+    "fallback_by_language": {
+      "en": 1
+    },
+    "fallback_reasons": {
+      "price_validation": 1
+    },
     "raw_status": "pass",
     "historical": {
       "status": "stable",
